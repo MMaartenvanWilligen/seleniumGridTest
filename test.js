@@ -15,8 +15,21 @@ var chai = require('chai')
     , should = chai.should();
 
 describe('Home page', function () {
+
     it("should open google", function () {
         return browser.url("https://www.google.com/");
+    });
+
+    it('should save a screenshot of the browser view', function () {
+        // receive screenshot as Buffer
+        var screenshot = browser.saveScreenshot(); // returns base64 string buffer
+        fs.writeFileSync('./myShort.png', screenshot);
+
+        // save screenshot to file and receive as Buffer
+        screenshot = browser.saveScreenshot('./snapshot.png');
+
+        // save screenshot to file
+        browser.saveScreenshot('./snapshot.png');
     });
 
 });
