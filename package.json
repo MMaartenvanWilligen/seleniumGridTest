@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaartenvanWilligenCH/travisporjecttest.git"
+    "url": "git+https://github.com/MMaartenvanWilligen/seleniumGridTest.git"
   },
   "author": "Maarten van Willigen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MaartenvanWilligenCH/travisporjecttest/issues"
+    "url": "https://github.com/MMaartenvanWilligen/seleniumGridTest"
   },
-  "homepage": "https://github.com/MaartenvanWilligenCH/travisporjecttest#readme",
+  "homepage": "https://github.com/MMaartenvanWilligen/seleniumGridTest",
   "dependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5",

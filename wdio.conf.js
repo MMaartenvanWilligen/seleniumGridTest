@@ -9,12 +9,7 @@ exports.config = {
     capabilities: [{
         browserName: 'chrome',
         version: 'latest',
-        platform: 'Windows 10',
-        tags: ['examples'],
-        name: 'chrome test',
-        'public': true,
-        'tunnel-identifier': process.env.TRAVIS_JOB_NUMBER,     //suacelabs tunnel set up by travis. for saucelabs integration
-        build: process.env.TRAVIS_BUILD_NUMBER                  //travis build number. for saucelabs integration
+        platform: 'MAC'
     }],
 
     /**
@@ -26,7 +21,7 @@ exports.config = {
      * and 30 processes will get spawned in saucelabs.
      *
      */
-    maxInstances: 10,                                       //max test files to run
+    maxInstances: 5,                                       //max test files to run
     host: 'http://localhost:4444/wd/hub',                   //declare selenium host Saucelabs. for saucelab integration
     port: 4444,                                             //for Saucelabs integration
     logLevel: 'silent',
@@ -46,6 +41,6 @@ exports.config = {
      * @desc specify test files
      */
     specs: [
-        './test/*-test.js'                                  //run all files in map 'test' with ' -test.js' in name
+        'test.js'                                  //run all files in map 'test' with ' -test.js' in name
     ]
 };
