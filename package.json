@@ -1,0 +1,45 @@
+{
+  "name": "travisprojecttest",
+  "version": "1.0.0",
+  "description": "travis integration with github and node",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaartenvanWilligenCH/travisporjecttest.git"
+  },
+  "author": "Maarten van Willigen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaartenvanWilligenCH/travisporjecttest/issues"
+  },
+  "homepage": "https://github.com/MaartenvanWilligenCH/travisporjecttest#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "webdriverio": "^4.2.11",
+    "wdio-sauce-service": "~0.2.4",
+    "wdio-mocha-framework": "~0.3.5"
+  },
+  "devDependencies": {
+    "webdriverio": "^4.2.11"
+  },
+  "capabilities": {
+    "proxy": {
+      "proxyType": "manual",
+      "httpProxy": "https://localhost.com:4445/"
+    }
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=4.5.0"
+  },
+  "keywords": [
+    "TravisCI",
+    "Node"
+  ]
+}
+
+
