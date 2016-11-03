@@ -7,9 +7,8 @@ exports.config = {
      *       saucelabs platform and browsers you can use: https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
      */
     capabilities: [{
-        browserName: 'chrome',
-        version: 'latest',
-        platform: 'MAC'
+        maxInstances: 5,
+        browserName: 'chrome'
     }],
 
     /**
@@ -22,10 +21,10 @@ exports.config = {
      *
      */
     maxInstances: 5,                                       //max test files to run
-    host: 'http://localhost:4444/wd/hub',                   //declare selenium host Saucelabs. for saucelab integration
+    host: '10.123.123.87',                   //declare selenium host Saucelabs. for saucelab integration
     port: 4444,                                             //for Saucelabs integration
     logLevel: 'silent',
-    sync: false,                                            //sync set to false for using promises
+    sync: true,                                            //sync set to false for using promises
     coloredLogs: true,
     waitforTimeout: 10000,
     reporters: ['dot'],
