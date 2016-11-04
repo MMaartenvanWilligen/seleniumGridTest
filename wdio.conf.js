@@ -23,7 +23,7 @@ exports.config = {
     maxInstances: 5,                                       //max test files to run
     host: '10.123.123.87',                   //declare selenium host Saucelabs. for saucelab integration
     port: 4444,                                             //for Saucelabs integration
-    logLevel: 'silent',
+    logLevel: 'command',
     sync: true,                                            //sync set to false for using promises
     coloredLogs: true,
     waitforTimeout: 10000,
