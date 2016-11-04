@@ -1,3 +1,5 @@
+var selenium = require('selenium-standalone');
+
 exports.config = {
 
     /**
@@ -6,10 +8,14 @@ exports.config = {
      *       testing in browser: chrome, firefox and internet explorer
      *       saucelabs platform and browsers you can use: https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
      */
-    capabilities: [{
-        maxInstances: 5,
-        browserName: 'chrome'
-    }],
+    capabilities: [
+        {
+            maxInstances: 5,
+            browserName: 'chrome'
+        }, {
+            maxInstances: 5,
+            browserName: 'firefox'
+        }],
 
     /**
      * @desc test configurations
@@ -20,11 +26,11 @@ exports.config = {
      * and 30 processes will get spawned in saucelabs.
      *
      */
-    maxInstances: 5,                                       //max test files to run
-    host: '10.123.123.87',                   //declare selenium host Saucelabs. for saucelab integration
-    port: 4444,                                             //for Saucelabs integration
+    maxInstances: 5,                                        //max test files to run
+    host: '10.123.123.87',                                  //declare selenium grid host
+    port: 4444,                                             //port host
     logLevel: 'command',
-    sync: true,                                            //sync set to false for using promises
+    sync: true,
     coloredLogs: true,
     waitforTimeout: 10000,
     reporters: ['dot'],
@@ -41,5 +47,11 @@ exports.config = {
      */
     specs: [
         'test.js'                                  //run all files in map 'test' with ' -test.js' in name
-    ]
+    ],
+
+    onPrepare: function () {
+
+
+    }
+
 };
