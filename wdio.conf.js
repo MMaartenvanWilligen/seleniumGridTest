@@ -39,7 +39,8 @@ exports.config = {
     },
     framework: 'mocha',                                     //run tests with framework mocha
     mochaOpts: {
-        ui: 'bdd'
+        ui: 'bdd',
+        timeout: 99999999
     },
 
     /**
