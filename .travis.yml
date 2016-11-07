@@ -10,11 +10,12 @@ before_script:
   - python -m SimpleHTTPServer &
   - sleep 2
   - sudo apt-get install xvfb
-  - sudo xvfb-run --server-args="-screen 0, 1366x768x24" selenium-standalone start
+  - sudo xvfb-run --server-args="-screen 0, 1366x768x24"
+  - sudo selenium-standalone start
 
 cache:
   directories:
-
+    - node_modules
 
 notifications:
   email: false
