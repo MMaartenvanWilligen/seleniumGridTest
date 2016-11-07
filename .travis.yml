@@ -2,6 +2,9 @@ language: node_js
 node_js:
   - stable
 
+install:
+  - sudo apt-get install g++ build-essential
+
 before_script:
   - python -m SimpleHTTPServer &
   - sleep 2
