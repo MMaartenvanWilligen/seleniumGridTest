@@ -5,6 +5,7 @@ node_js:
 before_install:
   - sudo apt-get update
   - sudo apt-get install g++ build-essential
+  - sudo apt-get install openjdk-7-jdk
 
 before_script:
   - python -m SimpleHTTPServer &
