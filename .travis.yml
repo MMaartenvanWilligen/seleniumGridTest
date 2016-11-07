@@ -11,7 +11,7 @@ before_script:
   - sleep 2
   - sudo apt-get install xvfb
   - selenium-standalone install
-  - sudo xvfb-run --server-args="-screen 0, 1366x768x24" selenium-standalone start
+  - sudo xvfb-run --server-args="-screen 0, 1366x768x24" ./node_modules/.bin/selenium-standalone start
 
 cache:
   directories:
