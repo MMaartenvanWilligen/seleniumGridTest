@@ -12,7 +12,7 @@ before_script:
   - sleep 2
   - sudo apt-get install xvfb
   - selenium-standalone install
-  - xvfb-run --server-args="-screen 0, 1366x768x24" selenium-standalone start
+  - xvfb-run --server-args="-screen 0, 1366x768x24" selenium-standalone start &
 
 cache:
   directories:
