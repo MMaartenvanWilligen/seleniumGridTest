@@ -11,7 +11,9 @@ exports.config = {
     capabilities: [
         {
             maxInstances: 5,
-            browserName: 'firefox'
+            browserName: 'firefox',
+            host: '172.17.0.1',                                  //declare selenium grid host
+            port: 4444
         }],
 
     /**
