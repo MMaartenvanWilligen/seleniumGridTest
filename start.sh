@@ -23,10 +23,6 @@ echo "start selenium hub"
 java -jar selenium-server-standalone-2.53.1.jar -role hub &
 sleep 10
 
-echo "start selenium node"
-java -jar selenium-server-standalone-2.53.1.jar -role node -hub http://172.17.0.1:4444/grid/register/ -browser browserName=firefox,maxInstances=5 &
-sleep 10
-
 echo "start firefox go to grid console"
 
 DISPLAY=:6 firefox http://localhost:4444/grid/console &
