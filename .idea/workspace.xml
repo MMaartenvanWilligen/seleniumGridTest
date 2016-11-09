@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3290bf94-c526-4a55-8e61-330291a69db1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/selenium-server-standalone-2.52.0.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/start.sh" afterPath="$PROJECT_DIR$/start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.js" afterPath="$PROJECT_DIR$/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wdio.conf.js" afterPath="$PROJECT_DIR$/wdio.conf.js" />
     </list>
     <ignored path="seleniumGridTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +30,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
               <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1478186131812" expanded="true" signature="0:1034" ph="{&quot;name&quot;: &quot;travisprojecttest&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,8 +60,8 @@
       <file leaf-file-name="start.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/start.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -71,7 +72,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1478534456566" expanded="true" signature="18:36" ph="node_js: &lt;1 item&gt;" />
+                <marker date="1478534456566" expanded="true" signature="31:36" ph="6.7.0" />
+                <marker date="1478534456566" expanded="true" signature="99:139" ph="cache: &lt;1 key&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -245,12 +250,12 @@
       <updated>1478181702718</updated>
       <workItem from="1478181703916" duration="11129000" />
       <workItem from="1478265705132" duration="10844000" />
-      <workItem from="1478514573009" duration="14074000" />
+      <workItem from="1478514573009" duration="20900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36047000" />
+    <option name="totallyTimeSpent" value="42873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1172" y="24" width="1421" height="1337" extended-state="0" />
@@ -296,7 +301,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding />
+          <folding>
+            <marker date="1478186131812" expanded="true" signature="0:1034" ph="{&quot;name&quot;: &quot;travisprojecttest&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -328,7 +335,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
+          <folding>
+            <marker date="1478534456566" expanded="true" signature="18:36" ph="node_js: &lt;1 item&gt;" />
+            <marker date="1478534456566" expanded="true" signature="31:36" ph="6.7.0" />
+            <marker date="1478534456566" expanded="true" signature="99:139" ph="cache: &lt;1 key&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -336,7 +347,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding />
+          <folding>
+            <marker date="1478186131812" expanded="true" signature="0:1034" ph="{&quot;name&quot;: &quot;travisprojecttest&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -360,7 +373,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
+          <folding>
+            <marker date="1478534456566" expanded="true" signature="18:36" ph="node_js: &lt;1 item&gt;" />
+            <marker date="1478534456566" expanded="true" signature="31:36" ph="6.7.0" />
+            <marker date="1478534456566" expanded="true" signature="99:139" ph="cache: &lt;1 key&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -379,7 +396,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1478534456566" expanded="true" signature="18:36" ph="node_js: &lt;1 item&gt;" />
+            <marker date="1478534456566" expanded="true" signature="31:36" ph="6.7.0" />
+            <marker date="1478534456566" expanded="true" signature="99:139" ph="cache: &lt;1 key&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -387,7 +408,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1478186131812" expanded="true" signature="0:1034" ph="{&quot;name&quot;: &quot;travisprojecttest&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -409,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/start.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="540">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding />
         </state>
       </provider>
