@@ -27,7 +27,7 @@ exports.config = {
     host: '172.17.0.1',                                  //declare selenium grid host
     port: 4444,                                             //port host
     logLevel: 'command',
-    sync: true,
+    sync: false,
     coloredLogs: true,
     waitforTimeout: 10000,
     reporters: ['dot'],
@@ -44,7 +44,7 @@ exports.config = {
      * @desc specify test files
      */
     specs: [
-        'test.js'                                  //run all files in map 'test' with ' -test.js' in name
+        './tests/title-test.js'                                  //run all files in map 'test' with ' -title-test.js' in name
     ],
 
     onPrepare: function () {
