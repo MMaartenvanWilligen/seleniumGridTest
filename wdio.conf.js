@@ -11,7 +11,7 @@ exports.config = {
     capabilities: [
         {
             maxInstances: 5,
-            browserName: 'firefox'
+            browserName: "firefox"
         }],
 
     /**
@@ -26,8 +26,9 @@ exports.config = {
     maxInstances: 5,                                        //max test files to run
     host: '172.17.0.1',                                  //declare selenium grid host
     port: 4444,                                             //port host
-    logLevel: 'command',
-    sync: false,
+    logLevel: 'silent',
+    marionette: true,
+    sync: true,
     coloredLogs: true,
     waitforTimeout: 10000,
     reporters: ['dot'],

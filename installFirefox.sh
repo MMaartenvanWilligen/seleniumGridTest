@@ -8,6 +8,8 @@ wget https://ftp.mozilla.org/pub/firefox/releases/46.0/linux-x86_64/en-US/firefo
 tar -xjf firefox-46.0.tar.bz2
 rm -rf  /opt/firefox
 mv firefox /opt/firefox46
+mv /usr/bin/firefox /usr/bin/firefoxold
 ln -s /opt/firefox46/firefox /usr/bin/firefox
+apt-get install libgtk-3-dev
 
 fi
