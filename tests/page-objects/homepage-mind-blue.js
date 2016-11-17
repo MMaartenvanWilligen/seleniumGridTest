@@ -21,13 +21,14 @@ function HomepageMindBlue() {
 HomepageMindBlue.prototype = Object.create(Page.prototype);
 HomepageMindBlue.prototype.constructor = HomepageMindBlue;
 
+/**
+ * methods homepageMind
+ * */
+
 HomepageMindBlue.prototype.getAllAnchors = function () {
-    return browser.elements("a").then(function (res, err) {
-        console.log();
+    return browser.elements("a").then(function (res) {
         return res
     })
 };
 
 module.exports = HomepageMindBlue;
-
-

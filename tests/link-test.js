@@ -7,33 +7,52 @@ var chai = require('chai')
     , expect = chai.expect
     , should = chai.should();
 
-var HomepageMindBlue = require("/tests/page-objects/homepage-mind-blue");
-var homepage;
+var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
+
 
 describe("test anchor tag", function () {
+
+    var homepage;
 
     before(function () {
         homepage = new HomepageMindBlue();
         return homepage.goToPage();
     });
 
-
-    it("sfs", function () {
-        browser.getAttribute('a', 'href').then(function (attrs) {
-            console.log(attrs); // array of all href urls of all links on the page
+    describe("A: Promised Array, no timeout - Works", function () {
+        homepage.getAllAnchors().then(function (res) {
+            res.value.forEach(function (value) {
+                console.log("value:" + value);
+                it("foreach", function () {
+                    console.log("value:" + value);
+                    assert.ok(value.value);
+                })
+            })
         });
-        return browser.url('http://mind-platform.maarten.choffice.nl/');
-
-    });
+    })
 
 
-    it("anchors href should not be empty", function () {
-        return browser.elements("a").then(function (res) {
-            for (var i = 0; res.value[0].length; i++) {
-                console.log(res.value[0][i]);
-                var result = res.value[0][i];
-                result.should.have.length(3);
-            }
+    .elements('a', function(err, res){
+        // iterate through elements
+        res.value.forEach(function(elem) {
+            // execute specific action
+            runner.elementIdClick(elem.Element, function(err, res) {
+                // callback logic here
+                // ...
+            })
         })
     });
+    // it("anchors href should not be empty", function () {
+    //     return browser.elements("a").then(function (res) {
+    //         for (var i = 0; res.value[0].length; i++) {
+    //             console.log("i:" + res.value[0][i]);
+    //             var result = res.value[0][i];
+    //             result.should.have.length(3);
+    //         }
+    //     })
+    // });
 });
+
+
+
+
