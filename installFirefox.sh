@@ -4,12 +4,12 @@ echo "exists"
 else
 echo "no firefox directory"
 
-wget https://ftp.mozilla.org/pub/firefox/releases/46.0/linux-x86_64/en-US/firefox-46.0.tar.bz2
-tar -xjf firefox-46.0.tar.bz2
-rm -rf  /opt/firefox
-mv firefox /opt/firefox46
-mv /usr/bin/firefox /usr/bin/firefoxold
-ln -s /opt/firefox46/firefox /usr/bin/firefox
-apt-get install libgtk-3-dev
+wget http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/50.0/linux-x86_64/en-US/firefox-50.0.tar.bz2
+tar xvjf firefox-50.0.tar.bz2
+mv firefox /opt/firefox
+ln -s /opt/firefox/firefox /usr/bin/firefox
+apt-get -y install libgtk-3-dev
+rm -f firefox-50.0.tar.bz2
 
 fi
+

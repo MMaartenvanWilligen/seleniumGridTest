@@ -7,7 +7,7 @@ var chai = require('chai')
     , expect = chai.expect
     , should = chai.should();
 
-var HomepageMindBlue = require("/page-objects/homepage-mind-blue");
+var HomepageMindBlue = require("/tests/page-objects/homepage-mind-blue");
 var homepage;
 
 describe("test anchor tag", function () {

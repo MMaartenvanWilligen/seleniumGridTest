@@ -7,7 +7,6 @@ kill `sudo lsof -t -i:4444`
 
 echo "install java"
 
-dpkg -s default-jre 2>/dev/null >/dev/null || apt-get -y install default-jre
 dpkg -s openjdk-8-jdk 2>/dev/null >/dev/null || apt-get -y install openjdk-8-jdk
 
 echo "install xvfb, firefox and imagemagick"

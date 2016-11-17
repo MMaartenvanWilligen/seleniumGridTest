@@ -28,7 +28,7 @@ exports.config = {
     port: 4444,                                             //port host
     logLevel: 'silent',
     marionette: true,
-    sync: true,
+    sync: false,
     coloredLogs: true,
     waitforTimeout: 10000,
     reporters: ['dot'],
