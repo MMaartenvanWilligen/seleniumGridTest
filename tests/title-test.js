@@ -21,7 +21,6 @@ describe('title test', function () {
 
     //hook run before tests
     before(function () {
-
         homepage = new HomepageMindBlue();
         return homepage.goToPage();
     });
@@ -34,7 +33,6 @@ describe('title test', function () {
 
     it("Title should be 'MINDblue'", function () {
         return browser.getTitle().then(function (title) {
-            console.log('Title was:' + title);
             return assert(title === homepage.titleText);
         });
     });

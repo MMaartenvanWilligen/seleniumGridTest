@@ -45,7 +45,7 @@ exports.config = {
      * @desc specify test files
      */
     specs: [
-        './tests/link-test.js'                          //run all files in map 'test' with ' -title-test.js' in name
+        './tests/*-test.js'                          //run all files in map 'test' with ' -title-test.js' in name
     ],
 
     onPrepare: function () {
