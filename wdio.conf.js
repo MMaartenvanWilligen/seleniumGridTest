@@ -24,7 +24,7 @@ exports.config = {
      *
      */
     maxInstances: 5,                                     //max test files to run
-    host: '172.17.0.1',                                  //declare selenium grid host
+    host: '10.123.123.87',                                  //declare selenium grid host
     port: 4444,                                          //port host
     logLevel: 'silent',
     marionette: true,
@@ -45,7 +45,7 @@ exports.config = {
      * @desc specify test files
      */
     specs: [
-        './tests/title-test.js'                          //run all files in map 'test' with ' -title-test.js' in name
+        './tests/link-test.js'                          //run all files in map 'test' with ' -title-test.js' in name
     ],
 
     onPrepare: function () {

@@ -7,7 +7,7 @@ var Page = require("./page");
 
 function HomepageMindBlue() {
     Page.call(this, "https://mindblue.nl/");
-    this.homepageUrl  = "https://mindblue.nl/";
+    this.homepageUrl = "https://mindblue.nl/";
     this.logoAnchor = ".header .logo";
     this.logoImage = ".header .logo img";
     this.titleText = "MINDblue";
@@ -15,8 +15,8 @@ function HomepageMindBlue() {
 }
 
 /**
-* subclass Homepage extends page
-* */
+ * subclass Homepage extends page
+ * */
 
 HomepageMindBlue.prototype = Object.create(Page.prototype);
 HomepageMindBlue.prototype.constructor = HomepageMindBlue;
@@ -25,10 +25,12 @@ HomepageMindBlue.prototype.constructor = HomepageMindBlue;
  * methods homepageMind
  * */
 
+HomepageMindBlue.prototype.getElementId = function (ele) {
+    return ele.value.ELEMENT;
+};
+
 HomepageMindBlue.prototype.getAllAnchors = function () {
-    return browser.elements("a").then(function (res) {
-        return res
-    })
+    return browser.elements("a");
 };
 
 module.exports = HomepageMindBlue;
