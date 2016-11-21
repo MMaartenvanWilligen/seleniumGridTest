@@ -23,9 +23,9 @@ exports.config = {
      * and 30 processes will get spawned in saucelabs.
      *
      */
-    maxInstances: 5,                                        //max test files to run
+    maxInstances: 5,                                     //max test files to run
     host: '172.17.0.1',                                  //declare selenium grid host
-    port: 4444,                                             //port host
+    port: 4444,                                          //port host
     logLevel: 'silent',
     marionette: true,
     sync: false,
@@ -35,7 +35,7 @@ exports.config = {
     reporterOptions: {
         outputDir: './'
     },
-    framework: 'mocha',                                     //run tests with framework mocha
+    framework: 'mocha',                                  //run tests with framework mocha
     mochaOpts: {
         ui: 'bdd',
         timeout: 99999999
@@ -45,7 +45,7 @@ exports.config = {
      * @desc specify test files
      */
     specs: [
-        './tests/link-test.js'                                  //run all files in map 'test' with ' -title-test.js' in name
+        './tests/title-test.js'                          //run all files in map 'test' with ' -title-test.js' in name
     ],
 
     onPrepare: function () {

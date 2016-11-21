@@ -8,51 +8,78 @@ var chai = require('chai')
     , should = chai.should();
 
 var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
+// var arrayAchor = [];
 
 
-describe("test anchor tag", function () {
+var homepage;
+homepage = new HomepageMindBlue();
+init();
 
-    var homepage;
+function init() {
 
-    before(function () {
-        homepage = new HomepageMindBlue();
-        return homepage.goToPage();
-    });
-
-    describe("A: Promised Array, no timeout - Works", function () {
-        homepage.getAllAnchors().then(function (res) {
-            res.value.forEach(function (value) {
-                console.log("value:" + value);
-                it("foreach", function () {
-                    console.log("value:" + value);
-                    assert.ok(value.value);
-                })
-            })
-        });
+    homepage.getAllAnchors().then(function (res) {
+        res.forEach(function (value) {
+            test(value)
+        })
     })
 
+}
 
-    .elements('a', function(err, res){
-        // iterate through elements
-        res.value.forEach(function(elem) {
-            // execute specific action
-            runner.elementIdClick(elem.Element, function(err, res) {
-                // callback logic here
-                // ...
+function test() {
+    describe("test links", function () {
+
+        before(function () {
+
+            return homepage.goToPage();
+        });
+
+        it("get all anchors", function () {
+            return homepage.getAllAnchors().then(function (res) {
+                console.log("res anchors" + res.value);
+                console.log("res anchors count" + res.value.length);
+                return expect(res.value).not.to.be.empty;
             })
-        })
+        });
+
+        it("get all anchors alt attribute", function () {
+            return homepage.getAllAnchorsAlt().then(function (res) {
+                console.log("res anchors alt" + res);
+                console.log("res anchors alt count" + res.length);
+                res.forEach(function (value) {
+                    alt.push(value);
+                });
+                console.log("alt array" + alt);
+                console.log("alt array length" + alt.length);
+                return expect(res).not.to.be.empty;
+            })
+        });
+
+
     });
-    // it("anchors href should not be empty", function () {
-    //     return browser.elements("a").then(function (res) {
-    //         for (var i = 0; res.value[0].length; i++) {
-    //             console.log("i:" + res.value[0][i]);
-    //             var result = res.value[0][i];
-    //             result.should.have.length(3);
-    //         }
-    //     })
-    // });
-});
+}
 
 
+// it('links should have href', function (done) {
+//     describe('Testing elements', function () {
+//         .
+//         forEach(function (res) {
+//             it('testing' + res, function (done) {
+//                 console.log(res);
+//                 expect(res).to.be.a('number');
+//                 done();
+//             });
+//         });
+//     });
+//     done();
+// });
 
+// it("anchors href should not be empty", function () {
+//     return browser.elements("a").then(function (res) {
+//         for (var i = 0; res.value[0].length; i++) {
+//             console.log("i:" + res.value[0][i]);
+//             var result = res.value[0][i];
+//             result.should.have.length(3);
+//         }
+//     })
+// });
 
