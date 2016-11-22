@@ -9,7 +9,6 @@
  *
  * */
 
-
 var assert = require('assert');
 var chai = require('chai')
     , expect = chai.expect
@@ -39,8 +38,8 @@ describe("homepage", function () {
         });
 
         function loopRoleTests(attrs) {
-            describe("role", function () {
-                it("should exists", function () {
+            describe("role" + " " + attrs, function () {
+                it("should exist", function () {
                     return should.exist(attrs);
                 });
             });
@@ -61,8 +60,8 @@ describe("homepage", function () {
         });
 
         function looplabelTest(attrs) {
-            describe("aria-label", function () {
-                it("should exists", function () {
+            describe("aria-label: "  + " " + attrs, function () {
+                it("should exist", function () {
                     return should.exist(attrs);
                 });
             });
@@ -70,16 +69,7 @@ describe("homepage", function () {
 
     });
 
-    describe("logo", function () {
 
-        it("should have alt attribute", function () {
-            browser.getAttribute(homepage.logoImageDesktop, "alt").then(function (attrs) {
-                console.log("logo alt" + " " + attrs);
-                return attrs.should.be.above(50);
-            })
-        });
-
-    });
 
 });
 

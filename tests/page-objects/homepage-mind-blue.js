@@ -4,7 +4,6 @@
 
 var Page = require("./page");
 
-
 function HomepageMindBlue() {
     Page.call(this, "https://mindblue.nl/");
     this.homepageUrl = "https://mindblue.nl/";
