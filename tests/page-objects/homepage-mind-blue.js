@@ -10,7 +10,10 @@ function HomepageMindBlue() {
     this.homepageUrl = "https://mindblue.nl/";
     this.logoAnchor = ".header .logo";
     this.logoImage = ".header .logo img";
+    this.logoImageDesktop = ".header .logo .desktop";
+    this.logoImageMobile = ".header .logo .mobile";
     this.titleText = "MINDblue";
+    this.cardImages = ".card-content .image-wrapper .image"
 
 }
 

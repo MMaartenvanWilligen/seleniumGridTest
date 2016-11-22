@@ -19,7 +19,7 @@ describe("test anchor tag", function () {
         return homepage.goToPage();
     });
 
-    it("get attribute", function () {
+    it("array of href attributes should be iterable", function () {
         return browser.getAttribute('a', 'href').then(function (attrs) {
             attrs.forEach(function (href) {
                 loop(href);
@@ -30,11 +30,20 @@ describe("test anchor tag", function () {
 
     function loop(attrs) {
         describe("test anchor tag", function () {
-            it("href should not be null", function () {
-                return expect(attrs).to.all.have.length.above(23);
+            it("href should have length above 11", function () {
+                return expect(attrs).to.all.have.length.above(11);
             });
         });
     }
+
+    it("array of alt attributes should be iterable", function () {
+        return browser.getAttribute('a', 'alt').then(function (attrs) {
+            attrs.forEach(function (href) {
+                loop(href);
+            });
+            return attrs.should.be.iterable;
+        });
+    });
 
 });
 
