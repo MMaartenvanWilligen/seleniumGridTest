@@ -2,7 +2,6 @@
  * Created by maarten on 22-11-16.
  */
 
-
 /**
  * testing for aria attributes is optional. There is no evidence aria attributes are indexed by search engines.
  * However, it is good for the accessibility of the website.
