@@ -44,7 +44,7 @@ describe("Logo", function () {
     it("image should have alt attribute text 'MIND logo'", function () {
         return browser.getAttribute(homepage.logoImage, "alt").then(function (attrs) {
             console.log("logo alt" + " " + attrs);
-            return expect(attrs).to.deep.equal(["MIND logo" , "MIND logo"]);
+            return expect(attrs).to.deep.equal(["MIND logo", "MIND logo"]);
         })
     });
 
