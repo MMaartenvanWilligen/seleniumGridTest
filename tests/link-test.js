@@ -12,7 +12,7 @@ var chai = require('chai')
 var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
 var homepage;
 
-describe("test anchor tag", function () {
+describe("links", function () {
 
     before(function () {
         homepage = new HomepageMindBlue();
