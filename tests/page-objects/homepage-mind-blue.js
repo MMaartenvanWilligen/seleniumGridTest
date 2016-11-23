@@ -12,7 +12,9 @@ function HomepageMindBlue() {
     this.logoImageDesktop = ".header .logo .desktop";
     this.logoImageMobile = ".header .logo .mobile";
     this.titleText = "MINDblue";
-    this.cardImages = ".card-content .image-wrapper .image"
+    this.cardImages = ".card-content .image-wrapper .image";
+    this.searchInput = "input[name='q']";
+    this.searchInputText = "Waar kunnen wij je mee helpen ?";
 
 }
 
