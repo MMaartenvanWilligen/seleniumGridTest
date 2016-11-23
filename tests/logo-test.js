@@ -31,7 +31,7 @@ describe("Logo", function () {
 
     /**
      * only mobile image
-     * using 'length above' assertion because it has a better error message
+     * using 'length above' instead of 'exist' assertion because it has a better error message
      * */
 
     it("mobile image should have alt attribute", function () {
