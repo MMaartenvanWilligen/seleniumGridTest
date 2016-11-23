@@ -18,20 +18,8 @@ describe("Logo", function () {
     });
 
     /**
-     * test all logo image
-     * Using 'length above' assertion because it has a better error message
-     * */
-
-    it("image should have alt attribute", function () {
-        return browser.getAttribute(homepage.logoImageDesktop, "alt").then(function (attrs) {
-            console.log("logo alt" + " " + attrs);
-            return expect(attrs).to.deep.be.length.above(2);
-        })
-    });
-
-    /**
      * only desktop image
-     * Using 'length above' assertion because it has a better error message
+     * Using 'length above' assertion instead of 'exist' because it has a better error message
      * */
 
     it("desktop image should have alt attribute", function () {
