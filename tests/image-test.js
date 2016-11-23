@@ -30,16 +30,16 @@ describe("homepage", function () {
             return browser.getAttribute(homepage.cardImages, "role").then(function (attrs) {
                 attrs.forEach(function (role) {
                     console.log("role" + "  " + role);
-                    loopRoleTests(role);
+                    roleTest(role);
                 });
                 return attrs.should.be.iterable;
             });
         });
 
-        function loopRoleTests(attrs) {
+        function roleTest(attrs) {
             describe("role" + " " + attrs, function () {
                 it("should exist", function () {
-                    return should.exist(attrs);
+                    return should.exist(attrs, "role attribute does not exist");
                 });
             });
         }
@@ -50,25 +50,23 @@ describe("homepage", function () {
 
         it("array of aria-labels attributes should be iterable", function () {
             return browser.getAttribute(homepage.cardImages, "aria-label").then(function (attrs) {
-                attrs.forEach(function (label) {
-                    console.log("aria label" + "  " + label);
-                    looplabelTest(label);
+                attrs.forEach(function (ariaLabel) {
+                    console.log("aria label" + "  " + ariaLabel);
+                    ariaLabelTest(ariaLabel);
                 });
                 return attrs.should.be.iterable;
             });
         });
 
-        function looplabelTest(attrs) {
+        function ariaLabelTest(attrs) {
             describe("aria-label: "  + " " + attrs, function () {
                 it("should exist", function () {
-                    return should.exist(attrs);
+                    return should.exist(attrs, "aria-label attribute does not exist");
                 });
             });
         }
 
     });
-
-
 
 });
 
