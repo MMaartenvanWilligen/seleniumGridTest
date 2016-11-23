@@ -7,7 +7,7 @@ echo "start selenium hub"
 java -jar selenium-grid/selenium-server-standalone-3.0.1.jar -role hub &
 sleep 5
 
-echo "Starting up Selenium Grid node "
+echo "Starting up Selenium Grid node firefox "
 java -jar selenium-grid/selenium-server-standalone-3.0.1.jar -role node -port 5555 -hub http://localhost:4444/grid/register -browser browserName=firefox &
 sleep 10
 
