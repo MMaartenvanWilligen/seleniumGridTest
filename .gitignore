@@ -38,3 +38,4 @@ jspm_packages
 
 #php storm file
 .idea/workspace.xml
+.idea
