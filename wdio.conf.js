@@ -27,6 +27,7 @@ exports.config = {
      * and 30 processes will get spawned in saucelabs.
      *
      */
+
     maxInstances: 5,                                     //max test files to run
     host: '10.123.123.87',                                  //declare selenium grid host
     port: 4444,                                          //port host
@@ -49,11 +50,7 @@ exports.config = {
      * @desc specify test files
      */
     specs: [
-        './tests/logo-test.js'                          //run all files in map 'test' with ' -title-test.js' in name
-    ],
-
-    onPrepare: function () {
-
-    }
+        './tests/*-test.js'                          //run all files in map 'test' with ' -title-test.js' in name
+    ]
 
 };
