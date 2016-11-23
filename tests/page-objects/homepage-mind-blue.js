@@ -29,8 +29,14 @@ HomepageMindBlue.prototype.constructor = HomepageMindBlue;
  * methods homepageMind
  * */
 
-HomepageMindBlue.prototype.getElementId = function (ele) {
-    return ele.value.ELEMENT;
+HomepageMindBlue.prototype.getElementId = function (elem) {
+    return elem.value.ELEMENT
+};
+
+HomepageMindBlue.prototype.getSearchElement = function () {
+    return browser.element("input[name='q']").then(function (elem) {
+        return elem
+    });
 };
 
 HomepageMindBlue.prototype.getAllAnchors = function () {
