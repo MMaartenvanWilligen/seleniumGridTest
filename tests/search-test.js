@@ -46,10 +46,10 @@ describe("search", function () {
         })
     });
 
-
     /**
      * safari doesn't support .keys https://github.com/webdriverio/webdriverio/issues/1344
     * */
+
     // it("expect to search on enter", function () {
     //     return browser.setValue(homepage.searchInput, "test value")
     //         .keys(["Enter"]).then(function () {
@@ -60,6 +60,7 @@ describe("search", function () {
     //             })
     //         });
     // });
+
 });
 
 
