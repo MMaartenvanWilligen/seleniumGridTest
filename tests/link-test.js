@@ -22,28 +22,19 @@ describe("links", function () {
     it("array of href attributes should be iterable", function () {
         return browser.getAttribute('a', 'href').then(function (attrs) {
             attrs.forEach(function (href) {
-                loop(href);
+                testHrefAttribute(href);
             });
             return attrs.should.be.iterable;
         });
     });
 
-    function loop(attrs) {
-        describe("test anchor tag", function () {
+    function testHrefAttribute(attrs) {
+        describe("attribute", function () {
             it("href should have length above 11", function () {
-                return expect(attrs).to.all.have.length.above(11);
+                return expect(attrs, "href should have length of 2").to.have.length.above(2);
             });
         });
     }
-
-    it("array of alt attributes should be iterable", function () {
-        return browser.getAttribute('a', 'alt').then(function (attrs) {
-            attrs.forEach(function (href) {
-                loop(href);
-            });
-            return attrs.should.be.iterable;
-        });
-    });
 
 });
 
