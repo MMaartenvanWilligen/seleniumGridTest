@@ -55,3 +55,35 @@ The start.sh file initilaize the selenium grid and executes the test.
 ``` command
 $ sudo sh start.sh
 ```
+
+## Potential errors or installations
+
+#### set path drivers
+
+Open bash file 
+
+``` command
+$ vi $HOME/.bash_profile
+```
+Add drivers path to file:
+
+export PATH=$PATH: /usr/bin/geckodriver
+export PATH=$PATH: /usr/bin/chromedriver
+
+Save and exit file. Then run bash file
+
+``` command
+$ source $HOME/.bash_profile
+```
+
+Check if path is set
+
+printf "%s\n" $PAT
+
+## Project maintainer
+Maarten van Willigen
+
+## license
+
+MIT
+
