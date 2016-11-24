@@ -1,10 +1,9 @@
 # Mind-blue front-end test
 in short: tests for mind-blue on local selenium grid
 
-
 ##Summary
 
-This is a front-end test suite for the mind-blue website. The goal/purpose of this test suite is to add automated quality control on the project, what is inline with the continuous integration ambitions of Connect Holland. The following frameworks and libraries are used for setting up the test area.  
+This is a front-end test suite for the mind-blue website. The goal of this test suite is to add automated quality control on the project, what is inline with the continuous integration ambitions of Connect Holland. The following frameworks and libraries are used for setting up the test area.  
 
 - NodejS 
 - Selenium grid (Run test on multiple browser. http://www.seleniumhq.org/docs/) 
@@ -47,7 +46,7 @@ The drivers should be on your systems path. Check if they are by executing the f
 ``` command
 $ printf "%s\n" $PATH
 ```
-When they are not on the Path go to [Set path](#Set path)
+When they are not on the Path go to [Set path](#Set path drivers)
 
 #### start test
 The start.sh file initializes the selenium grid and executes the test. (selenium grid needs java 8) 
@@ -67,7 +66,7 @@ $ vi $HOME/.bash_profile
 ```
 Add drivers path to file:
 
-export PATH=$PATH: /usr/bin/geckodriver
+export PATH=$PATH: /usr/bin/geckodriver </br>
 export PATH=$PATH: /usr/bin/chromedriver
 
 Save and exit file. Then run bash file
@@ -79,7 +78,7 @@ $ source $HOME/.bash_profile
 Check if path is set
 
 ``` command
-$ printf "%s\n" $PAT
+$ printf "%s\n" $PATH
 ```
 
 #### Install java 8 (error: Unsupported major.minor version 52.0)
