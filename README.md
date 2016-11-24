@@ -50,7 +50,7 @@ $ printf "%s\n" $PATH
 When they are not on the Path go to [Set path](#Set path)
 
 #### start test
-The start.sh file initilaize the selenium grid and executes the test. 
+The start.sh file initializes the selenium grid and executes the test. (selenium grid needs java 8) 
 
 ``` command
 $ sudo sh start.sh
@@ -78,9 +78,20 @@ $ source $HOME/.bash_profile
 
 Check if path is set
 
-printf "%s\n" $PAT
+``` command
+$ printf "%s\n" $PAT
+```
+
+#### Install java 8 (error: Unsupported major.minor version 52.0)
+
+The selenium grid used in this project is compatible with the java 8. Check java version:
+
+``` command
+$ javac -version
+```
 
 ## Project maintainer
+
 Maarten van Willigen
 
 ## license
