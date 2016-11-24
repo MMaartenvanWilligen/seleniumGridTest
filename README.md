@@ -54,7 +54,6 @@ The start.sh file initializes the selenium grid and executes the test. (selenium
 ``` command
 $ sudo sh start.sh
 ```
-
 ## Potential errors or installations
 
 #### set path drivers
