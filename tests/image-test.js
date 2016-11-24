@@ -25,7 +25,6 @@ describe("homepage", function () {
 
     describe("card images", function () {
 
-
         it("array of role attributes should be iterable", function () {
             return browser.getAttribute(homepage.cardImages, "role").then(function (attrs) {
                 attrs.forEach(function (role) {
