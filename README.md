@@ -3,6 +3,7 @@ in short: tests for mind-blue on local selenium grid
 
 
 ##Summary
+
 This is a front-end test suite for the mind-blue website. The goal/purpose of this test suite is to add automated quality control on the project, what is inline with the continuous integration ambitions of Connect Holland. The following frameworks and libraries are used for setting up the test area.  
 
 - NodejS 
