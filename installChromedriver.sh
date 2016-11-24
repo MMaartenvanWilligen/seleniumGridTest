@@ -13,3 +13,4 @@ mv chromedriver /usr/local/bin/
 rm -f chromedriver_mac64.zip
 
 fi
+
