@@ -11,14 +11,15 @@ This is a front-end test suite for the mind-blue website. The goal/purpose of th
 - Mocha (Javascript test framework. https://mochajs.org) 
 - Webdriverio (Browser automation. http://webdriver.io/)
 
-##setup (for MAC)
+## Installation instructions (for MAC)
 
 #### Fork en clone project
-navigate to github repository: https://github.com/ConnectHolland/Front-End-Testing-Framework
+Navigate to the github repository: https://github.com/ConnectHolland/Front-End-Testing-Framework
 
-klik rechtsboven op de fork button
+Click, at the top right corner of the page, on the fork button
 
-Maak vervolgens een lokale clone van de fork
+Then make a local clone from the fork
+
 ``` command
 $ git clone https://github.com/YOUR-USERNAME/Front-End-Testing-Framework
 ```
@@ -41,7 +42,7 @@ Selenium grid 3 doesn’t include browser drivers anymore, so we have to install
 ``` command
 $ sudo sh installGeckodriver.sh && sh installChromedriver.sh
 ```
-The drivers should be on your systems Path. Check if they are by executing the following command: 
+The drivers should be on your systems path. Check if they are by executing the following command: 
 
 ``` command
 $ printf "%s\n" $PATH
