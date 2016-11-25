@@ -22,7 +22,6 @@ Then make a local clone from the fork in the desired directory on your vm.
 ``` command
 $ git clone https://github.com/YOUR-USERNAME/Front-End-Testing-Framework
 ```
-
 #### Install Firefox en Chrome browser
 
 ##### Install firefox
@@ -35,7 +34,7 @@ $ sudo sh installFirefox.sh
 (Not yet implemented)
 
 #### browser drivers
-Selenium grid 3 doesn’t include browser drivers anymore, so we have to install them remotely. The project includes a firefox driver installation file called installGeckodriver.sh . The sh file download and moves the driver into the /usr/local/bin/ directory on your virtual machine. 
+Selenium grid 3 doesn't include browser drivers anymore, so we have to install them remotely. The project includes a firefox driver installation file called installGeckodriver.sh . The sh file download and moves the driver into the /usr/local/bin/ directory on your virtual machine. 
 
 ``` command
 $ sudo sh installGeckodriver.sh
@@ -45,7 +44,7 @@ The drivers should be on your systems path. Check if they are on by executing th
 ``` command
 $ printf "%s\n" $PATH
 ```
-If the file is not on the Path. Navigate to [Set path](#Set path drivers)
+If the file is not on the Path. Navigate to [Set path](####Set path drivers)
 
 #### start test
 The start.sh file initializes the selenium grid and executes the test. 
