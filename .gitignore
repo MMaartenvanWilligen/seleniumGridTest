@@ -42,4 +42,6 @@ jspm_packages
 
 #ds store files
 .DS_Store
-./.DS_Store
+selenium-grid/.DS_Store
+selenium-grid/._selenium-server-standalone-3.0.1.jar
+tests/.DS_Store
