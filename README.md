@@ -40,12 +40,12 @@ Selenium grid 3 doesn’t include browser drivers anymore, so we have to install
 ``` command
 $ sudo sh installGeckodriver.sh
 ```
-The drivers should be on your systems path. Check if they are by executing the following command: 
+The drivers should be on your systems path. Check if they are on by executing the following command: 
 
 ``` command
 $ printf "%s\n" $PATH
 ```
-When they are not on the Path go to [Set path](#Set path drivers)
+If the file is not on the Path. Navigate to [Set path](#Set path drivers)
 
 #### start test
 The start.sh file initializes the selenium grid and executes the test. 
