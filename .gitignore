@@ -42,3 +42,4 @@ jspm_packages
 
 #ds store files
 .DS_Store
+./.DS_Store
