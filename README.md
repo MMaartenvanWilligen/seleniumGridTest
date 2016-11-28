@@ -1,9 +1,9 @@
 # Mind-blue front-end test
-in short: tests for mind-blue on local selenium grid
+In short: tests for mind-blue on local selenium grid
 
 ##Summary
 
-This is a front-end test suite for the mind-blue website. The goal of this test suite is to add automated quality control on the project, what is inline with the continuous integration ambitions of Connect Holland. The following frameworks and libraries are used for setting up the test area.  
+This is a front-end test suite for the mind-blue website. The purpose of this test suite is to add automated quality control to the project, what is inline with the continuous integration ambitions of Connect Holland. The following frameworks and libraries are used for setting up the test area.  
 
 - NodejS 
 - Selenium grid (Run test on multiple browser. http://www.seleniumhq.org/docs/) 
@@ -25,7 +25,7 @@ $ git clone https://github.com/YOUR-USERNAME/Front-End-Testing-Framework
 #### Install Firefox en Chrome browser
 
 ##### Install firefox
-install firefox by executing the installFirefox.sh
+Install firefox by executing the installFirefox.sh
 
 ``` command
 $ sudo sh installFirefox.sh
@@ -33,7 +33,7 @@ $ sudo sh installFirefox.sh
 ##### Install chrome
 (Not yet implemented)
 
-#### browser drivers
+#### Browser drivers
 Selenium grid 3 doesn't include browser drivers anymore, so we have to install them remotely. The project includes a firefox driver installation file called installGeckodriver.sh . The sh file download and moves the driver into the /usr/local/bin/ directory on your virtual machine. 
 
 ``` command
@@ -44,9 +44,9 @@ The drivers should be on your systems path. Check if they are on by executing th
 ``` command
 $ printf "%s\n" $PATH
 ```
-If the file is not on the Path. Navigate to [Set path](####Set path drivers)
+When the file is not visible on the Path. Navigate to [Set path](####Set path drivers)
 
-#### start test
+#### Start test
 The start.sh file initializes the selenium grid and executes the test. 
 
 ``` command
@@ -54,7 +54,7 @@ $ sudo sh start.sh
 ```
 ## Potential errors or installations
 
-#### set path drivers
+#### Set path drivers
 Open bash file 
 
 ``` command
@@ -88,7 +88,7 @@ $ javac -version
 
 Maarten van Willigen
 
-## license
+## License
 
 MIT
 
