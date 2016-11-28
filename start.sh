@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "kill firefox and screens"
+echo "kill firefox, display and port 4444"
 killall firefox
 killall Xvfb
 kill `sudo lsof -t -i:4444`
@@ -9,7 +9,7 @@ echo "install java"
 
 dpkg -s openjdk-8-jdk 2>/dev/null >/dev/null || apt-get -y install openjdk-8-jdk
 
-echo "install xvfb, firefox and imagemagick"
+echo "install xvfb and imagemagick"
 
 apt-get install imagemagick
 apt-get install xvfb -y
