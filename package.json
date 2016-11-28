@@ -9,9 +9,6 @@
   },
   "author": "Maarten van Willigen",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MMaartenvanWilligen/seleniumGridTest"
-  },
   "homepage": "https://github.com/MMaartenvanWilligen/seleniumGridTest#readme",
   "dependencies": {
     "chai": "^3.5.0",
