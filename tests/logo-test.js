@@ -2,6 +2,10 @@
  * Created by maarten on 22-11-16.
  */
 
+/**
+ * @desc required libaries
+ * */
+
 var assert = require('assert');
 var chai = require('chai')
     , expect = chai.expect
@@ -12,13 +16,14 @@ var homepage;
 
 describe("Logo", function () {
 
+    //hook run before tests
     before(function () {
         homepage = new HomepageMindBlue();
         return homepage.goToPage();
     });
 
     /**
-     * only desktop image
+     * @desc test if desktop image has alt tag
      * Using 'length above' assertion instead of 'exist' because it has a better error message
      * */
 
@@ -30,8 +35,8 @@ describe("Logo", function () {
     });
 
     /**
-     * only mobile image
-     * using 'length above' instead of 'exist' assertion because it has a better error message
+     * @desc test if mobile image has alt tag
+     * Using 'length above' assertion instead of 'exist' because it has a better error message
      * */
 
     it("mobile image should have alt attribute", function () {

@@ -2,17 +2,21 @@
  * Created by maarten on 11-11-16.
  */
 
+/**
+ * @desc required libaries
+ * */
+
 var assert = require('assert');
 var chai = require('chai')
     , expect = chai.expect
     , should = chai.should();
 
 var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
-
 var homepage;
 
 describe("links", function () {
 
+    //hook run before tests
     before(function () {
         homepage = new HomepageMindBlue();
         return homepage.goToPage();

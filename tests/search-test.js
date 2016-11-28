@@ -2,6 +2,10 @@
  * Created by maarten on 22-11-16.
  */
 
+/**
+ * required libaries
+ * */
+
 var assert = require('assert');
 var chai = require('chai')
     , expect = chai.expect
@@ -10,9 +14,9 @@ var chai = require('chai')
 var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
 var homepage;
 
-
 describe("search", function () {
 
+    //hook run before tests
     before(function () {
         homepage = new HomepageMindBlue();
         return homepage.goToPage();
@@ -47,7 +51,7 @@ describe("search", function () {
     });
 
     /**
-     * safari doesn't support .keys https://github.com/webdriverio/webdriverio/issues/1344
+     * safari doesn't support .keys https://github.com/webdriverio/webdriverio/issues/1344 so this test is disabled
     * */
 
     // it("expect to search on enter", function () {

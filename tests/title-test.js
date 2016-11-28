@@ -3,9 +3,8 @@
  */
 
 /**
- * required libaries
+ * @desc required libaries
  * */
-
 
 var assert = require('assert');
 var chai = require('chai')
@@ -13,11 +12,9 @@ var chai = require('chai')
     , should = chai.should();
 
 var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
-
+var homepage;
 
 describe('title test', function () {
-
-    var homepage;
 
     //hook run before tests
     before(function () {

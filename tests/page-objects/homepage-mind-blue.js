@@ -4,6 +4,11 @@
 
 var Page = require("./page");
 
+/**
+* @desc constructor HomepageMindBlue
+ * initzialize dom elements selectors
+* */
+
 function HomepageMindBlue() {
     Page.call(this, "https://mindblue.nl/");
     this.homepageUrl = "https://mindblue.nl/";

@@ -8,6 +8,10 @@
  *
  * */
 
+/**
+ * @desc required libaries
+ * */
+
 var assert = require('assert');
 var chai = require('chai')
     , expect = chai.expect
@@ -18,6 +22,7 @@ var homepage;
 
 describe("homepage", function () {
 
+    //hook run before tests
     before(function () {
         homepage = new HomepageMindBlue();
         return homepage.goToPage();
