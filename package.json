@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "travis integration with github and node",
   "main": "index.js",
-  "scripts": {
-    "test": "wdio wdio.conf.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MMaartenvanWilligen/seleniumGridTest.git"
