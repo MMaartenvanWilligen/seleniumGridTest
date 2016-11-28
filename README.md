@@ -22,6 +22,12 @@ Then make a local clone from the fork in the desired directory on your vm.
 ``` command
 $ git clone https://github.com/YOUR-USERNAME/Front-End-Testing-Framework
 ```
+
+#### Initzialize Node
+
+``` command
+$ sudo npm install
+```
 #### Install Firefox en Chrome browser
 
 ##### Install firefox
