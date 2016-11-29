@@ -57,6 +57,10 @@ The start.sh file initializes the selenium grid and executes the test.
 ``` command
 $ sudo sh start.sh
 ```
+#### Test results
+
+The test results are visible in the terminal and available in json format in the '/log/json/' directory. 
+
 ## Installation instructions local (On MAC)
 
 There is also a possibility to setup the project on your MAC
