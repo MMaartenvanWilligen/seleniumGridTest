@@ -1,9 +1,9 @@
 if [ -f "/usr/bin/firefox" ]; then # Will enter here if $file exists
-echo "there is already a firefox file in /usr/bin/"
+echo "There is already a Firefox file in /usr/bin/"
 
 else # Will enter here if file does not exist
 
-echo "no firefox directory. Intstall, firefox"
+echo "No firefox directory. Installing Firefox"
 
 # Get file: Firefox 50.0 for Linux
 wget http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/50.0/linux-x86_64/en-US/firefox-50.0.tar.bz2
