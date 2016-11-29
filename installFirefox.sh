@@ -17,10 +17,10 @@ mv firefox /opt/firefox
 # create link from /opt/firefox/firefox in /usr/bin/
 ln -s /opt/firefox/firefox /usr/bin/firefox
 
-#install missing libary
+#Install missing library
 apt-get -y install libgtk-3-dev
 
-# remove the tar file to cleanup the directoy
+# Remove the tar file
 rm -f firefox-50.0.tar.bz2
 
 fi
