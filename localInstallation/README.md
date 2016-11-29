@@ -41,7 +41,6 @@ The drivers should be on your systems path. Check if they are by executing the f
 ``` command
 $ printf "%s\n" $PATH
 ```
-
 #### start test
 The start.sh file initializes the selenium grid and executes the test. (selenium grid needs java 8) 
 
