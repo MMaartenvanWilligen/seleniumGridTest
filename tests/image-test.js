@@ -41,9 +41,9 @@ describe("homepage", function () {
         });
 
         function roleTest(attrs) {
-            describe("role" + " " + attrs, function () {
-                it("should exist", function () {
-                    return should.exist(attrs, "role attribute does not exist");
+            describe("homepage card images", function () {
+                it("role attribute should exist", function () {
+                    return should.exist(attrs);
                 });
             });
         }
@@ -63,8 +63,8 @@ describe("homepage", function () {
         });
 
         function ariaLabelTest(attrs) {
-            describe("aria-label: "  + " " + attrs, function () {
-                it("should exist", function () {
+            describe("homepage card images", function () {
+                it("aria-label attribute should exist", function () {
                     return should.exist(attrs, "aria-label attribute does not exist");
                 });
             });
