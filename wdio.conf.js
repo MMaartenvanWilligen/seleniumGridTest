@@ -10,7 +10,7 @@ exports.config = {
 
     capabilities: [
         {
-            maxInstances: 1,                            // maximal test files to run
+            maxInstances: 1,                            // Maximal test files to run
             browserName: "firefox"
         }],
 
@@ -21,22 +21,21 @@ exports.config = {
      * set maxInstances to 1, wdio will spawn 3 processes in the selenium grid. Therefor if you have 10 test
      * files and you set maxInstances to 10, all test files will get tested at the same time
      * and 30 processes will get spawned in the selenium grid.
-     *
      */
 
-    maxInstances: 5,                                     // maximal test files to run in total
-    host: '172.17.0.1',                                  // declare selenium grid host
-    port: 4444,                                          // port host
+    maxInstances: 5,                                     // Maximal test files to run in total
+    host: '172.17.0.1',                                  // Declare selenium grid host
+    port: 4444,                                          // Port host
     logLevel: 'silent',
     marionette: true,                                    // Geckodriver is marionette driver
-    sync: false,                                         // synchronous to false
+    sync: false,                                         // Synchronous to false
     coloredLogs: true,
     waitforTimeout: 10000,
     reporters: ['dot'],
     reporterOptions: {
         outputDir: './'
     },
-    framework: 'mocha',                                  // run tests with framework mocha
+    framework: 'mocha',                                  // Run tests with framework mocha
     mochaOpts: {
         ui: 'bdd',                                       // bdd: Behaviour drive development
         timeout: 99999999
@@ -47,7 +46,7 @@ exports.config = {
      */
 
     specs: [
-        './tests/*-test.js'                          //run all files in map 'test' with '-test.js' in name
+        './tests/*-test.js'                             // Run all files in map 'test' with '-test.js' in name
     ]
 
 };
