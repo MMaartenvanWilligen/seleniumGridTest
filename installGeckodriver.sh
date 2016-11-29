@@ -9,5 +9,5 @@ tar -zxvf geckodriver-v0.11.1-linux64.tar.gz
 # Move the unpacked file to /usr/bin
 mv geckodriver /usr/bin/
 
-# remove the tar.gz to cleanup the directory
+# Remove the tar.gz to cleanup the directory
 rm -f geckodriver-v0.11.1-linux64.tar.gz
