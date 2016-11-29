@@ -14,9 +14,8 @@
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "webdriverio": "^4.2.11",
-    "wdio-sauce-service": "^0.2.4",
     "wdio-mocha-framework": "^0.3.5",
-    "selenium-standalone": "^5.8.0"
+    "wdio-json-reporter": "~0.0.1"
   },
   "devDependencies": {
     "webdriverio": "^4.2.11"
