@@ -36,11 +36,12 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-#php storm file
+# Php storm file
 .idea/workspace.xml
 .idea
 
-#ds store files
+# DS_store files
+./.DS_Store
 .DS_Store
 selenium-grid/.DS_Store
 selenium-grid/._selenium-server-standalone-3.0.1.jar
