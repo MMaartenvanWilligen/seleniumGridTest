@@ -31,9 +31,9 @@ exports.config = {
     sync: false,                                         // Synchronous to false
     coloredLogs: true,
     waitforTimeout: 10000,
-    reporters: ['dot'],
+    reporters: ['dot', "json"],
     reporterOptions: {
-        outputDir: './'
+        outputDir: './log/json/'
     },
     framework: 'mocha',                                  // Run tests with framework mocha
     mochaOpts: {
