@@ -9,7 +9,7 @@ exports.config = {
     capabilities: [
         {
             maxInstances: 5,                            // Maximal test files to run
-            browserName: "firefox"
+            browserName: "microsoft edge"
         }],
 
     /**
@@ -22,7 +22,7 @@ exports.config = {
      */
 
     maxInstances: 5,                                     // Maximal test files to run in total
-    host: '10.123.123.87',                                  // Declare selenium grid host
+    host: '10.123.123.87',                               // Declare selenium grid host
     port: 4444,                                          // Port host
     logLevel: 'silent',
     marionette: true,                                    // Geckodriver is marionette driver
@@ -44,7 +44,7 @@ exports.config = {
      */
 
     specs: [
-        './tests/title-test.js'                             // Run all files in map 'test' with '-test.js' in name
+        './tests/title-test.js'                         // Run all files in map 'test' with '-test.js' in name
     ]
 
 };
