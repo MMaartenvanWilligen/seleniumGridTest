@@ -1,1 +1,3 @@
-java -jar selenium-server-standalone-3.0.1.jar -role hub
+#!/bin/bash
+
+java -jar selenium-grid/selenium-server-standalone.jar -role hub -hubConfig conf/selniumHubConfiguration.json
