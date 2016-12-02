@@ -1,5 +1,3 @@
-var selenium = require('selenium-standalone');
-
 exports.config = {
 
     /**
@@ -10,7 +8,7 @@ exports.config = {
 
     capabilities: [
         {
-            maxInstances: 1,                            // Maximal test files to run
+            maxInstances: 5,                            // Maximal test files to run
             browserName: "firefox"
         }],
 
@@ -24,7 +22,7 @@ exports.config = {
      */
 
     maxInstances: 5,                                     // Maximal test files to run in total
-    host: '172.17.0.1',                                  // Declare selenium grid host
+    host: '10.123.123.87',                                  // Declare selenium grid host
     port: 4444,                                          // Port host
     logLevel: 'silent',
     marionette: true,                                    // Geckodriver is marionette driver
@@ -46,7 +44,7 @@ exports.config = {
      */
 
     specs: [
-        './tests/*-test.js'                             // Run all files in map 'test' with '-test.js' in name
+        './tests/title-test.js'                             // Run all files in map 'test' with '-test.js' in name
     ]
 
 };
