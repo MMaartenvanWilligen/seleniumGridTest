@@ -9,8 +9,7 @@ exports.config = {
     capabilities: [
         {
             maxInstances: 1,                            // Maximal test files to run
-            browserName: "microsoft edge",
-            platform: "Windows"
+            browserName: "microsoft edg",
         }],
 
     /**
