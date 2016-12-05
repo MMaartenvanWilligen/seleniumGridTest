@@ -8,7 +8,7 @@
   "throwOnCapabilityNotPresent": true,
   "cleanUpCycle": 5000,
   "role": "hub",
-  "debug": true,
+  "debug": false,
   "browserTimeout": 0,
   "timeout": 1800
 }

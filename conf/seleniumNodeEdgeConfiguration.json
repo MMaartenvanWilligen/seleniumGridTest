@@ -4,7 +4,7 @@
       "browserName": "microsoft edge",
       "maxInstances": 1,
       "seleniumProtocol": "WebDriver",
-      "platform": "WINDOWS",
+      "platform": "Windows",
       "webdriver.edge.driver": "selenium-grid/MicrosoftWebDriver.exe"
     }
   ],
