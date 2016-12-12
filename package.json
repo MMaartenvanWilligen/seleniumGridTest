@@ -3,37 +3,42 @@
   "version": "1.0.0",
   "description": "travis integration with github and node",
   "main": "index.js",
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MMaartenvanWilligen/seleniumGridTest.git"
   },
+
   "author": "Maarten van Willigen",
   "license": "ISC",
   "homepage": "https://github.com/MMaartenvanWilligen/seleniumGridTest#readme",
   "dependencies": {
+    "bluebird": "^3.4.6",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
-    "webdriverio": "^4.2.11",
+    "wdio-json-reporter": "~0.0.1",
     "wdio-mocha-framework": "^0.3.5",
-    "wdio-json-reporter": "~0.0.1"
+    "webdriverio": "^4.2.11"
   },
+
   "devDependencies": {
     "webdriverio": "^4.2.11"
   },
+
   "capabilities": {
     "proxy": {
       "proxyType": "manual",
       "httpProxy": "https://localhost.com:4445/"
     }
   },
+
   "engineStrict": true,
   "engines": {
-    "node": ">=4.5.0"
+    "node": "^4.5.0"
   },
+
   "keywords": [
     "TravisCI",
     "Node"
   ]
 }
-
-
