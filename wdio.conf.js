@@ -1,5 +1,3 @@
-var selenium = require('selenium-standalone');
-
 exports.config = {
 
     /**
