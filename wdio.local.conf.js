@@ -34,7 +34,7 @@ exports.config = {
     sync: false,                                         // Synchronous to false
     coloredLogs: true,
     waitforTimeout: 10000,
-    reporters: ['dot, json'],
+    reporters: ['dot'],
     reporterOptions: {
         outputDir: './log/json/'
     },
@@ -48,7 +48,7 @@ exports.config = {
      * @desc specify test files
      */
     specs: [
-        './tests/*-test.js'                             // Run all files in map 'test' with ' -title-test.js' in name
+        './tests/visual-test.js'                             // Run all files in map 'test' with ' -title-test.js' in name
     ]
 
 };

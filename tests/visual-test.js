@@ -17,6 +17,7 @@ describe('screenshot compare', function () {
     //hook run before tests
     before(function () {
         homepage = new HomepageMindBlue();
+        console.log("before" + " " + browser.desiredCapabilities.browserName);
         visualRegression = new VisualRegression();
         return homepage.goToPage();
     });
@@ -24,13 +25,13 @@ describe('screenshot compare', function () {
     describe('Take screenshot', function () {
 
         it("should save a screenshot of the browser view", function () {
-            return browser.saveScreenshot(config.screenshots.baselineImages + 'browserView.png');
+            return browser.saveScreenshot(config.screenshots.baselineImages + browser.desiredCapabilities.browserName + "/" + 'browserView.png');
         });
 
 
         it("should save a screenshot of the browser view as regression", function () {
             return browser.setValue("input[name='q']", "change screenshot").then(function () {
-                return browser.saveScreenshot(config.screenshots.regressionImages + 'browserViewRegression.png');
+                return browser.saveScreenshot(config.screenshots.regressionImages + browser.desiredCapabilities.browserName + "/" + 'browserViewRegression.png');
             })
         });
 
@@ -56,10 +57,10 @@ describe('screenshot compare', function () {
             expect(resultComparison.misMatchPercentage).not.to.be.above(0);
         });
 
-        it("should make 'browserViewDiff.png' in " + config.screenshots.diffImages, function () {
+        it("should make 'diff.png' in " + config.screenshots.diffImages, function () {
 
-            return visualRegression.makeDiffImage(resultComparison).then(function () {
-                expect(config.screenshots.diffImages).to.be.a.path('');
+            return visualRegression.makeDiffImage(resultComparison).then(function () {  //use default name defined in function
+                expect(config.screenshots.diffImages + browser.desiredCapabilities.browserName + "/" + "diff.png").to.be.a.path("");
                 //expect(config.screenshots.diffImages).to.not.be.a.path('path does not exist');
             });
         });

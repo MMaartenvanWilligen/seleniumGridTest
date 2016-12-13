@@ -9,12 +9,13 @@
 var resemble = require("node-resemble-js");
 var Promise = require("bluebird");
 var fs = require('fs');
-var config = require('../../config');
+var config = require('./../../config');
 
 /**
  * @desc constructor
  * init resemble settings
  * */
+var browserCapabilityName;
 
 function VisualRegression() {
 
@@ -23,6 +24,8 @@ function VisualRegression() {
         errorType: config.resemble.errorType,
         transparency: config.resemble.transparency
     });
+
+    browserCapabilityName = browser.desiredCapabilities.browserName;
 
 }
 
@@ -42,12 +45,14 @@ function VisualRegression() {
 
 VisualRegression.prototype.CompareImages = function (baselineImage, regressionImage) {
 
+
     baselineImage = typeof baselineImage !== 'undefined' ? baselineImage : config.defaultNames.baselineImage;   //set param baselineImage to default value when it is undefined
     regressionImage = typeof regressionImage !== 'undefined' ? regressionImage : config.defaultNames.regressionImage; //set param regressionImage to default value when it is undefined
 
     return new Promise(function (resolve, reject) {
-        resemble(config.screenshots.baselineImages + baselineImage)
-            .compareTo(config.screenshots.regressionImages + regressionImage)
+        console.log("jep" + this.browserCapabilityName);
+        resemble(config.screenshots.baselineImages + browserCapabilityName + "/" + baselineImage)
+            .compareTo(config.screenshots.regressionImages + browserCapabilityName + "/" + regressionImage)
             .ignoreColors()
             .onComplete(function (data) {
                 resolve(data);
@@ -66,15 +71,14 @@ VisualRegression.prototype.CompareImages = function (baselineImage, regressionIm
  * */
 
 VisualRegression.prototype.makeDiffImage = function (DataOfComparison, diffImageOutputName) {
-
+    console.log("make diff" + " " + this.browserCapabilityName);
     diffImageOutputName = typeof diffImageOutputName !== 'undefined' ? diffImageOutputName : config.defaultNames.diffImage; //set param diffImageOutputName to default value when it is undefined
 
     return new Promise(function (resolve, reject) {
-        resolve(DataOfComparison.getDiffImage().pack().pipe(fs.createWriteStream(config.screenshots.diffImages + diffImageOutputName + ".png")));
+        resolve(DataOfComparison.getDiffImage().pack().pipe(fs.createWriteStream(config.screenshots.diffImages + browserCapabilityName + "/" + diffImageOutputName + ".png")));
     }).then(function () {
         console.log("diff image made");
     });
-
 };
 
 module.exports = VisualRegression;
