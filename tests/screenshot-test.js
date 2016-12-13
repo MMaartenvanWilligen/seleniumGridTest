@@ -34,7 +34,7 @@ describe('title test', function () {
     });
 
     it("should save a screenshot of the browser view", function () {
-        return browser.saveScreenshot('./screenshots/browserView.png');
+        return browser.saveScreenshot('./screenshots/remaining/browserView.png');
     });
 
 });
