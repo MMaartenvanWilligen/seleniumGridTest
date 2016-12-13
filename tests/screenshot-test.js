@@ -10,11 +10,12 @@ var assert = require('assert');
 var chai = require('chai')
     , expect = chai.expect
     , should = chai.should();
+var config = require('../config');
 
 var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
 var homepage;
 
-describe('title test', function () {
+describe('make screenshot', function () {
 
     //hook run before tests
     before(function () {
@@ -34,7 +35,7 @@ describe('title test', function () {
     });
 
     it("should save a screenshot of the browser view", function () {
-        return browser.saveScreenshot('./screenshots/remaining/browserView.png');
+        return browser.saveScreenshot(config.screenshots.remainingImages + "homepage.png");
     });
 
 });

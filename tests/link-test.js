@@ -23,18 +23,22 @@ describe("links", function () {
     });
 
     it("array of href attributes should be iterable", function () {
+
         return browser.getAttribute('a', 'href').then(function (attrs) {
             attrs.forEach(function (href) {
+                console.log(href);
                 testHrefAttribute(href);
             });
             return attrs.should.be.iterable;
         });
+
+
     });
 
     function testHrefAttribute(attrs) {
         describe("attribute", function () {
             it("href should have length above 11", function () {
-                return expect(attrs, "href should have length of 2").to.have.length.above(2);
+                return expect(attrs, "href should have length of above 11").to.have.length.above(11);
             });
         });
     }

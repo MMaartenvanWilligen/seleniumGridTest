@@ -8,11 +8,11 @@ exports.config = {
 
     capabilities: [
         {
-            maxInstances: 1,                             // Maximal test files to run
+            maxInstances: 5,                             // Maximal test files to run
             browserName: "firefox"
         },
         {
-            maxInstances: 1,                             // Maximal test files to run
+            maxInstances: 5,                             // Maximal test files to run
             browserName: "chrome"
         }],
 
@@ -48,7 +48,7 @@ exports.config = {
      * @desc specify test files
      */
     specs: [
-        './tests/visual-test.js'                             // Run all files in map 'test' with ' -title-test.js' in name
+        './tests/link-test.js'                             // Run all files in map 'test' with ' -title-test.js' in name
     ]
 
 };

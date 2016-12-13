@@ -17,7 +17,6 @@ describe('screenshot compare', function () {
     //hook run before tests
     before(function () {
         homepage = new HomepageMindBlue();
-        console.log("before" + " " + browser.desiredCapabilities.browserName);
         visualRegression = new VisualRegression();
         return homepage.goToPage();
     });
@@ -35,7 +34,7 @@ describe('screenshot compare', function () {
         it("should save a screenshot of the browser view as regression", function () {
             return browser.setValue("input[name='q']", "change screenshot").then(function () {
                 return browser.saveScreenshot(config.screenshots.regressionImages + browser.desiredCapabilities.browserName + "/" + 'browserViewRegression.png').then(function () {  //use default name defined in function
-                    expect(config.screenshots.baselineImages + browser.desiredCapabilities.browserName + "/" + "browserViewRegression.png").to.be.a.path("");
+                    expect(config.screenshots.regressionImages + browser.desiredCapabilities.browserName + "/" + "browserViewRegression.png").to.be.a.path("");
                     //expect(config.screenshots.diffImages).to.not.be.a.path('path does not exist');
                 });
             })

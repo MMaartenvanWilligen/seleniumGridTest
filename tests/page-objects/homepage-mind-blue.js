@@ -30,4 +30,9 @@ function HomepageMindBlue() {
 HomepageMindBlue.prototype = Object.create(Page.prototype);
 HomepageMindBlue.prototype.constructor = HomepageMindBlue;
 
+
+HomepageMindBlue.prototype.getElementId = function (elem) {
+    return elem.value.ELEMENT
+};
+
 module.exports = HomepageMindBlue;

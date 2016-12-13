@@ -45,12 +45,10 @@ function VisualRegression() {
 
 VisualRegression.prototype.CompareImages = function (baselineImage, regressionImage) {
 
-
     baselineImage = typeof baselineImage !== 'undefined' ? baselineImage : config.defaultNames.baselineImage;   //set param baselineImage to default value when it is undefined
     regressionImage = typeof regressionImage !== 'undefined' ? regressionImage : config.defaultNames.regressionImage; //set param regressionImage to default value when it is undefined
 
     return new Promise(function (resolve, reject) {
-        console.log("jep" + this.browserCapabilityName);
         resemble(config.screenshots.baselineImages + browserCapabilityName + "/" + baselineImage)
             .compareTo(config.screenshots.regressionImages + browserCapabilityName + "/" + regressionImage)
             .ignoreColors()
@@ -71,7 +69,6 @@ VisualRegression.prototype.CompareImages = function (baselineImage, regressionIm
  * */
 
 VisualRegression.prototype.makeDiffImage = function (DataOfComparison, diffImageOutputName) {
-    console.log("make diff" + " " + this.browserCapabilityName);
     diffImageOutputName = typeof diffImageOutputName !== 'undefined' ? diffImageOutputName : config.defaultNames.diffImage; //set param diffImageOutputName to default value when it is undefined
 
     return new Promise(function (resolve, reject) {

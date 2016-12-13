@@ -9,7 +9,8 @@ var config = {
         screenshotRoot: './tests/screenshots/',
         baselineImages: './tests/screenshots/baseline/',
         regressionImages: './tests/screenshots/regression/',
-        diffImages: './tests/screenshots/diff/'
+        diffImages: './tests/screenshots/diff/',
+        remainingImages: './tests/screenshots/remaining/'
     },
 
     "resemble": {
