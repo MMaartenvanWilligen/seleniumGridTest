@@ -44,4 +44,4 @@ jspm_packages
 **/.DS_Store
 
 #json log
-./log/json
+log/json/

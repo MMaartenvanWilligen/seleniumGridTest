@@ -10,6 +10,10 @@ exports.config = {
         {
             maxInstances: 1,                             // Maximal test files to run
             browserName: "firefox"
+        },
+        {
+            maxInstances: 1,                             // Maximal test files to run
+            browserName: "chrome"
         }],
 
     /**
@@ -23,7 +27,7 @@ exports.config = {
      */
 
     maxInstances: 5,                                     // Maximal test files to run in total
-    host: '172.17.0.1',                                  // Declare selenium grid host
+    host: '10.123.123.87',                               // Declare selenium grid host
     port: 4444,                                          // Port host
     logLevel: 'silent',
     marionette: true,                                    // Geckodriver is marionette driver
