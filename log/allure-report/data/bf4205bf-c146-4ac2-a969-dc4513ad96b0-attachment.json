@@ -1,0 +1,33 @@
+{
+    "success": true,
+    "msg": "proxy found !",
+    "id": "http://10.123.123.87:5555",
+    "request": {
+        "class": "org.openqa.grid.common.RegistrationRequest",
+        "configuration": {
+            "hubHost": "localhost",
+            "hubPort": 4444,
+            "id": "http://10.123.123.87:5555",
+            "capabilities": [
+                {
+                    "browserName": "firefox",
+                    "seleniumProtocol": "WebDriver",
+                    "platform": "MAC"
+                }
+            ],
+            "hub": "http://localhost:4444/grid/register",
+            "nodeStatusCheckTimeout": 5000,
+            "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+            "register": true,
+            "registerCycle": 5000,
+            "custom": {},
+            "host": "10.123.123.87",
+            "maxSession": 5,
+            "browserTimeout": 0,
+            "debug": false,
+            "port": 5555,
+            "role": "node",
+            "timeout": 1800
+        }
+    }
+}

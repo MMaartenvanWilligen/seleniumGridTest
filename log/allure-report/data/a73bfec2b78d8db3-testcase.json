@@ -1,0 +1,104 @@
+{
+  "uid" : "a73bfec2b78d8db3",
+  "name" : "\"before all\" hook",
+  "title" : "\"before all\" hook",
+  "time" : {
+    "start" : 1481728962578,
+    "stop" : 1481728964074,
+    "duration" : 1496
+  },
+  "summary" : {
+    "attachments" : 4,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7ca810ca783dd02f",
+    "name" : "make screenshot",
+    "title" : "make screenshot"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/cc571825-c90e-429c-8e7b-088067b8efaa/url",
+    "title" : "POST /wd/hub/session/cc571825-c90e-429c-8e7b-088067b8efaa/url",
+    "time" : {
+      "start" : 1481728962582,
+      "stop" : 1481728964074,
+      "duration" : 1492
+    },
+    "summary" : {
+      "attachments" : 4,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "ad57186c-5d80-43c0-b97b-c26260cfb4ea-attachment.json",
+      "type" : "application/json",
+      "size" : 37,
+      "uid" : "9e22d31ca1902872"
+    }, {
+      "title" : "Response",
+      "source" : "4909ab7a-ad00-46c3-a886-c81c8fcd6866-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "8821eb0e0a1f6aa4"
+    } ],
+    "steps" : [ {
+      "name" : "GET /grid/api/testsession?session=cc571825-c90e-429c-8e7b-088067b8efaa",
+      "title" : "GET /grid/api/testsession?session=cc571825-c90e-429c-8e7b-088067b8efaa",
+      "time" : {
+        "start" : 1481728962587,
+        "stop" : 1481728962596,
+        "duration" : 9
+      },
+      "summary" : {
+        "attachments" : 1,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ {
+        "title" : "Response",
+        "source" : "974fa5f9-0979-48e3-b2bf-48e638b6a18b-attachment.json",
+        "type" : "application/json",
+        "size" : 234,
+        "uid" : "61b3108ff042798f"
+      } ],
+      "steps" : [ ]
+    }, {
+      "name" : "GET /grid/api/proxy?id=http://10.123.123.87:5556",
+      "title" : "GET /grid/api/proxy?id=http://10.123.123.87:5556",
+      "time" : {
+        "start" : 1481728962596,
+        "stop" : 1481728962601,
+        "duration" : 5
+      },
+      "summary" : {
+        "attachments" : 1,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ {
+        "title" : "Response",
+        "source" : "2b7de9b2-ca21-423e-bc8d-b1ae9a697b96-attachment.json",
+        "type" : "application/json",
+        "size" : 1019,
+        "uid" : "89bc38b5f7a3588f"
+      } ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "make screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "make screenshot"
+  } ],
+  "parameters" : [ ]
+}

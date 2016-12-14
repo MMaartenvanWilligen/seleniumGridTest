@@ -23,6 +23,18 @@ describe('make screenshot', function () {
         return homepage.goToPage();
     });
 
+
+
+    it("should resize the current viewport to width '500'", function () {
+
+        return browser.getGridNodeDetails();
+
+    });
+
+    this.on('test:meta', function () {
+        console.log('Hurray! A test enviroment!');
+    });
+
     it("should resize the current viewport to width '500'", function () {
         return browser.setViewportSize({
             width: 1920,
@@ -35,7 +47,10 @@ describe('make screenshot', function () {
     });
 
     it("should save a screenshot of the browser view", function () {
+        console.log("screenshot");
         return browser.saveScreenshot(config.screenshots.remainingImages + "homepage.png");
     });
 
 });
+
+

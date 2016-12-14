@@ -1,0 +1,70 @@
+{
+  "uid" : "24dd41df0a57c39c",
+  "name" : "should save a screenshot of the browser view",
+  "title" : "should save a screenshot of the browser view",
+  "time" : {
+    "start" : 1481727945592,
+    "stop" : 1481727946239,
+    "duration" : 647
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c0638d087cfb787f",
+    "name" : "make screenshot",
+    "title" : "make screenshot"
+  },
+  "steps" : [ {
+    "name" : "GET /wd/hub/session/c8e5d587-86f3-4e28-93eb-dae023648acb/screenshot",
+    "title" : "GET /wd/hub/session/c8e5d587-86f3-4e28-93eb-dae023648acb/screenshot",
+    "time" : {
+      "start" : 1481727945593,
+      "stop" : 1481727946220,
+      "duration" : 627
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "8b3d4723-0887-4912-99a3-82072e371f1c-attachment.png",
+      "type" : "image/png",
+      "size" : 376344,
+      "uid" : "3235c895849adc51"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "screenshot ./tests/screenshots/remaining/homepage.png",
+    "source" : "56786bb3-cb7d-46dd-a6db-1a7ac1d56122-attachment.png",
+    "type" : "image/png",
+    "size" : 376344,
+    "uid" : "940dacdce5e1a6fb"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "make screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "make screenshot"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/screenshot-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

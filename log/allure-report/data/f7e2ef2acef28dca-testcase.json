@@ -1,0 +1,64 @@
+{
+  "uid" : "f7e2ef2acef28dca",
+  "name" : "Title should be 'MINDblue'",
+  "title" : "Title should be 'MINDblue'",
+  "time" : {
+    "start" : 1481711715039,
+    "stop" : 1481711715056,
+    "duration" : 17
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7fe7d9d9a6e7b0ea",
+    "name" : "title test",
+    "title" : "title test"
+  },
+  "steps" : [ {
+    "name" : "GET /wd/hub/session/c78dcdf3-a324-438b-8e70-76fbb46f0ec4/title",
+    "title" : "GET /wd/hub/session/c78dcdf3-a324-438b-8e70-76fbb46f0ec4/title",
+    "time" : {
+      "start" : 1481711715040,
+      "stop" : 1481711715055,
+      "duration" : 15
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "69cc0207-4cf2-444e-9a0a-4e4d25e9ead3-attachment.json",
+      "type" : "application/json",
+      "size" : 201,
+      "uid" : "c6c7c6698419a579"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "title test"
+  }, {
+    "name" : "suite-title",
+    "value" : "title test"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/title-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

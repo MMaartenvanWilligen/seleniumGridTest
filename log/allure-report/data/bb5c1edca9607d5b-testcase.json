@@ -1,0 +1,64 @@
+{
+  "uid" : "bb5c1edca9607d5b",
+  "name" : "should save a screenshot of the browser view",
+  "title" : "should save a screenshot of the browser view",
+  "time" : {
+    "start" : 1481722819717,
+    "stop" : 1481722820023,
+    "duration" : 306
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b8cb5b77483bdf69",
+    "name" : "make screenshot",
+    "title" : "make screenshot"
+  },
+  "steps" : [ {
+    "name" : "GET /wd/hub/session/aebad744-e488-40cb-a8b9-0ed80df32254/screenshot",
+    "title" : "GET /wd/hub/session/aebad744-e488-40cb-a8b9-0ed80df32254/screenshot",
+    "time" : {
+      "start" : 1481722819719,
+      "stop" : 1481722819994,
+      "duration" : 275
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "6345e078-111a-4a94-a7c4-627b90e2e673-attachment.png",
+      "type" : "image/png",
+      "size" : 589141,
+      "uid" : "24d9af64dafbd0b9"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "make screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "make screenshot"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/screenshot-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

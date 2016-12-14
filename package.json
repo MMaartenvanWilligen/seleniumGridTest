@@ -14,11 +14,21 @@
     "bluebird": "^3.4.6",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
+    "mocha-multi": "^0.7.2",
+    "wdio-allure-addons-reporter": "0.0.4",
     "wdio-json-reporter": "^0.1.0",
     "wdio-mocha-framework": "^0.3.5",
     "webdriverio": "^4.2.11"
   },
+  "scripts": {
+    "clean": "rm -rf ./log/allure-results",
+    "pretest": "npm run clean",
+    "test": "./node_modules/.bin/wdio wdio.local.conf.js",
+    "report": "allure generate ./log/allure-results -o ./log/allure-report && allure report open -o ./log/allure-report"
+  },
   "devDependencies": {
+    "allure-commandline": "^1.4.23",
+    "wdio-allure-reporter": "^0.1.2",
     "webdriverio": "^4.2.11"
   },
   "capabilities": {

@@ -1,0 +1,64 @@
+{
+  "uid" : "f88634004c2cbee8",
+  "name" : "should resize the current viewport to width '500'",
+  "title" : "should resize the current viewport to width '500'",
+  "time" : {
+    "start" : 1481730599031,
+    "stop" : 1481730599039,
+    "duration" : 8
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "97b294c8aff35469",
+    "name" : "make screenshot",
+    "title" : "make screenshot"
+  },
+  "steps" : [ {
+    "name" : "GET /grid/api/testsession?session=1202cdfe-a759-48df-b6b2-032c82868aa0",
+    "title" : "GET /grid/api/testsession?session=1202cdfe-a759-48df-b6b2-032c82868aa0",
+    "time" : {
+      "start" : 1481730599034,
+      "stop" : 1481730599039,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "a19cd54c-6824-48d4-bca3-6c69ddbbc6a1-attachment.json",
+      "type" : "application/json",
+      "size" : 234,
+      "uid" : "95499e68ee9bf9ae"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "make screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "make screenshot"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/screenshot-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

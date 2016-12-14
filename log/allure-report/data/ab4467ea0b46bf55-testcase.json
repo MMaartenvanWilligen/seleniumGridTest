@@ -1,0 +1,67 @@
+{
+  "uid" : "ab4467ea0b46bf55",
+  "name" : "should save a screenshot of the browser view",
+  "title" : "should save a screenshot of the browser view",
+  "time" : {
+    "start" : 1481720657077,
+    "stop" : 1481720657384,
+    "duration" : 307
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : {
+    "message" : "allure.createAttachment is not a function",
+    "stackTrace" : "TypeError: allure.createAttachment is not a function\n    at Object.<anonymous> (/Users/maarten/Documents/seleniumGridTest/tests/screenshot-test.js:42:20)\n    at Object.exec (/Users/maarten/Documents/seleniumGridTest/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/Users/maarten/Documents/seleniumGridTest/node_modules/webdriverio/build/lib/webdriverio.js:189:29)\n    at /Users/maarten/Documents/seleniumGridTest/node_modules/webdriverio/build/lib/webdriverio.js:487:32\n    at _fulfilled (/Users/maarten/Documents/seleniumGridTest/node_modules/q/q.js:834:54)\n    at self.promiseDispatch.done (/Users/maarten/Documents/seleniumGridTest/node_modules/q/q.js:863:30)\n    at Promise.promise.promiseDispatch (/Users/maarten/Documents/seleniumGridTest/node_modules/q/q.js:796:13)\n    at /Users/maarten/Documents/seleniumGridTest/node_modules/q/q.js:604:44\n    at runSingle (/Users/maarten/Documents/seleniumGridTest/node_modules/q/q.js:137:13)\n    at flush (/Users/maarten/Documents/seleniumGridTest/node_modules/q/q.js:125:13)"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b8cb5b77483bdf69",
+    "name" : "make screenshot",
+    "title" : "make screenshot"
+  },
+  "steps" : [ {
+    "name" : "GET /wd/hub/session/45d93d5b-c587-4337-b170-b06cb01e74c6/screenshot",
+    "title" : "GET /wd/hub/session/45d93d5b-c587-4337-b170-b06cb01e74c6/screenshot",
+    "time" : {
+      "start" : 1481720657079,
+      "stop" : 1481720657352,
+      "duration" : 273
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "e98c8ff7-9def-4eaa-805e-8787833d1359-attachment.png",
+      "type" : "image/png",
+      "size" : 531216,
+      "uid" : "8f3466661a06b1d9"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "make screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "make screenshot"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/screenshot-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

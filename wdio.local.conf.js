@@ -34,9 +34,14 @@ exports.config = {
     sync: false,                                         // Synchronous to false
     coloredLogs: true,
     waitforTimeout: 10000,
-    reporters: ['dot'],
+    reporters: ['dot', 'allure-addons'],
     reporterOptions: {
-        outputDir: './log/json/'
+        outputDir: 'outputDir',
+        'allure-addons': {
+            outputDir: './log/allure-results',
+            debug: true,
+            debugSeleniumCommand: true
+        }
     },
     framework: 'mocha',                                  // Run tests with framework mocha
     mochaOpts: {
@@ -48,7 +53,7 @@ exports.config = {
      * @desc specify test files
      */
     specs: [
-        './tests/link-test.js'                             // Run all files in map 'test' with ' -title-test.js' in name
+        './tests/screenshot-test.js'                             // Run all files in map 'test' with ' -title-test.js' in name
     ]
 
 };
