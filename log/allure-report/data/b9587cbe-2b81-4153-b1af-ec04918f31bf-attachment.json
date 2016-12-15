@@ -1,0 +1,13 @@
+{
+    "state": "success",
+    "sessionId": "c6b20d6e-8d35-474d-9056-cb6b77199594",
+    "hCode": 1531443265,
+    "value": {
+        "width": 1920,
+        "hCode": 1006632960,
+        "class": "org.openqa.selenium.Dimension",
+        "height": 1159
+    },
+    "class": "org.openqa.selenium.remote.Response",
+    "status": 0
+}

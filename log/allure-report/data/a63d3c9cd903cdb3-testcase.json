@@ -1,0 +1,62 @@
+{
+  "uid" : "a63d3c9cd903cdb3",
+  "name" : "\"before all\" hook",
+  "title" : "\"before all\" hook",
+  "time" : {
+    "start" : 1481794070941,
+    "stop" : 1481794072086,
+    "duration" : 1145
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "bfbf5d1aaf8e027b",
+    "name" : "make screenshot",
+    "title" : "make screenshot"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/ef92a789-afa4-4025-a11c-29f6fa4d66db/url",
+    "title" : "POST /wd/hub/session/ef92a789-afa4-4025-a11c-29f6fa4d66db/url",
+    "time" : {
+      "start" : 1481794070945,
+      "stop" : 1481794072086,
+      "duration" : 1141
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "2ee4dfec-2dbf-42bd-8874-bf4c4240efbd-attachment.json",
+      "type" : "application/json",
+      "size" : 37,
+      "uid" : "cfefc524cbc1d34e"
+    }, {
+      "title" : "Response",
+      "source" : "94ab0da8-6adf-4eb6-bda5-813f9668e8c7-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "fe90735ee25ce792"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "make screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "make screenshot"
+  } ],
+  "parameters" : [ ]
+}

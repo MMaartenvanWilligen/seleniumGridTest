@@ -1,0 +1,91 @@
+{
+  "uid" : "6bacec951af64dd7",
+  "name" : "should have placeholder",
+  "title" : "should have placeholder",
+  "time" : {
+    "start" : 1481732315474,
+    "stop" : 1481732315542,
+    "duration" : 68
+  },
+  "summary" : {
+    "attachments" : 3,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "682f2c5f6fe7227c",
+    "name" : "search",
+    "title" : "search"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/a15bc781-4730-4756-8812-fea23bd7c76a/elements",
+    "title" : "POST /wd/hub/session/a15bc781-4730-4756-8812-fea23bd7c76a/elements",
+    "time" : {
+      "start" : 1481732315477,
+      "stop" : 1481732315520,
+      "duration" : 43
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "7217eb8f-a7e9-4dfb-bfe6-01e7c8d93e7e-attachment.json",
+      "type" : "application/json",
+      "size" : 63,
+      "uid" : "8a7bed387dfc9df2"
+    }, {
+      "title" : "Response",
+      "source" : "0659d2c6-6b61-40ec-a538-9463b7d3e0f9-attachment.json",
+      "type" : "application/json",
+      "size" : 245,
+      "uid" : "d572e10fbabfe66"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/a15bc781-4730-4756-8812-fea23bd7c76a/element/0/attribute/placeholder",
+    "title" : "GET /wd/hub/session/a15bc781-4730-4756-8812-fea23bd7c76a/element/0/attribute/placeholder",
+    "time" : {
+      "start" : 1481732315520,
+      "stop" : 1481732315537,
+      "duration" : 17
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "5fe1f4f4-c6e5-49d2-92bd-de29d846a76b-attachment.json",
+      "type" : "application/json",
+      "size" : 200,
+      "uid" : "91483dd8e73f014"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "search"
+  }, {
+    "name" : "suite-title",
+    "value" : "search"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/search-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

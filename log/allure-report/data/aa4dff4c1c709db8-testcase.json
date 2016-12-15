@@ -1,0 +1,85 @@
+{
+  "uid" : "aa4dff4c1c709db8",
+  "name" : "should resize the current viewport to width '500'",
+  "title" : "should resize the current viewport to width '500'",
+  "time" : {
+    "start" : 1481732088563,
+    "stop" : 1481732088575,
+    "duration" : 12
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7c8039501ad193e0",
+    "name" : "make screenshot",
+    "title" : "make screenshot"
+  },
+  "steps" : [ {
+    "name" : "GET /grid/api/testsession?session=56decf29-7b01-4e47-a6f9-a8d3fa9855c5",
+    "title" : "GET /grid/api/testsession?session=56decf29-7b01-4e47-a6f9-a8d3fa9855c5",
+    "time" : {
+      "start" : 1481732088566,
+      "stop" : 1481732088570,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "bc9a6dc4-b6b1-4829-b2ed-2a7cde5dc57b-attachment.json",
+      "type" : "application/json",
+      "size" : 234,
+      "uid" : "237c3d04fe8479b3"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /grid/api/proxy?id=http://10.123.123.87:5555",
+    "title" : "GET /grid/api/proxy?id=http://10.123.123.87:5555",
+    "time" : {
+      "start" : 1481732088570,
+      "stop" : 1481732088575,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "0e2be973-404b-46ce-ba5f-536ca219addb-attachment.json",
+      "type" : "application/json",
+      "size" : 1020,
+      "uid" : "e96199e8cba06b40"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "make screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "make screenshot"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/screenshot-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

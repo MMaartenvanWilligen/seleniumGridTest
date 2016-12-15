@@ -1,0 +1,91 @@
+{
+  "uid" : "69a47df4f734e359",
+  "name" : "desktop image should have alt attribute",
+  "title" : "desktop image should have alt attribute",
+  "time" : {
+    "start" : 1481794061885,
+    "stop" : 1481794061940,
+    "duration" : 55
+  },
+  "summary" : {
+    "attachments" : 3,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "11dbf90dc1e40e00",
+    "name" : "Logo",
+    "title" : "Logo"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/3767c9e5-6a7d-4adf-a16a-77398bf0d7bc/elements",
+    "title" : "POST /wd/hub/session/3767c9e5-6a7d-4adf-a16a-77398bf0d7bc/elements",
+    "time" : {
+      "start" : 1481794061889,
+      "stop" : 1481794061915,
+      "duration" : 26
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "f9afa02d-4937-41d3-b6be-e0b7b919fddc-attachment.json",
+      "type" : "application/json",
+      "size" : 70,
+      "uid" : "5785ec593c6f5eff"
+    }, {
+      "title" : "Response",
+      "source" : "9fe06c62-ab46-4645-854e-ad9825972fe0-attachment.json",
+      "type" : "application/json",
+      "size" : 245,
+      "uid" : "8ab835ccda7994bd"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/3767c9e5-6a7d-4adf-a16a-77398bf0d7bc/element/0/attribute/alt",
+    "title" : "GET /wd/hub/session/3767c9e5-6a7d-4adf-a16a-77398bf0d7bc/element/0/attribute/alt",
+    "time" : {
+      "start" : 1481794061917,
+      "stop" : 1481794061935,
+      "duration" : 18
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "95baa36b-f034-4f5c-8fab-0f60beea823c-attachment.json",
+      "type" : "application/json",
+      "size" : 202,
+      "uid" : "95b7299a8d64356e"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Logo"
+  }, {
+    "name" : "suite-title",
+    "value" : "Logo"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/logo-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

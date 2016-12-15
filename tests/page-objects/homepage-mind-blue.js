@@ -1,6 +1,7 @@
 /**
  * Created by maarten on 15-11-16.
  */
+var config = require('./../../config');
 
 var Page = require("./page");
 
@@ -10,7 +11,7 @@ var Page = require("./page");
 * */
 
 function HomepageMindBlue() {
-    Page.call(this, "https://mindblue.nl/");
+    Page.call(this, config.pages.homepage);
     this.homepageUrl = "https://mindblue.nl/";
     this.logoAnchor = ".header .logo";
     this.logoImage = ".header .logo img";
@@ -20,7 +21,6 @@ function HomepageMindBlue() {
     this.cardImages = ".card-content .image-wrapper .image";
     this.searchInput = "input[name='q']";
     this.searchInputText = "Waar kunnen wij je mee helpen ?";
-
 }
 
 /**

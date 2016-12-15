@@ -1,89 +1,45 @@
 {
   "testCases" : [ {
-    "uid" : "96264b5cf9c35727",
+    "uid" : "52088db05717982e",
     "name" : "\"before all\" hook",
     "title" : "\"before all\" hook",
     "time" : {
-      "start" : 1481730597286,
-      "stop" : 1481730598501,
-      "duration" : 1215
+      "start" : 1481814897025,
+      "stop" : 1481814898200,
+      "duration" : 1175
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "cb3150f65c07857c",
-    "name" : "should resize the current viewport to width '500'",
-    "title" : "should resize the current viewport to width '500'",
+    "uid" : "2920f1fbc273f167",
+    "name" : "Title should be 'MINDblue'",
+    "title" : "Title should be 'MINDblue'",
     "time" : {
-      "start" : 1481730598502,
-      "stop" : 1481730598512,
-      "duration" : 10
+      "start" : 1481814898200,
+      "stop" : 1481814898260,
+      "duration" : 60
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "f8ce5aa955c065b1",
-    "name" : "should resize the current viewport to width '500'",
-    "title" : "should resize the current viewport to width '500'",
-    "time" : {
-      "start" : 1481730598513,
-      "stop" : 1481730598818,
-      "duration" : 305
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "fa424ae023390ce0",
-    "name" : "should save a screenshot of the browser view",
-    "title" : "should save a screenshot of the browser view",
-    "time" : {
-      "start" : 1481730598818,
-      "stop" : 1481730599498,
-      "duration" : 680
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "9c3d9a0ac6b0408e",
+    "uid" : "22bd1502c3430381",
     "name" : "\"before all\" hook",
     "title" : "\"before all\" hook",
     "time" : {
-      "start" : 1481730597953,
-      "stop" : 1481730599031,
-      "duration" : 1078
+      "start" : 1481814896263,
+      "stop" : 1481814897489,
+      "duration" : 1226
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "12592da6001cbd4b",
-    "name" : "should resize the current viewport to width '500'",
-    "title" : "should resize the current viewport to width '500'",
+    "uid" : "4fe23ba5eb45ddce",
+    "name" : "Title should be 'MINDblue'",
+    "title" : "Title should be 'MINDblue'",
     "time" : {
-      "start" : 1481730599031,
-      "stop" : 1481730599039,
-      "duration" : 8
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "b041d2742656501c",
-    "name" : "should resize the current viewport to width '500'",
-    "title" : "should resize the current viewport to width '500'",
-    "time" : {
-      "start" : 1481730599041,
-      "stop" : 1481730599203,
-      "duration" : 162
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "1448e22d64069582",
-    "name" : "should save a screenshot of the browser view",
-    "title" : "should save a screenshot of the browser view",
-    "time" : {
-      "start" : 1481730599204,
-      "stop" : 1481730599578,
-      "duration" : 374
+      "start" : 1481814897489,
+      "stop" : 1481814897509,
+      "duration" : 20
     },
     "severity" : "NORMAL",
     "status" : "PASSED"

@@ -1,0 +1,139 @@
+{
+  "uid" : "794c47520c698252",
+  "name" : "should save a screenshot of the browser view as regression image",
+  "title" : "should save a screenshot of the browser view as regression image",
+  "time" : {
+    "start" : 1481809269929,
+    "stop" : 1481809270402,
+    "duration" : 473
+  },
+  "summary" : {
+    "attachments" : 6,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1364413b55f37b45",
+    "name" : "screenshot compare Take screenshot",
+    "title" : "screenshot compare Take screenshot"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/6a62f28c-c702-4e3f-84f6-a1e3266c7ce3/elements",
+    "title" : "POST /wd/hub/session/6a62f28c-c702-4e3f-84f6-a1e3266c7ce3/elements",
+    "time" : {
+      "start" : 1481809269930,
+      "stop" : 1481809269931,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "57787003-5857-4fa0-8b84-4a1efe905b41-attachment.json",
+      "type" : "application/json",
+      "size" : 63,
+      "uid" : "11cc8e366fd816fe"
+    }, {
+      "title" : "Response",
+      "source" : "eebd8f2f-2f91-4d7f-aa7a-e3b011293d43-attachment.json",
+      "type" : "application/json",
+      "size" : 244,
+      "uid" : "4445f24c206eb63"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/6a62f28c-c702-4e3f-84f6-a1e3266c7ce3/element/0/clear",
+    "title" : "POST /wd/hub/session/6a62f28c-c702-4e3f-84f6-a1e3266c7ce3/element/0/clear",
+    "time" : {
+      "start" : 1481809269932,
+      "stop" : 1481809269948,
+      "duration" : 16
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "3389b5c1-682a-44d4-bdab-9d7afa4133c1-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "1ffd38bcbc0835bb"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/6a62f28c-c702-4e3f-84f6-a1e3266c7ce3/element/0/value",
+    "title" : "POST /wd/hub/session/6a62f28c-c702-4e3f-84f6-a1e3266c7ce3/element/0/value",
+    "time" : {
+      "start" : 1481809269949,
+      "stop" : 1481809270043,
+      "duration" : 94
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "58cbf340-3523-41d7-8c86-178a33ee013c-attachment.json",
+      "type" : "application/json",
+      "size" : 244,
+      "uid" : "ee789622da6789e1"
+    }, {
+      "title" : "Response",
+      "source" : "4f856fba-e148-4b8b-8ede-6773434989bc-attachment.json",
+      "type" : "application/json",
+      "size" : 195,
+      "uid" : "3267def8db4b94de"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/6a62f28c-c702-4e3f-84f6-a1e3266c7ce3/screenshot",
+    "title" : "GET /wd/hub/session/6a62f28c-c702-4e3f-84f6-a1e3266c7ce3/screenshot",
+    "time" : {
+      "start" : 1481809270044,
+      "stop" : 1481809270357,
+      "duration" : 313
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "75990940-33c5-4ce9-950c-e36f5c8a2c44-attachment.png",
+      "type" : "image/png",
+      "size" : 413286,
+      "uid" : "c5919d0a8a17e1c0"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "screenshot compare Take screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "screenshot compare Take screenshot"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

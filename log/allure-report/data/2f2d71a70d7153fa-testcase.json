@@ -1,0 +1,43 @@
+{
+  "uid" : "2f2d71a70d7153fa",
+  "name" : "should make 'diff.png' in ./tests/screenshots/diff/",
+  "title" : "should make 'diff.png' in ./tests/screenshots/diff/",
+  "time" : {
+    "start" : 1481794068133,
+    "stop" : 1481794068420,
+    "duration" : 287
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "936d2909af74351c",
+    "name" : "screenshot compare Compare baseline image to regression image:",
+    "title" : "screenshot compare Compare baseline image to regression image:"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "screenshot compare Compare baseline image to regression image:"
+  }, {
+    "name" : "suite-title",
+    "value" : "screenshot compare Compare baseline image to regression image:"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

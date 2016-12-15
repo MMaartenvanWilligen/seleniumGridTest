@@ -27,6 +27,12 @@ var config = {
         baselineImage: "baseline",
         regressionImage: "regression",
         diffImage: "diff"
+    },
+
+    "pages": {
+        root: 'https://mindblue.nl',
+        homepage: 'https://mindblue.nl',
+        ervaringDonatie: 'https://mindblue.nl/ervaringsverhaal/donatie/nieuw'
     }
 };
 

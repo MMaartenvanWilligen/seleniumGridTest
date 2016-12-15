@@ -1,0 +1,62 @@
+{
+  "uid" : "9d56ba2a0951fdb9",
+  "name" : "\"before all\" hook",
+  "title" : "\"before all\" hook",
+  "time" : {
+    "start" : 1481794056962,
+    "stop" : 1481794058286,
+    "duration" : 1324
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "16009fa00b953e5",
+    "name" : "title test",
+    "title" : "title test"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/e82b753b-80bf-4a38-8f0d-3dcf32ba9fe8/url",
+    "title" : "POST /wd/hub/session/e82b753b-80bf-4a38-8f0d-3dcf32ba9fe8/url",
+    "time" : {
+      "start" : 1481794056965,
+      "stop" : 1481794058286,
+      "duration" : 1321
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "1061dbff-3bec-42b5-b413-8d8916d2ff79-attachment.json",
+      "type" : "application/json",
+      "size" : 37,
+      "uid" : "f914cf66286dd882"
+    }, {
+      "title" : "Response",
+      "source" : "1f0446ae-3976-4c71-a51f-b0e4906dcd7a-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "e1756f87a44ab693"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "title test"
+  }, {
+    "name" : "suite-title",
+    "value" : "title test"
+  } ],
+  "parameters" : [ ]
+}

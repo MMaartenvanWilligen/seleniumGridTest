@@ -1,0 +1,62 @@
+{
+  "uid" : "6aae83420381207f",
+  "name" : "\"before all\" hook",
+  "title" : "\"before all\" hook",
+  "time" : {
+    "start" : 1481732306751,
+    "stop" : 1481732307876,
+    "duration" : 1125
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5740b02cddaac3ae",
+    "name" : "screenshot compare",
+    "title" : "screenshot compare"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/10efe66f-b03b-4358-a229-68b7043076d0/url",
+    "title" : "POST /wd/hub/session/10efe66f-b03b-4358-a229-68b7043076d0/url",
+    "time" : {
+      "start" : 1481732306755,
+      "stop" : 1481732307876,
+      "duration" : 1121
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "88f11491-b728-4beb-a91a-5c233e333c81-attachment.json",
+      "type" : "application/json",
+      "size" : 37,
+      "uid" : "f9add43b81a7a440"
+    }, {
+      "title" : "Response",
+      "source" : "e2323c9a-e172-4315-be48-a65d50087e83-attachment.json",
+      "type" : "application/json",
+      "size" : 195,
+      "uid" : "818569a022a45b10"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "screenshot compare"
+  }, {
+    "name" : "suite-title",
+    "value" : "screenshot compare"
+  } ],
+  "parameters" : [ ]
+}

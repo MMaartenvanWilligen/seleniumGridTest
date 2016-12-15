@@ -1,0 +1,238 @@
+{
+  "uid" : "6e8be7f28185330a",
+  "name" : "array of role attributes should be iterable",
+  "title" : "array of role attributes should be iterable",
+  "time" : {
+    "start" : 1481732331667,
+    "stop" : 1481732331828,
+    "duration" : 161
+  },
+  "summary" : {
+    "attachments" : 10,
+    "steps" : 9
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ae6d5c90b782ea4b",
+    "name" : "homepage card images",
+    "title" : "homepage card images"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/elements",
+    "title" : "POST /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/elements",
+    "time" : {
+      "start" : 1481732331671,
+      "stop" : 1481732331700,
+      "duration" : 29
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "2ab02985-49f6-458a-ad96-8c78f2b67b66-attachment.json",
+      "type" : "application/json",
+      "size" : 83,
+      "uid" : "838d91199e316cb5"
+    }, {
+      "title" : "Response",
+      "source" : "b3ddb33f-60aa-4057-9134-dcb60088c71f-attachment.json",
+      "type" : "application/json",
+      "size" : 582,
+      "uid" : "a7cde17159d8d904"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/0/attribute/role",
+    "title" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/0/attribute/role",
+    "time" : {
+      "start" : 1481732331705,
+      "stop" : 1481732331824,
+      "duration" : 119
+    },
+    "summary" : {
+      "attachments" : 8,
+      "steps" : 7
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "28feba98-555b-40fb-9b42-8e99558fa8ae-attachment.json",
+      "type" : "application/json",
+      "size" : 195,
+      "uid" : "a4376f59c0b05978"
+    } ],
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/1/attribute/role",
+      "title" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/1/attribute/role",
+      "time" : {
+        "start" : 1481732331706,
+        "stop" : 1481732331813,
+        "duration" : 107
+      },
+      "summary" : {
+        "attachments" : 7,
+        "steps" : 6
+      },
+      "status" : "PASSED",
+      "attachments" : [ {
+        "title" : "Response",
+        "source" : "4555d039-7c97-468b-a782-d1a6aef1adfa-attachment.json",
+        "type" : "application/json",
+        "size" : 196,
+        "uid" : "9a2cf286fa601ec"
+      } ],
+      "steps" : [ {
+        "name" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/2/attribute/role",
+        "title" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/2/attribute/role",
+        "time" : {
+          "start" : 1481732331707,
+          "stop" : 1481732331804,
+          "duration" : 97
+        },
+        "summary" : {
+          "attachments" : 6,
+          "steps" : 5
+        },
+        "status" : "PASSED",
+        "attachments" : [ {
+          "title" : "Response",
+          "source" : "95d3b8a4-b640-46b4-a7ab-af3a4a76b8bf-attachment.json",
+          "type" : "application/json",
+          "size" : 195,
+          "uid" : "886476369cdc74d2"
+        } ],
+        "steps" : [ {
+          "name" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/3/attribute/role",
+          "title" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/3/attribute/role",
+          "time" : {
+            "start" : 1481732331708,
+            "stop" : 1481732331789,
+            "duration" : 81
+          },
+          "summary" : {
+            "attachments" : 5,
+            "steps" : 4
+          },
+          "status" : "PASSED",
+          "attachments" : [ {
+            "title" : "Response",
+            "source" : "5a89d97e-cc4e-411a-98c9-ba90d485b7fc-attachment.json",
+            "type" : "application/json",
+            "size" : 196,
+            "uid" : "66138f914f511863"
+          } ],
+          "steps" : [ {
+            "name" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/4/attribute/role",
+            "title" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/4/attribute/role",
+            "time" : {
+              "start" : 1481732331709,
+              "stop" : 1481732331778,
+              "duration" : 69
+            },
+            "summary" : {
+              "attachments" : 4,
+              "steps" : 3
+            },
+            "status" : "PASSED",
+            "attachments" : [ {
+              "title" : "Response",
+              "source" : "36354c80-6d67-46a8-ba75-da2cd0f8eb4f-attachment.json",
+              "type" : "application/json",
+              "size" : 195,
+              "uid" : "3c45e4830be25b0a"
+            } ],
+            "steps" : [ {
+              "name" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/5/attribute/role",
+              "title" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/5/attribute/role",
+              "time" : {
+                "start" : 1481732331713,
+                "stop" : 1481732331764,
+                "duration" : 51
+              },
+              "summary" : {
+                "attachments" : 3,
+                "steps" : 2
+              },
+              "status" : "PASSED",
+              "attachments" : [ {
+                "title" : "Response",
+                "source" : "d7f4adfd-a670-493f-99cf-ee7cb74fabbd-attachment.json",
+                "type" : "application/json",
+                "size" : 196,
+                "uid" : "3e43ef42d9b592a1"
+              } ],
+              "steps" : [ {
+                "name" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/6/attribute/role",
+                "title" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/6/attribute/role",
+                "time" : {
+                  "start" : 1481732331714,
+                  "stop" : 1481732331752,
+                  "duration" : 38
+                },
+                "summary" : {
+                  "attachments" : 2,
+                  "steps" : 1
+                },
+                "status" : "PASSED",
+                "attachments" : [ {
+                  "title" : "Response",
+                  "source" : "3d0a1e45-c391-4e52-92ab-c9877aadc669-attachment.json",
+                  "type" : "application/json",
+                  "size" : 195,
+                  "uid" : "844b7d198b5bca80"
+                } ],
+                "steps" : [ {
+                  "name" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/7/attribute/role",
+                  "title" : "GET /wd/hub/session/b0a96789-e838-4dcd-a7a9-d67f5d6b786c/element/7/attribute/role",
+                  "time" : {
+                    "start" : 1481732331714,
+                    "stop" : 1481732331743,
+                    "duration" : 29
+                  },
+                  "summary" : {
+                    "attachments" : 1,
+                    "steps" : 0
+                  },
+                  "status" : "PASSED",
+                  "attachments" : [ {
+                    "title" : "Response",
+                    "source" : "b37d0d82-cdbc-4000-b576-4b24615f9e40-attachment.json",
+                    "type" : "application/json",
+                    "size" : 196,
+                    "uid" : "37bd9ec63d7a7001"
+                  } ],
+                  "steps" : [ ]
+                } ]
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "homepage card images"
+  }, {
+    "name" : "suite-title",
+    "value" : "homepage card images"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/image-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

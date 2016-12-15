@@ -23,7 +23,7 @@
   "scripts": {
     "clean": "rm -rf ./log/allure-results",
     "pretest": "npm run clean",
-    "test": "./node_modules/.bin/wdio wdio.local.conf.js",
+    "test": "./node_modules/.bin/wdio wdio.local.conf.js --suite screenshot",
     "report": "allure generate ./log/allure-results -o ./log/allure-report && allure report open -o ./log/allure-report"
   },
   "devDependencies": {

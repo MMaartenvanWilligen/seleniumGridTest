@@ -1,0 +1,43 @@
+{
+  "uid" : "ed86559308a7926f",
+  "name" : "expect data of comparison not to be empty",
+  "title" : "expect data of comparison not to be empty",
+  "time" : {
+    "start" : 1481809270783,
+    "stop" : 1481809270784,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "151fa5a9722d381d",
+    "name" : "screenshot compare Compare baseline image to regression image:",
+    "title" : "screenshot compare Compare baseline image to regression image:"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "screenshot compare Compare baseline image to regression image:"
+  }, {
+    "name" : "suite-title",
+    "value" : "screenshot compare Compare baseline image to regression image:"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

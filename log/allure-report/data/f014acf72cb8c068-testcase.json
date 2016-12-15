@@ -1,0 +1,43 @@
+{
+  "uid" : "f014acf72cb8c068",
+  "name" : "href should have length above 11",
+  "title" : "href should have length above 11",
+  "time" : {
+    "start" : 1481732328275,
+    "stop" : 1481732328276,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "64ea2f88d67f9325",
+    "name" : "attribute",
+    "title" : "attribute"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "attribute"
+  }, {
+    "name" : "suite-title",
+    "value" : "attribute"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/link-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

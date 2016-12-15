@@ -1,0 +1,1183 @@
+{
+  "uid" : "8fa973aa4ad495f0",
+  "name" : "array of href attributes should be iterable",
+  "title" : "array of href attributes should be iterable",
+  "time" : {
+    "start" : 1481732329533,
+    "stop" : 1481732330299,
+    "duration" : 766
+  },
+  "summary" : {
+    "attachments" : 55,
+    "steps" : 54
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d7bce40193ab21e7",
+    "name" : "links",
+    "title" : "links"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/elements",
+    "title" : "POST /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/elements",
+    "time" : {
+      "start" : 1481732329538,
+      "stop" : 1481732329566,
+      "duration" : 28
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "279a14d5-59e3-41c4-88ae-25de6807197c-attachment.json",
+      "type" : "application/json",
+      "size" : 49,
+      "uid" : "1281b7359a6a2b33"
+    }, {
+      "title" : "Response",
+      "source" : "ec3ff27a-cc9d-424c-8e1e-733f4025dd58-attachment.json",
+      "type" : "application/json",
+      "size" : 2785,
+      "uid" : "2fb35e168fe7c6aa"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/0/attribute/href",
+    "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/0/attribute/href",
+    "time" : {
+      "start" : 1481732329594,
+      "stop" : 1481732330290,
+      "duration" : 696
+    },
+    "summary" : {
+      "attachments" : 53,
+      "steps" : 52
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "a32d1406-a435-4e67-ba1e-eb7dc2303268-attachment.json",
+      "type" : "application/json",
+      "size" : 229,
+      "uid" : "e85b58d9e30c50c4"
+    } ],
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/1/attribute/href",
+      "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/1/attribute/href",
+      "time" : {
+        "start" : 1481732329595,
+        "stop" : 1481732330280,
+        "duration" : 685
+      },
+      "summary" : {
+        "attachments" : 52,
+        "steps" : 51
+      },
+      "status" : "PASSED",
+      "attachments" : [ {
+        "title" : "Response",
+        "source" : "c47bacfc-24d7-4cfd-b41e-dccdddba7d2b-attachment.json",
+        "type" : "application/json",
+        "size" : 250,
+        "uid" : "7df6854a58f1eb69"
+      } ],
+      "steps" : [ {
+        "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/2/attribute/href",
+        "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/2/attribute/href",
+        "time" : {
+          "start" : 1481732329596,
+          "stop" : 1481732330270,
+          "duration" : 674
+        },
+        "summary" : {
+          "attachments" : 51,
+          "steps" : 50
+        },
+        "status" : "PASSED",
+        "attachments" : [ {
+          "title" : "Response",
+          "source" : "605ddecc-4cee-4439-abdb-bd16f39f272e-attachment.json",
+          "type" : "application/json",
+          "size" : 240,
+          "uid" : "f189644cd3768bc7"
+        } ],
+        "steps" : [ {
+          "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/3/attribute/href",
+          "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/3/attribute/href",
+          "time" : {
+            "start" : 1481732329597,
+            "stop" : 1481732330260,
+            "duration" : 663
+          },
+          "summary" : {
+            "attachments" : 50,
+            "steps" : 49
+          },
+          "status" : "PASSED",
+          "attachments" : [ {
+            "title" : "Response",
+            "source" : "25b927e2-52e2-4b93-86ae-46a6117d08a5-attachment.json",
+            "type" : "application/json",
+            "size" : 226,
+            "uid" : "15bbd70c7eb54ffe"
+          } ],
+          "steps" : [ {
+            "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/4/attribute/href",
+            "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/4/attribute/href",
+            "time" : {
+              "start" : 1481732329598,
+              "stop" : 1481732330248,
+              "duration" : 650
+            },
+            "summary" : {
+              "attachments" : 49,
+              "steps" : 48
+            },
+            "status" : "PASSED",
+            "attachments" : [ {
+              "title" : "Response",
+              "source" : "36113b63-86e6-4981-abb8-e433879cf3a2-attachment.json",
+              "type" : "application/json",
+              "size" : 224,
+              "uid" : "1e385de2c8c26438"
+            } ],
+            "steps" : [ {
+              "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/5/attribute/href",
+              "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/5/attribute/href",
+              "time" : {
+                "start" : 1481732329599,
+                "stop" : 1481732330237,
+                "duration" : 638
+              },
+              "summary" : {
+                "attachments" : 48,
+                "steps" : 47
+              },
+              "status" : "PASSED",
+              "attachments" : [ {
+                "title" : "Response",
+                "source" : "487640e9-bde1-40a6-870e-c77ab3869013-attachment.json",
+                "type" : "application/json",
+                "size" : 229,
+                "uid" : "fb034413f90dc87e"
+              } ],
+              "steps" : [ {
+                "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/6/attribute/href",
+                "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/6/attribute/href",
+                "time" : {
+                  "start" : 1481732329600,
+                  "stop" : 1481732330224,
+                  "duration" : 624
+                },
+                "summary" : {
+                  "attachments" : 47,
+                  "steps" : 46
+                },
+                "status" : "PASSED",
+                "attachments" : [ {
+                  "title" : "Response",
+                  "source" : "3fac32dc-188b-42b8-a6e4-ade207d20949-attachment.json",
+                  "type" : "application/json",
+                  "size" : 232,
+                  "uid" : "b7ecac4bf1f8b6ce"
+                } ],
+                "steps" : [ {
+                  "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/7/attribute/href",
+                  "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/7/attribute/href",
+                  "time" : {
+                    "start" : 1481732329600,
+                    "stop" : 1481732330212,
+                    "duration" : 612
+                  },
+                  "summary" : {
+                    "attachments" : 46,
+                    "steps" : 45
+                  },
+                  "status" : "PASSED",
+                  "attachments" : [ {
+                    "title" : "Response",
+                    "source" : "f9023df3-846b-4a25-88dc-87eb960fdf9c-attachment.json",
+                    "type" : "application/json",
+                    "size" : 232,
+                    "uid" : "a34bfed2c559848e"
+                  } ],
+                  "steps" : [ {
+                    "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/8/attribute/href",
+                    "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/8/attribute/href",
+                    "time" : {
+                      "start" : 1481732329600,
+                      "stop" : 1481732330203,
+                      "duration" : 603
+                    },
+                    "summary" : {
+                      "attachments" : 45,
+                      "steps" : 44
+                    },
+                    "status" : "PASSED",
+                    "attachments" : [ {
+                      "title" : "Response",
+                      "source" : "d5a05c38-d139-4ffc-b537-d9c33d4e4f98-attachment.json",
+                      "type" : "application/json",
+                      "size" : 220,
+                      "uid" : "3d76c18d3b6aa7b5"
+                    } ],
+                    "steps" : [ {
+                      "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/9/attribute/href",
+                      "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/9/attribute/href",
+                      "time" : {
+                        "start" : 1481732329601,
+                        "stop" : 1481732330188,
+                        "duration" : 587
+                      },
+                      "summary" : {
+                        "attachments" : 44,
+                        "steps" : 43
+                      },
+                      "status" : "PASSED",
+                      "attachments" : [ {
+                        "title" : "Response",
+                        "source" : "7f293ca4-0a4d-4a87-92ff-5076fd63ba74-attachment.json",
+                        "type" : "application/json",
+                        "size" : 229,
+                        "uid" : "f3dd6f03e6d0ab42"
+                      } ],
+                      "steps" : [ {
+                        "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/10/attribute/href",
+                        "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/10/attribute/href",
+                        "time" : {
+                          "start" : 1481732329604,
+                          "stop" : 1481732330178,
+                          "duration" : 574
+                        },
+                        "summary" : {
+                          "attachments" : 43,
+                          "steps" : 42
+                        },
+                        "status" : "PASSED",
+                        "attachments" : [ {
+                          "title" : "Response",
+                          "source" : "829915d0-3ac0-46f7-b534-dc1dc25e6f94-attachment.json",
+                          "type" : "application/json",
+                          "size" : 246,
+                          "uid" : "43ed058b3c4a4034"
+                        } ],
+                        "steps" : [ {
+                          "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/11/attribute/href",
+                          "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/11/attribute/href",
+                          "time" : {
+                            "start" : 1481732329605,
+                            "stop" : 1481732330167,
+                            "duration" : 562
+                          },
+                          "summary" : {
+                            "attachments" : 42,
+                            "steps" : 41
+                          },
+                          "status" : "PASSED",
+                          "attachments" : [ {
+                            "title" : "Response",
+                            "source" : "35a7eaee-d0d2-4aba-b04d-89a6dae17bb8-attachment.json",
+                            "type" : "application/json",
+                            "size" : 235,
+                            "uid" : "8e0798dbb6337cd9"
+                          } ],
+                          "steps" : [ {
+                            "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/12/attribute/href",
+                            "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/12/attribute/href",
+                            "time" : {
+                              "start" : 1481732329605,
+                              "stop" : 1481732330157,
+                              "duration" : 552
+                            },
+                            "summary" : {
+                              "attachments" : 41,
+                              "steps" : 40
+                            },
+                            "status" : "PASSED",
+                            "attachments" : [ {
+                              "title" : "Response",
+                              "source" : "c79c627d-2aee-49c1-bb30-115aadb4aae2-attachment.json",
+                              "type" : "application/json",
+                              "size" : 228,
+                              "uid" : "991cd43e825b46b"
+                            } ],
+                            "steps" : [ {
+                              "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/13/attribute/href",
+                              "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/13/attribute/href",
+                              "time" : {
+                                "start" : 1481732329605,
+                                "stop" : 1481732330149,
+                                "duration" : 544
+                              },
+                              "summary" : {
+                                "attachments" : 40,
+                                "steps" : 39
+                              },
+                              "status" : "PASSED",
+                              "attachments" : [ {
+                                "title" : "Response",
+                                "source" : "a0c07307-bd1a-4021-b1d5-39306167fe21-attachment.json",
+                                "type" : "application/json",
+                                "size" : 214,
+                                "uid" : "dc337c7ed0dadda9"
+                              } ],
+                              "steps" : [ {
+                                "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/14/attribute/href",
+                                "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/14/attribute/href",
+                                "time" : {
+                                  "start" : 1481732329606,
+                                  "stop" : 1481732330137,
+                                  "duration" : 531
+                                },
+                                "summary" : {
+                                  "attachments" : 39,
+                                  "steps" : 38
+                                },
+                                "status" : "PASSED",
+                                "attachments" : [ {
+                                  "title" : "Response",
+                                  "source" : "dec7b1c3-0c13-4471-90b1-2493ee77ef82-attachment.json",
+                                  "type" : "application/json",
+                                  "size" : 219,
+                                  "uid" : "c4a98bfd78e7d38f"
+                                } ],
+                                "steps" : [ {
+                                  "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/15/attribute/href",
+                                  "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/15/attribute/href",
+                                  "time" : {
+                                    "start" : 1481732329606,
+                                    "stop" : 1481732330128,
+                                    "duration" : 522
+                                  },
+                                  "summary" : {
+                                    "attachments" : 38,
+                                    "steps" : 37
+                                  },
+                                  "status" : "PASSED",
+                                  "attachments" : [ {
+                                    "title" : "Response",
+                                    "source" : "04485217-0b16-4e75-9616-81b62f163f43-attachment.json",
+                                    "type" : "application/json",
+                                    "size" : 220,
+                                    "uid" : "bfc6543859c58467"
+                                  } ],
+                                  "steps" : [ {
+                                    "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/16/attribute/href",
+                                    "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/16/attribute/href",
+                                    "time" : {
+                                      "start" : 1481732329606,
+                                      "stop" : 1481732330117,
+                                      "duration" : 511
+                                    },
+                                    "summary" : {
+                                      "attachments" : 37,
+                                      "steps" : 36
+                                    },
+                                    "status" : "PASSED",
+                                    "attachments" : [ {
+                                      "title" : "Response",
+                                      "source" : "bd24e708-b9f8-47dc-99d0-bc50c549c7cd-attachment.json",
+                                      "type" : "application/json",
+                                      "size" : 235,
+                                      "uid" : "ef2aab8b277c24dc"
+                                    } ],
+                                    "steps" : [ {
+                                      "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/17/attribute/href",
+                                      "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/17/attribute/href",
+                                      "time" : {
+                                        "start" : 1481732329606,
+                                        "stop" : 1481732330107,
+                                        "duration" : 501
+                                      },
+                                      "summary" : {
+                                        "attachments" : 36,
+                                        "steps" : 35
+                                      },
+                                      "status" : "PASSED",
+                                      "attachments" : [ {
+                                        "title" : "Response",
+                                        "source" : "28e875f8-e42a-46bc-a29b-7df742e4596b-attachment.json",
+                                        "type" : "application/json",
+                                        "size" : 214,
+                                        "uid" : "c8f8b67bfd4cec09"
+                                      } ],
+                                      "steps" : [ {
+                                        "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/18/attribute/href",
+                                        "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/18/attribute/href",
+                                        "time" : {
+                                          "start" : 1481732329607,
+                                          "stop" : 1481732330098,
+                                          "duration" : 491
+                                        },
+                                        "summary" : {
+                                          "attachments" : 35,
+                                          "steps" : 34
+                                        },
+                                        "status" : "PASSED",
+                                        "attachments" : [ {
+                                          "title" : "Response",
+                                          "source" : "c8231bff-292e-496e-a6e7-024cb597d3f6-attachment.json",
+                                          "type" : "application/json",
+                                          "size" : 243,
+                                          "uid" : "54789cdc5f530bf8"
+                                        } ],
+                                        "steps" : [ {
+                                          "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/19/attribute/href",
+                                          "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/19/attribute/href",
+                                          "time" : {
+                                            "start" : 1481732329607,
+                                            "stop" : 1481732330087,
+                                            "duration" : 480
+                                          },
+                                          "summary" : {
+                                            "attachments" : 34,
+                                            "steps" : 33
+                                          },
+                                          "status" : "PASSED",
+                                          "attachments" : [ {
+                                            "title" : "Response",
+                                            "source" : "6d748e2f-b234-45fa-a2a1-fdcee9f6383e-attachment.json",
+                                            "type" : "application/json",
+                                            "size" : 231,
+                                            "uid" : "c0af0b4a3d2e2cfc"
+                                          } ],
+                                          "steps" : [ {
+                                            "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/20/attribute/href",
+                                            "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/20/attribute/href",
+                                            "time" : {
+                                              "start" : 1481732329607,
+                                              "stop" : 1481732330077,
+                                              "duration" : 470
+                                            },
+                                            "summary" : {
+                                              "attachments" : 33,
+                                              "steps" : 32
+                                            },
+                                            "status" : "PASSED",
+                                            "attachments" : [ {
+                                              "title" : "Response",
+                                              "source" : "48076837-20c1-4fe7-9223-00c457f845fa-attachment.json",
+                                              "type" : "application/json",
+                                              "size" : 217,
+                                              "uid" : "2958e90f0651fa9e"
+                                            } ],
+                                            "steps" : [ {
+                                              "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/21/attribute/href",
+                                              "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/21/attribute/href",
+                                              "time" : {
+                                                "start" : 1481732329607,
+                                                "stop" : 1481732330067,
+                                                "duration" : 460
+                                              },
+                                              "summary" : {
+                                                "attachments" : 32,
+                                                "steps" : 31
+                                              },
+                                              "status" : "PASSED",
+                                              "attachments" : [ {
+                                                "title" : "Response",
+                                                "source" : "c598d186-55a3-4ff6-ac2c-5e1b3b474ee4-attachment.json",
+                                                "type" : "application/json",
+                                                "size" : 227,
+                                                "uid" : "68f1465f9f6453d5"
+                                              } ],
+                                              "steps" : [ {
+                                                "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/22/attribute/href",
+                                                "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/22/attribute/href",
+                                                "time" : {
+                                                  "start" : 1481732329607,
+                                                  "stop" : 1481732330058,
+                                                  "duration" : 451
+                                                },
+                                                "summary" : {
+                                                  "attachments" : 31,
+                                                  "steps" : 30
+                                                },
+                                                "status" : "PASSED",
+                                                "attachments" : [ {
+                                                  "title" : "Response",
+                                                  "source" : "91fdf8b9-f99f-458f-a6aa-65550d0d24ca-attachment.json",
+                                                  "type" : "application/json",
+                                                  "size" : 219,
+                                                  "uid" : "245a171f4d72beaf"
+                                                } ],
+                                                "steps" : [ {
+                                                  "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/23/attribute/href",
+                                                  "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/23/attribute/href",
+                                                  "time" : {
+                                                    "start" : 1481732329608,
+                                                    "stop" : 1481732330048,
+                                                    "duration" : 440
+                                                  },
+                                                  "summary" : {
+                                                    "attachments" : 30,
+                                                    "steps" : 29
+                                                  },
+                                                  "status" : "PASSED",
+                                                  "attachments" : [ {
+                                                    "title" : "Response",
+                                                    "source" : "1bbee034-17e0-4d79-b48e-1779f8376ce4-attachment.json",
+                                                    "type" : "application/json",
+                                                    "size" : 272,
+                                                    "uid" : "75b5282380d71d1c"
+                                                  } ],
+                                                  "steps" : [ {
+                                                    "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/24/attribute/href",
+                                                    "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/24/attribute/href",
+                                                    "time" : {
+                                                      "start" : 1481732329609,
+                                                      "stop" : 1481732330037,
+                                                      "duration" : 428
+                                                    },
+                                                    "summary" : {
+                                                      "attachments" : 29,
+                                                      "steps" : 28
+                                                    },
+                                                    "status" : "PASSED",
+                                                    "attachments" : [ {
+                                                      "title" : "Response",
+                                                      "source" : "a304bea0-f7ca-4193-9874-d81ca76f96a2-attachment.json",
+                                                      "type" : "application/json",
+                                                      "size" : 250,
+                                                      "uid" : "6dee4ae80c7b43d0"
+                                                    } ],
+                                                    "steps" : [ {
+                                                      "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/25/attribute/href",
+                                                      "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/25/attribute/href",
+                                                      "time" : {
+                                                        "start" : 1481732329609,
+                                                        "stop" : 1481732330027,
+                                                        "duration" : 418
+                                                      },
+                                                      "summary" : {
+                                                        "attachments" : 28,
+                                                        "steps" : 27
+                                                      },
+                                                      "status" : "PASSED",
+                                                      "attachments" : [ {
+                                                        "title" : "Response",
+                                                        "source" : "a6749dae-a4a9-43d1-b680-53e0a171a013-attachment.json",
+                                                        "type" : "application/json",
+                                                        "size" : 269,
+                                                        "uid" : "b8c0c3420e2d9ec5"
+                                                      } ],
+                                                      "steps" : [ {
+                                                        "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/26/attribute/href",
+                                                        "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/26/attribute/href",
+                                                        "time" : {
+                                                          "start" : 1481732329610,
+                                                          "stop" : 1481732330017,
+                                                          "duration" : 407
+                                                        },
+                                                        "summary" : {
+                                                          "attachments" : 27,
+                                                          "steps" : 26
+                                                        },
+                                                        "status" : "PASSED",
+                                                        "attachments" : [ {
+                                                          "title" : "Response",
+                                                          "source" : "f2b3ad3d-4831-4cc0-bac9-dc17e612fb18-attachment.json",
+                                                          "type" : "application/json",
+                                                          "size" : 265,
+                                                          "uid" : "46b4f54a3e8810d1"
+                                                        } ],
+                                                        "steps" : [ {
+                                                          "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/27/attribute/href",
+                                                          "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/27/attribute/href",
+                                                          "time" : {
+                                                            "start" : 1481732329610,
+                                                            "stop" : 1481732330006,
+                                                            "duration" : 396
+                                                          },
+                                                          "summary" : {
+                                                            "attachments" : 26,
+                                                            "steps" : 25
+                                                          },
+                                                          "status" : "PASSED",
+                                                          "attachments" : [ {
+                                                            "title" : "Response",
+                                                            "source" : "b06cb4fe-aafe-4036-9eeb-d69d5f9e3843-attachment.json",
+                                                            "type" : "application/json",
+                                                            "size" : 234,
+                                                            "uid" : "7ca9364b32b994d8"
+                                                          } ],
+                                                          "steps" : [ {
+                                                            "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/28/attribute/href",
+                                                            "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/28/attribute/href",
+                                                            "time" : {
+                                                              "start" : 1481732329610,
+                                                              "stop" : 1481732329975,
+                                                              "duration" : 365
+                                                            },
+                                                            "summary" : {
+                                                              "attachments" : 25,
+                                                              "steps" : 24
+                                                            },
+                                                            "status" : "PASSED",
+                                                            "attachments" : [ {
+                                                              "title" : "Response",
+                                                              "source" : "bc987a3e-a4f4-4b40-ae59-63b8319d0589-attachment.json",
+                                                              "type" : "application/json",
+                                                              "size" : 260,
+                                                              "uid" : "1188cf13db54ca2f"
+                                                            } ],
+                                                            "steps" : [ {
+                                                              "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/29/attribute/href",
+                                                              "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/29/attribute/href",
+                                                              "time" : {
+                                                                "start" : 1481732329611,
+                                                                "stop" : 1481732329965,
+                                                                "duration" : 354
+                                                              },
+                                                              "summary" : {
+                                                                "attachments" : 24,
+                                                                "steps" : 23
+                                                              },
+                                                              "status" : "PASSED",
+                                                              "attachments" : [ {
+                                                                "title" : "Response",
+                                                                "source" : "592efe7f-aa3b-4ce8-8e42-829aedfd07ee-attachment.json",
+                                                                "type" : "application/json",
+                                                                "size" : 227,
+                                                                "uid" : "fc962b99142d366"
+                                                              } ],
+                                                              "steps" : [ {
+                                                                "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/30/attribute/href",
+                                                                "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/30/attribute/href",
+                                                                "time" : {
+                                                                  "start" : 1481732329611,
+                                                                  "stop" : 1481732329954,
+                                                                  "duration" : 343
+                                                                },
+                                                                "summary" : {
+                                                                  "attachments" : 23,
+                                                                  "steps" : 22
+                                                                },
+                                                                "status" : "PASSED",
+                                                                "attachments" : [ {
+                                                                  "title" : "Response",
+                                                                  "source" : "3204d4dd-2bd2-4936-b3c2-48e1be555f8a-attachment.json",
+                                                                  "type" : "application/json",
+                                                                  "size" : 282,
+                                                                  "uid" : "9a89bc81d7b571f6"
+                                                                } ],
+                                                                "steps" : [ {
+                                                                  "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/31/attribute/href",
+                                                                  "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/31/attribute/href",
+                                                                  "time" : {
+                                                                    "start" : 1481732329611,
+                                                                    "stop" : 1481732329943,
+                                                                    "duration" : 332
+                                                                  },
+                                                                  "summary" : {
+                                                                    "attachments" : 22,
+                                                                    "steps" : 21
+                                                                  },
+                                                                  "status" : "PASSED",
+                                                                  "attachments" : [ {
+                                                                    "title" : "Response",
+                                                                    "source" : "b653c870-625e-4610-88a2-8f3cdfa3fa6a-attachment.json",
+                                                                    "type" : "application/json",
+                                                                    "size" : 232,
+                                                                    "uid" : "26b85bad8172017c"
+                                                                  } ],
+                                                                  "steps" : [ {
+                                                                    "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/32/attribute/href",
+                                                                    "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/32/attribute/href",
+                                                                    "time" : {
+                                                                      "start" : 1481732329611,
+                                                                      "stop" : 1481732329933,
+                                                                      "duration" : 322
+                                                                    },
+                                                                    "summary" : {
+                                                                      "attachments" : 21,
+                                                                      "steps" : 20
+                                                                    },
+                                                                    "status" : "PASSED",
+                                                                    "attachments" : [ {
+                                                                      "title" : "Response",
+                                                                      "source" : "44d81664-5056-45ea-a267-2e9e7ce93cde-attachment.json",
+                                                                      "type" : "application/json",
+                                                                      "size" : 227,
+                                                                      "uid" : "d575afdab41a71e6"
+                                                                    } ],
+                                                                    "steps" : [ {
+                                                                      "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/33/attribute/href",
+                                                                      "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/33/attribute/href",
+                                                                      "time" : {
+                                                                        "start" : 1481732329611,
+                                                                        "stop" : 1481732329921,
+                                                                        "duration" : 310
+                                                                      },
+                                                                      "summary" : {
+                                                                        "attachments" : 20,
+                                                                        "steps" : 19
+                                                                      },
+                                                                      "status" : "PASSED",
+                                                                      "attachments" : [ {
+                                                                        "title" : "Response",
+                                                                        "source" : "cf181a80-e9e8-4eb3-8717-17427e67046a-attachment.json",
+                                                                        "type" : "application/json",
+                                                                        "size" : 242,
+                                                                        "uid" : "89ae2fedb98723a1"
+                                                                      } ],
+                                                                      "steps" : [ {
+                                                                        "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/34/attribute/href",
+                                                                        "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/34/attribute/href",
+                                                                        "time" : {
+                                                                          "start" : 1481732329612,
+                                                                          "stop" : 1481732329911,
+                                                                          "duration" : 299
+                                                                        },
+                                                                        "summary" : {
+                                                                          "attachments" : 19,
+                                                                          "steps" : 18
+                                                                        },
+                                                                        "status" : "PASSED",
+                                                                        "attachments" : [ {
+                                                                          "title" : "Response",
+                                                                          "source" : "ed4be200-2983-4667-8738-c9c640fc42cc-attachment.json",
+                                                                          "type" : "application/json",
+                                                                          "size" : 240,
+                                                                          "uid" : "6d3fe0c87521a07a"
+                                                                        } ],
+                                                                        "steps" : [ {
+                                                                          "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/35/attribute/href",
+                                                                          "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/35/attribute/href",
+                                                                          "time" : {
+                                                                            "start" : 1481732329612,
+                                                                            "stop" : 1481732329900,
+                                                                            "duration" : 288
+                                                                          },
+                                                                          "summary" : {
+                                                                            "attachments" : 18,
+                                                                            "steps" : 17
+                                                                          },
+                                                                          "status" : "PASSED",
+                                                                          "attachments" : [ {
+                                                                            "title" : "Response",
+                                                                            "source" : "631a9e38-e404-4174-9bee-ad735ee1ef30-attachment.json",
+                                                                            "type" : "application/json",
+                                                                            "size" : 242,
+                                                                            "uid" : "2d35ec2377694605"
+                                                                          } ],
+                                                                          "steps" : [ {
+                                                                            "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/36/attribute/href",
+                                                                            "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/36/attribute/href",
+                                                                            "time" : {
+                                                                              "start" : 1481732329613,
+                                                                              "stop" : 1481732329889,
+                                                                              "duration" : 276
+                                                                            },
+                                                                            "summary" : {
+                                                                              "attachments" : 17,
+                                                                              "steps" : 16
+                                                                            },
+                                                                            "status" : "PASSED",
+                                                                            "attachments" : [ {
+                                                                              "title" : "Response",
+                                                                              "source" : "8aeba8d8-7dbd-4119-8886-e61a0706b3cc-attachment.json",
+                                                                              "type" : "application/json",
+                                                                              "size" : 301,
+                                                                              "uid" : "37e36cddeaf2edb8"
+                                                                            } ],
+                                                                            "steps" : [ {
+                                                                              "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/37/attribute/href",
+                                                                              "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/37/attribute/href",
+                                                                              "time" : {
+                                                                                "start" : 1481732329613,
+                                                                                "stop" : 1481732329879,
+                                                                                "duration" : 266
+                                                                              },
+                                                                              "summary" : {
+                                                                                "attachments" : 16,
+                                                                                "steps" : 15
+                                                                              },
+                                                                              "status" : "PASSED",
+                                                                              "attachments" : [ {
+                                                                                "title" : "Response",
+                                                                                "source" : "fd24feac-c4ff-4a50-9b87-4cde85bb57fb-attachment.json",
+                                                                                "type" : "application/json",
+                                                                                "size" : 233,
+                                                                                "uid" : "8374509a4748eed6"
+                                                                              } ],
+                                                                              "steps" : [ {
+                                                                                "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/38/attribute/href",
+                                                                                "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/38/attribute/href",
+                                                                                "time" : {
+                                                                                  "start" : 1481732329613,
+                                                                                  "stop" : 1481732329865,
+                                                                                  "duration" : 252
+                                                                                },
+                                                                                "summary" : {
+                                                                                  "attachments" : 15,
+                                                                                  "steps" : 14
+                                                                                },
+                                                                                "status" : "PASSED",
+                                                                                "attachments" : [ {
+                                                                                  "title" : "Response",
+                                                                                  "source" : "7bdc0563-919c-4c37-becb-777f360b4ac0-attachment.json",
+                                                                                  "type" : "application/json",
+                                                                                  "size" : 301,
+                                                                                  "uid" : "8ab49ee9ae2eafa8"
+                                                                                } ],
+                                                                                "steps" : [ {
+                                                                                  "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/39/attribute/href",
+                                                                                  "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/39/attribute/href",
+                                                                                  "time" : {
+                                                                                    "start" : 1481732329614,
+                                                                                    "stop" : 1481732329854,
+                                                                                    "duration" : 240
+                                                                                  },
+                                                                                  "summary" : {
+                                                                                    "attachments" : 14,
+                                                                                    "steps" : 13
+                                                                                  },
+                                                                                  "status" : "PASSED",
+                                                                                  "attachments" : [ {
+                                                                                    "title" : "Response",
+                                                                                    "source" : "ea76ba57-6a08-4620-a426-4cb9ba261b3a-attachment.json",
+                                                                                    "type" : "application/json",
+                                                                                    "size" : 254,
+                                                                                    "uid" : "2db3683be1d244a0"
+                                                                                  } ],
+                                                                                  "steps" : [ {
+                                                                                    "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/40/attribute/href",
+                                                                                    "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/40/attribute/href",
+                                                                                    "time" : {
+                                                                                      "start" : 1481732329614,
+                                                                                      "stop" : 1481732329843,
+                                                                                      "duration" : 229
+                                                                                    },
+                                                                                    "summary" : {
+                                                                                      "attachments" : 13,
+                                                                                      "steps" : 12
+                                                                                    },
+                                                                                    "status" : "PASSED",
+                                                                                    "attachments" : [ {
+                                                                                      "title" : "Response",
+                                                                                      "source" : "28f4d1c1-cec9-4a2d-a5f7-3affccf5505b-attachment.json",
+                                                                                      "type" : "application/json",
+                                                                                      "size" : 231,
+                                                                                      "uid" : "2bf3e0d02c4af649"
+                                                                                    } ],
+                                                                                    "steps" : [ {
+                                                                                      "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/41/attribute/href",
+                                                                                      "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/41/attribute/href",
+                                                                                      "time" : {
+                                                                                        "start" : 1481732329615,
+                                                                                        "stop" : 1481732329833,
+                                                                                        "duration" : 218
+                                                                                      },
+                                                                                      "summary" : {
+                                                                                        "attachments" : 12,
+                                                                                        "steps" : 11
+                                                                                      },
+                                                                                      "status" : "PASSED",
+                                                                                      "attachments" : [ {
+                                                                                        "title" : "Response",
+                                                                                        "source" : "f8dab0d7-de73-44a3-a4fc-3dfc39bb5c87-attachment.json",
+                                                                                        "type" : "application/json",
+                                                                                        "size" : 235,
+                                                                                        "uid" : "ed02c2f112576ce"
+                                                                                      } ],
+                                                                                      "steps" : [ {
+                                                                                        "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/42/attribute/href",
+                                                                                        "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/42/attribute/href",
+                                                                                        "time" : {
+                                                                                          "start" : 1481732329615,
+                                                                                          "stop" : 1481732329822,
+                                                                                          "duration" : 207
+                                                                                        },
+                                                                                        "summary" : {
+                                                                                          "attachments" : 11,
+                                                                                          "steps" : 10
+                                                                                        },
+                                                                                        "status" : "PASSED",
+                                                                                        "attachments" : [ {
+                                                                                          "title" : "Response",
+                                                                                          "source" : "bd1c5440-0aac-432f-a4f6-0bbf740303e0-attachment.json",
+                                                                                          "type" : "application/json",
+                                                                                          "size" : 246,
+                                                                                          "uid" : "8f188c1c2f8693b5"
+                                                                                        } ],
+                                                                                        "steps" : [ {
+                                                                                          "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/43/attribute/href",
+                                                                                          "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/43/attribute/href",
+                                                                                          "time" : {
+                                                                                            "start" : 1481732329615,
+                                                                                            "stop" : 1481732329808,
+                                                                                            "duration" : 193
+                                                                                          },
+                                                                                          "summary" : {
+                                                                                            "attachments" : 10,
+                                                                                            "steps" : 9
+                                                                                          },
+                                                                                          "status" : "PASSED",
+                                                                                          "attachments" : [ {
+                                                                                            "title" : "Response",
+                                                                                            "source" : "823af494-4049-4ec8-b75d-567241396bb7-attachment.json",
+                                                                                            "type" : "application/json",
+                                                                                            "size" : 221,
+                                                                                            "uid" : "f07a3be02f326861"
+                                                                                          } ],
+                                                                                          "steps" : [ {
+                                                                                            "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/44/attribute/href",
+                                                                                            "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/44/attribute/href",
+                                                                                            "time" : {
+                                                                                              "start" : 1481732329615,
+                                                                                              "stop" : 1481732329798,
+                                                                                              "duration" : 183
+                                                                                            },
+                                                                                            "summary" : {
+                                                                                              "attachments" : 9,
+                                                                                              "steps" : 8
+                                                                                            },
+                                                                                            "status" : "PASSED",
+                                                                                            "attachments" : [ {
+                                                                                              "title" : "Response",
+                                                                                              "source" : "29a2fdea-7e2b-40ee-a0c8-adafeffe4000-attachment.json",
+                                                                                              "type" : "application/json",
+                                                                                              "size" : 221,
+                                                                                              "uid" : "44a4304efabc2e8c"
+                                                                                            } ],
+                                                                                            "steps" : [ {
+                                                                                              "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/45/attribute/href",
+                                                                                              "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/45/attribute/href",
+                                                                                              "time" : {
+                                                                                                "start" : 1481732329615,
+                                                                                                "stop" : 1481732329784,
+                                                                                                "duration" : 169
+                                                                                              },
+                                                                                              "summary" : {
+                                                                                                "attachments" : 8,
+                                                                                                "steps" : 7
+                                                                                              },
+                                                                                              "status" : "PASSED",
+                                                                                              "attachments" : [ {
+                                                                                                "title" : "Response",
+                                                                                                "source" : "54544fa8-c170-483a-bc0e-11bb2611688c-attachment.json",
+                                                                                                "type" : "application/json",
+                                                                                                "size" : 244,
+                                                                                                "uid" : "97d971873db6f422"
+                                                                                              } ],
+                                                                                              "steps" : [ {
+                                                                                                "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/46/attribute/href",
+                                                                                                "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/46/attribute/href",
+                                                                                                "time" : {
+                                                                                                  "start" : 1481732329616,
+                                                                                                  "stop" : 1481732329770,
+                                                                                                  "duration" : 154
+                                                                                                },
+                                                                                                "summary" : {
+                                                                                                  "attachments" : 7,
+                                                                                                  "steps" : 6
+                                                                                                },
+                                                                                                "status" : "PASSED",
+                                                                                                "attachments" : [ {
+                                                                                                  "title" : "Response",
+                                                                                                  "source" : "0e2cfc5d-5f82-4f8a-b744-492d2be89068-attachment.json",
+                                                                                                  "type" : "application/json",
+                                                                                                  "size" : 194,
+                                                                                                  "uid" : "269adc7511bf67da"
+                                                                                                } ],
+                                                                                                "steps" : [ {
+                                                                                                  "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/47/attribute/href",
+                                                                                                  "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/47/attribute/href",
+                                                                                                  "time" : {
+                                                                                                    "start" : 1481732329616,
+                                                                                                    "stop" : 1481732329758,
+                                                                                                    "duration" : 142
+                                                                                                  },
+                                                                                                  "summary" : {
+                                                                                                    "attachments" : 6,
+                                                                                                    "steps" : 5
+                                                                                                  },
+                                                                                                  "status" : "PASSED",
+                                                                                                  "attachments" : [ {
+                                                                                                    "title" : "Response",
+                                                                                                    "source" : "4a74070b-9416-4184-8266-45eb3824d8d1-attachment.json",
+                                                                                                    "type" : "application/json",
+                                                                                                    "size" : 231,
+                                                                                                    "uid" : "f41c89af2b73eaae"
+                                                                                                  } ],
+                                                                                                  "steps" : [ {
+                                                                                                    "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/48/attribute/href",
+                                                                                                    "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/48/attribute/href",
+                                                                                                    "time" : {
+                                                                                                      "start" : 1481732329616,
+                                                                                                      "stop" : 1481732329745,
+                                                                                                      "duration" : 129
+                                                                                                    },
+                                                                                                    "summary" : {
+                                                                                                      "attachments" : 5,
+                                                                                                      "steps" : 4
+                                                                                                    },
+                                                                                                    "status" : "PASSED",
+                                                                                                    "attachments" : [ {
+                                                                                                      "title" : "Response",
+                                                                                                      "source" : "9c3bef26-8a6d-4df4-987f-28f7d696b212-attachment.json",
+                                                                                                      "type" : "application/json",
+                                                                                                      "size" : 231,
+                                                                                                      "uid" : "30755bc55b05b083"
+                                                                                                    } ],
+                                                                                                    "steps" : [ {
+                                                                                                      "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/49/attribute/href",
+                                                                                                      "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/49/attribute/href",
+                                                                                                      "time" : {
+                                                                                                        "start" : 1481732329616,
+                                                                                                        "stop" : 1481732329733,
+                                                                                                        "duration" : 117
+                                                                                                      },
+                                                                                                      "summary" : {
+                                                                                                        "attachments" : 4,
+                                                                                                        "steps" : 3
+                                                                                                      },
+                                                                                                      "status" : "PASSED",
+                                                                                                      "attachments" : [ {
+                                                                                                        "title" : "Response",
+                                                                                                        "source" : "fc87d67d-4345-4c34-9c44-077e366cc614-attachment.json",
+                                                                                                        "type" : "application/json",
+                                                                                                        "size" : 243,
+                                                                                                        "uid" : "16e27d5ae2d0ce17"
+                                                                                                      } ],
+                                                                                                      "steps" : [ {
+                                                                                                        "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/50/attribute/href",
+                                                                                                        "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/50/attribute/href",
+                                                                                                        "time" : {
+                                                                                                          "start" : 1481732329617,
+                                                                                                          "stop" : 1481732329720,
+                                                                                                          "duration" : 103
+                                                                                                        },
+                                                                                                        "summary" : {
+                                                                                                          "attachments" : 3,
+                                                                                                          "steps" : 2
+                                                                                                        },
+                                                                                                        "status" : "PASSED",
+                                                                                                        "attachments" : [ {
+                                                                                                          "title" : "Response",
+                                                                                                          "source" : "8a5a0323-1e36-4bb4-9324-ec74b39487de-attachment.json",
+                                                                                                          "type" : "application/json",
+                                                                                                          "size" : 224,
+                                                                                                          "uid" : "bf60d4fce7566e7"
+                                                                                                        } ],
+                                                                                                        "steps" : [ {
+                                                                                                          "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/51/attribute/href",
+                                                                                                          "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/51/attribute/href",
+                                                                                                          "time" : {
+                                                                                                            "start" : 1481732329617,
+                                                                                                            "stop" : 1481732329708,
+                                                                                                            "duration" : 91
+                                                                                                          },
+                                                                                                          "summary" : {
+                                                                                                            "attachments" : 2,
+                                                                                                            "steps" : 1
+                                                                                                          },
+                                                                                                          "status" : "PASSED",
+                                                                                                          "attachments" : [ {
+                                                                                                            "title" : "Response",
+                                                                                                            "source" : "6c543e09-f395-45e0-b016-86dc37471c24-attachment.json",
+                                                                                                            "type" : "application/json",
+                                                                                                            "size" : 214,
+                                                                                                            "uid" : "2f4513897e468271"
+                                                                                                          } ],
+                                                                                                          "steps" : [ {
+                                                                                                            "name" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/52/attribute/href",
+                                                                                                            "title" : "GET /wd/hub/session/77435491-3d5c-4a44-8891-0bab152abd51/element/52/attribute/href",
+                                                                                                            "time" : {
+                                                                                                              "start" : 1481732329618,
+                                                                                                              "stop" : 1481732329695,
+                                                                                                              "duration" : 77
+                                                                                                            },
+                                                                                                            "summary" : {
+                                                                                                              "attachments" : 1,
+                                                                                                              "steps" : 0
+                                                                                                            },
+                                                                                                            "status" : "PASSED",
+                                                                                                            "attachments" : [ {
+                                                                                                              "title" : "Response",
+                                                                                                              "source" : "960f7f2f-4234-442a-9e62-8c8908b78c22-attachment.json",
+                                                                                                              "type" : "application/json",
+                                                                                                              "size" : 224,
+                                                                                                              "uid" : "7506a01e4ddddc98"
+                                                                                                            } ],
+                                                                                                            "steps" : [ ]
+                                                                                                          } ]
+                                                                                                        } ]
+                                                                                                      } ]
+                                                                                                    } ]
+                                                                                                  } ]
+                                                                                                } ]
+                                                                                              } ]
+                                                                                            } ]
+                                                                                          } ]
+                                                                                        } ]
+                                                                                      } ]
+                                                                                    } ]
+                                                                                  } ]
+                                                                                } ]
+                                                                              } ]
+                                                                            } ]
+                                                                          } ]
+                                                                        } ]
+                                                                      } ]
+                                                                    } ]
+                                                                  } ]
+                                                                } ]
+                                                              } ]
+                                                            } ]
+                                                          } ]
+                                                        } ]
+                                                      } ]
+                                                    } ]
+                                                  } ]
+                                                } ]
+                                              } ]
+                                            } ]
+                                          } ]
+                                        } ]
+                                      } ]
+                                    } ]
+                                  } ]
+                                } ]
+                              } ]
+                            } ]
+                          } ]
+                        } ]
+                      } ]
+                    } ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "links"
+  }, {
+    "name" : "suite-title",
+    "value" : "links"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/link-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

@@ -1,0 +1,70 @@
+{
+  "uid" : "dc8b0ec38d506824",
+  "name" : "should save a screenshot of the browser view as baseline image",
+  "title" : "should save a screenshot of the browser view as baseline image",
+  "time" : {
+    "start" : 1481810629325,
+    "stop" : 1481810629593,
+    "duration" : 268
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3243222dbaf8f83f",
+    "name" : "screenshot compare Take screenshot",
+    "title" : "screenshot compare Take screenshot"
+  },
+  "steps" : [ {
+    "name" : "GET /wd/hub/session/5e4801f8-9d82-4a36-8f37-4208cfc8a3fa/screenshot",
+    "title" : "GET /wd/hub/session/5e4801f8-9d82-4a36-8f37-4208cfc8a3fa/screenshot",
+    "time" : {
+      "start" : 1481810629326,
+      "stop" : 1481810629562,
+      "duration" : 236
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "f453836b-f186-48ec-9de4-a69e5a4cfd5f-attachment.png",
+      "type" : "image/png",
+      "size" : 446075,
+      "uid" : "62e7850bff38af1b"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "screenshot ./tests/screenshots/baseline/firefox/browserView.png",
+    "source" : "b71c2b7a-ed82-44f3-b34e-805662111300-attachment.png",
+    "type" : "image/png",
+    "size" : 446075,
+    "uid" : "1b1b8a68d8aa2e64"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "screenshot compare Take screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "screenshot compare Take screenshot"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

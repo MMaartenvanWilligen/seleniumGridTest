@@ -1,0 +1,112 @@
+{
+  "uid" : "15c035730b4cb5d4",
+  "name" : "image should have alt attribute text 'MIND logo'",
+  "title" : "image should have alt attribute text 'MIND logo'",
+  "time" : {
+    "start" : 1481794061998,
+    "stop" : 1481794062048,
+    "duration" : 50
+  },
+  "summary" : {
+    "attachments" : 4,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "11dbf90dc1e40e00",
+    "name" : "Logo",
+    "title" : "Logo"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/3767c9e5-6a7d-4adf-a16a-77398bf0d7bc/elements",
+    "title" : "POST /wd/hub/session/3767c9e5-6a7d-4adf-a16a-77398bf0d7bc/elements",
+    "time" : {
+      "start" : 1481794061999,
+      "stop" : 1481794062023,
+      "duration" : 24
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "7046c2fa-1c07-46fb-a077-26f568aaba75-attachment.json",
+      "type" : "application/json",
+      "size" : 65,
+      "uid" : "26aba4c2e8c67ced"
+    }, {
+      "title" : "Response",
+      "source" : "c3ce4aaa-3b97-43f1-bcb1-8cee80d788a9-attachment.json",
+      "type" : "application/json",
+      "size" : 293,
+      "uid" : "59fa3741c4e7e02d"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/3767c9e5-6a7d-4adf-a16a-77398bf0d7bc/element/0/attribute/alt",
+    "title" : "GET /wd/hub/session/3767c9e5-6a7d-4adf-a16a-77398bf0d7bc/element/0/attribute/alt",
+    "time" : {
+      "start" : 1481794062024,
+      "stop" : 1481794062047,
+      "duration" : 23
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "b8fd1722-15cd-4941-a248-257cbd94d83a-attachment.json",
+      "type" : "application/json",
+      "size" : 203,
+      "uid" : "b9464d7fe1681f38"
+    } ],
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/3767c9e5-6a7d-4adf-a16a-77398bf0d7bc/element/1/attribute/alt",
+      "title" : "GET /wd/hub/session/3767c9e5-6a7d-4adf-a16a-77398bf0d7bc/element/1/attribute/alt",
+      "time" : {
+        "start" : 1481794062025,
+        "stop" : 1481794062041,
+        "duration" : 16
+      },
+      "summary" : {
+        "attachments" : 1,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ {
+        "title" : "Response",
+        "source" : "72edfeec-be1e-4af8-9e54-220c088d0cc4-attachment.json",
+        "type" : "application/json",
+        "size" : 202,
+        "uid" : "64bb0278fbf1b7ed"
+      } ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Logo"
+  }, {
+    "name" : "suite-title",
+    "value" : "Logo"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/logo-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

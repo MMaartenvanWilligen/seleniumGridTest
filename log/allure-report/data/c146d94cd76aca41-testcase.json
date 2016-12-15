@@ -1,0 +1,70 @@
+{
+  "uid" : "c146d94cd76aca41",
+  "name" : "should save a screenshot of the browser view as baseline image",
+  "title" : "should save a screenshot of the browser view as baseline image",
+  "time" : {
+    "start" : 1481810630282,
+    "stop" : 1481810630783,
+    "duration" : 501
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3243222dbaf8f83f",
+    "name" : "screenshot compare Take screenshot",
+    "title" : "screenshot compare Take screenshot"
+  },
+  "steps" : [ {
+    "name" : "GET /wd/hub/session/3a1fc371-8709-4c16-ab03-f95f85d71092/screenshot",
+    "title" : "GET /wd/hub/session/3a1fc371-8709-4c16-ab03-f95f85d71092/screenshot",
+    "time" : {
+      "start" : 1481810630285,
+      "stop" : 1481810630759,
+      "duration" : 474
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "3bc74b2e-ed3b-4f06-a78e-9f75fff0d675-attachment.png",
+      "type" : "image/png",
+      "size" : 430482,
+      "uid" : "cf070bdab8d61e1e"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "screenshot ./tests/screenshots/baseline/chrome/browserView.png",
+    "source" : "43bb7034-3161-4c97-9059-44a321131b2e-attachment.png",
+    "type" : "image/png",
+    "size" : 430482,
+    "uid" : "acc7bcdc432fa79c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "screenshot compare Take screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "screenshot compare Take screenshot"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

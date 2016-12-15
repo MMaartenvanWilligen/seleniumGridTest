@@ -1,0 +1,166 @@
+{
+  "uid" : "e993dfbf2a4f3018",
+  "name" : "should resize the current viewport to width '500'",
+  "title" : "should resize the current viewport to width '500'",
+  "time" : {
+    "start" : 1481805170868,
+    "stop" : 1481805170993,
+    "duration" : 125
+  },
+  "summary" : {
+    "attachments" : 8,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "493ec0c21bf85644",
+    "name" : "make screenshot",
+    "title" : "make screenshot"
+  },
+  "steps" : [ {
+    "name" : "GET /wd/hub/session/a2bccde9-e89d-47c6-ba20-4e6ac994245e/window/current/size",
+    "title" : "GET /wd/hub/session/a2bccde9-e89d-47c6-ba20-4e6ac994245e/window/current/size",
+    "time" : {
+      "start" : 1481805170891,
+      "stop" : 1481805170901,
+      "duration" : 10
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "16e9b6b8-2b03-4c7d-91f1-a31e918caf8e-attachment.json",
+      "type" : "application/json",
+      "size" : 314,
+      "uid" : "19529f66b66736ad"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/a2bccde9-e89d-47c6-ba20-4e6ac994245e/execute",
+    "title" : "POST /wd/hub/session/a2bccde9-e89d-47c6-ba20-4e6ac994245e/execute",
+    "time" : {
+      "start" : 1481805170902,
+      "stop" : 1481805170919,
+      "duration" : 17
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "28610435-de6a-4209-9135-72a27ba169ec-attachment.json",
+      "type" : "application/json",
+      "size" : 311,
+      "uid" : "b1bd54e4a98b817b"
+    }, {
+      "title" : "Response",
+      "source" : "c08111de-507a-4174-946c-5e1ab27868bb-attachment.json",
+      "type" : "application/json",
+      "size" : 255,
+      "uid" : "37717dc879d868c1"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/a2bccde9-e89d-47c6-ba20-4e6ac994245e/window/current/size",
+    "title" : "POST /wd/hub/session/a2bccde9-e89d-47c6-ba20-4e6ac994245e/window/current/size",
+    "time" : {
+      "start" : 1481805170919,
+      "stop" : 1481805170960,
+      "duration" : 41
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "c3772731-d64b-4102-91d7-2004013bd2b8-attachment.json",
+      "type" : "application/json",
+      "size" : 41,
+      "uid" : "f39f47dc86a9eaa0"
+    }, {
+      "title" : "Response",
+      "source" : "0045f543-8869-4ecf-9131-e1890223c90c-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "7f6dc6c9556e1eb1"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/a2bccde9-e89d-47c6-ba20-4e6ac994245e/execute",
+    "title" : "POST /wd/hub/session/a2bccde9-e89d-47c6-ba20-4e6ac994245e/execute",
+    "time" : {
+      "start" : 1481805170960,
+      "stop" : 1481805170979,
+      "duration" : 19
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "2b5ff9ad-3271-402b-b587-f93e93c59baf-attachment.json",
+      "type" : "application/json",
+      "size" : 311,
+      "uid" : "4446d83d100f577f"
+    }, {
+      "title" : "Response",
+      "source" : "a5c527c4-b8ea-4dff-aeed-1d37f9c7e018-attachment.json",
+      "type" : "application/json",
+      "size" : 257,
+      "uid" : "2705c0117f8fe35a"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/a2bccde9-e89d-47c6-ba20-4e6ac994245e/window/current/size",
+    "title" : "GET /wd/hub/session/a2bccde9-e89d-47c6-ba20-4e6ac994245e/window/current/size",
+    "time" : {
+      "start" : 1481805170980,
+      "stop" : 1481805170991,
+      "duration" : 11
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "a6d9876d-a9c0-4792-a92a-984de922d9ef-attachment.json",
+      "type" : "application/json",
+      "size" : 324,
+      "uid" : "4cd2488a74795a35"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "make screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "make screenshot"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/screenshot-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "e827ca9fafbb3c2d",
+  "name" : "url should be https://mindblue.nl/",
+  "title" : "url should be https://mindblue.nl/",
+  "time" : {
+    "start" : 1481732306280,
+    "stop" : 1481732306300,
+    "duration" : 20
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4ee6ac481b30d91c",
+    "name" : "title test",
+    "title" : "title test"
+  },
+  "steps" : [ {
+    "name" : "GET /wd/hub/session/3b894f73-22e0-4551-90e3-9087fafdb1d0/url",
+    "title" : "GET /wd/hub/session/3b894f73-22e0-4551-90e3-9087fafdb1d0/url",
+    "time" : {
+      "start" : 1481732306283,
+      "stop" : 1481732306296,
+      "duration" : 13
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "e252945b-bcf8-4d27-82bf-bb6b7d62d08e-attachment.json",
+      "type" : "application/json",
+      "size" : 213,
+      "uid" : "9c6feadc48dd18cc"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "title test"
+  }, {
+    "name" : "suite-title",
+    "value" : "title test"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/title-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

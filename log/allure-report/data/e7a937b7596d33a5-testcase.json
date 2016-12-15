@@ -1,0 +1,145 @@
+{
+  "uid" : "e7a937b7596d33a5",
+  "name" : "should save a screenshot of the browser view as regression image",
+  "title" : "should save a screenshot of the browser view as regression image",
+  "time" : {
+    "start" : 1481810630783,
+    "stop" : 1481810631261,
+    "duration" : 478
+  },
+  "summary" : {
+    "attachments" : 7,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3243222dbaf8f83f",
+    "name" : "screenshot compare Take screenshot",
+    "title" : "screenshot compare Take screenshot"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/3a1fc371-8709-4c16-ab03-f95f85d71092/elements",
+    "title" : "POST /wd/hub/session/3a1fc371-8709-4c16-ab03-f95f85d71092/elements",
+    "time" : {
+      "start" : 1481810630784,
+      "stop" : 1481810630785,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "92ace187-2f0c-4748-af77-3142793d3251-attachment.json",
+      "type" : "application/json",
+      "size" : 63,
+      "uid" : "5f7a239974038c2e"
+    }, {
+      "title" : "Response",
+      "source" : "b58fa1cf-9c20-499d-83f9-8e657378dc09-attachment.json",
+      "type" : "application/json",
+      "size" : 246,
+      "uid" : "3a802433eaa992fe"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/3a1fc371-8709-4c16-ab03-f95f85d71092/element/0/clear",
+    "title" : "POST /wd/hub/session/3a1fc371-8709-4c16-ab03-f95f85d71092/element/0/clear",
+    "time" : {
+      "start" : 1481810630786,
+      "stop" : 1481810630867,
+      "duration" : 81
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "038210a8-64ab-4aad-b105-74416d9ccf51-attachment.json",
+      "type" : "application/json",
+      "size" : 195,
+      "uid" : "2e296be06bc931ba"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/3a1fc371-8709-4c16-ab03-f95f85d71092/element/0/value",
+    "title" : "POST /wd/hub/session/3a1fc371-8709-4c16-ab03-f95f85d71092/element/0/value",
+    "time" : {
+      "start" : 1481810630867,
+      "stop" : 1481810630929,
+      "duration" : 62
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "106c5e5a-dd9e-4e81-b4e2-65d94d9ef8f0-attachment.json",
+      "type" : "application/json",
+      "size" : 244,
+      "uid" : "ca237d68635122e9"
+    }, {
+      "title" : "Response",
+      "source" : "5717411d-4c10-4b03-aca6-ce15b97fe03e-attachment.json",
+      "type" : "application/json",
+      "size" : 195,
+      "uid" : "9054752524724c3d"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/3a1fc371-8709-4c16-ab03-f95f85d71092/screenshot",
+    "title" : "GET /wd/hub/session/3a1fc371-8709-4c16-ab03-f95f85d71092/screenshot",
+    "time" : {
+      "start" : 1481810630930,
+      "stop" : 1481810631220,
+      "duration" : 290
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "9863f862-b092-4f26-9d81-12f58c32819e-attachment.png",
+      "type" : "image/png",
+      "size" : 432833,
+      "uid" : "79e8e2f38d1d82bd"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "screenshot ./tests/screenshots/regression/chrome/browserViewRegression.png",
+    "source" : "461f12f5-9a90-4ad5-bd04-43616e5b8147-attachment.png",
+    "type" : "image/png",
+    "size" : 432833,
+    "uid" : "297bf770f053e6b0"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "screenshot compare Take screenshot"
+  }, {
+    "name" : "suite-title",
+    "value" : "screenshot compare Take screenshot"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

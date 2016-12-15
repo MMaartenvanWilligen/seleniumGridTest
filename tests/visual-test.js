@@ -29,7 +29,6 @@ describe('screenshot compare', function () {
             });
         });
 
-
         it("should save a screenshot of the browser view as regression image", function () {
             return browser.setValue("input[name='q']", "change screenshot").then(function () {
                 return browser.saveScreenshot(config.screenshots.regressionImages + browser.desiredCapabilities.browserName + "/" + 'browserViewRegression.png').then(function () {  //use default name defined in function
@@ -62,7 +61,9 @@ describe('screenshot compare', function () {
         });
 
         it("should make 'diff.png' in " + config.screenshots.diffImages, function () {
-            return visualRegression.makeDiffImage(resultComparison).then(function () {  //use default name defined in function
+            return visualRegression.makeDiffImage(resultComparison).then(function () {
+
+                //use default name defined in function
                 expect(config.screenshots.diffImages + browser.desiredCapabilities.browserName + "/" + "diff.png").to.be.a.path("");
                 //expect(config.screenshots.diffImages).to.not.be.a.path('path does not exist');
             });

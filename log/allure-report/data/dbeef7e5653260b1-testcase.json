@@ -1,0 +1,238 @@
+{
+  "uid" : "dbeef7e5653260b1",
+  "name" : "array of role attributes should be iterable",
+  "title" : "array of role attributes should be iterable",
+  "time" : {
+    "start" : 1481732333975,
+    "stop" : 1481732334140,
+    "duration" : 165
+  },
+  "summary" : {
+    "attachments" : 10,
+    "steps" : 9
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ae6d5c90b782ea4b",
+    "name" : "homepage card images",
+    "title" : "homepage card images"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/elements",
+    "title" : "POST /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/elements",
+    "time" : {
+      "start" : 1481732333979,
+      "stop" : 1481732334013,
+      "duration" : 34
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "ce8d4e59-32a2-4de1-b98d-c19d3c491142-attachment.json",
+      "type" : "application/json",
+      "size" : 83,
+      "uid" : "cbb222e090aff326"
+    }, {
+      "title" : "Response",
+      "source" : "4cfd0371-a004-4d2f-b719-0d111f819764-attachment.json",
+      "type" : "application/json",
+      "size" : 582,
+      "uid" : "e883b26a21032adb"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/0/attribute/role",
+    "title" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/0/attribute/role",
+    "time" : {
+      "start" : 1481732334018,
+      "stop" : 1481732334137,
+      "duration" : 119
+    },
+    "summary" : {
+      "attachments" : 8,
+      "steps" : 7
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "038ca900-f8f0-47ef-9543-54467991945c-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "cdb428b04f910eab"
+    } ],
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/1/attribute/role",
+      "title" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/1/attribute/role",
+      "time" : {
+        "start" : 1481732334019,
+        "stop" : 1481732334123,
+        "duration" : 104
+      },
+      "summary" : {
+        "attachments" : 7,
+        "steps" : 6
+      },
+      "status" : "PASSED",
+      "attachments" : [ {
+        "title" : "Response",
+        "source" : "4226e547-d947-409b-802f-42c022fc5ebf-attachment.json",
+        "type" : "application/json",
+        "size" : 195,
+        "uid" : "5be0d05fafbc355e"
+      } ],
+      "steps" : [ {
+        "name" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/2/attribute/role",
+        "title" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/2/attribute/role",
+        "time" : {
+          "start" : 1481732334020,
+          "stop" : 1481732334112,
+          "duration" : 92
+        },
+        "summary" : {
+          "attachments" : 6,
+          "steps" : 5
+        },
+        "status" : "PASSED",
+        "attachments" : [ {
+          "title" : "Response",
+          "source" : "01c2150b-cf53-4916-aeba-b783a540638a-attachment.json",
+          "type" : "application/json",
+          "size" : 196,
+          "uid" : "2876499e1fa29dde"
+        } ],
+        "steps" : [ {
+          "name" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/3/attribute/role",
+          "title" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/3/attribute/role",
+          "time" : {
+            "start" : 1481732334021,
+            "stop" : 1481732334101,
+            "duration" : 80
+          },
+          "summary" : {
+            "attachments" : 5,
+            "steps" : 4
+          },
+          "status" : "PASSED",
+          "attachments" : [ {
+            "title" : "Response",
+            "source" : "5067d986-5d97-4115-a180-87233add600c-attachment.json",
+            "type" : "application/json",
+            "size" : 193,
+            "uid" : "7c74e9abe1c91599"
+          } ],
+          "steps" : [ {
+            "name" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/4/attribute/role",
+            "title" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/4/attribute/role",
+            "time" : {
+              "start" : 1481732334022,
+              "stop" : 1481732334088,
+              "duration" : 66
+            },
+            "summary" : {
+              "attachments" : 4,
+              "steps" : 3
+            },
+            "status" : "PASSED",
+            "attachments" : [ {
+              "title" : "Response",
+              "source" : "5ad75d9e-c1d4-4594-96ae-84b1d14b8839-attachment.json",
+              "type" : "application/json",
+              "size" : 195,
+              "uid" : "2bd82eb89242f90c"
+            } ],
+            "steps" : [ {
+              "name" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/5/attribute/role",
+              "title" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/5/attribute/role",
+              "time" : {
+                "start" : 1481732334023,
+                "stop" : 1481732334075,
+                "duration" : 52
+              },
+              "summary" : {
+                "attachments" : 3,
+                "steps" : 2
+              },
+              "status" : "PASSED",
+              "attachments" : [ {
+                "title" : "Response",
+                "source" : "718563cc-1385-4208-8cf7-062730622c4c-attachment.json",
+                "type" : "application/json",
+                "size" : 196,
+                "uid" : "a98e202360d63bf9"
+              } ],
+              "steps" : [ {
+                "name" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/6/attribute/role",
+                "title" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/6/attribute/role",
+                "time" : {
+                  "start" : 1481732334023,
+                  "stop" : 1481732334063,
+                  "duration" : 40
+                },
+                "summary" : {
+                  "attachments" : 2,
+                  "steps" : 1
+                },
+                "status" : "PASSED",
+                "attachments" : [ {
+                  "title" : "Response",
+                  "source" : "9b6c924f-720f-4420-9bf6-8702164ad63a-attachment.json",
+                  "type" : "application/json",
+                  "size" : 195,
+                  "uid" : "63734ca224eda3ca"
+                } ],
+                "steps" : [ {
+                  "name" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/7/attribute/role",
+                  "title" : "GET /wd/hub/session/f5caf699-45d8-4b39-af68-b5fd3d09d227/element/7/attribute/role",
+                  "time" : {
+                    "start" : 1481732334024,
+                    "stop" : 1481732334049,
+                    "duration" : 25
+                  },
+                  "summary" : {
+                    "attachments" : 1,
+                    "steps" : 0
+                  },
+                  "status" : "PASSED",
+                  "attachments" : [ {
+                    "title" : "Response",
+                    "source" : "b8ff1169-f334-45d3-881b-86f30d4b1264-attachment.json",
+                    "type" : "application/json",
+                    "size" : 196,
+                    "uid" : "7b5186d7b4ba6de7"
+                  } ],
+                  "steps" : [ ]
+                } ]
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "homepage card images"
+  }, {
+    "name" : "suite-title",
+    "value" : "homepage card images"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/image-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

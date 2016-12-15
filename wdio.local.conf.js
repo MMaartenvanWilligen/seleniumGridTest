@@ -34,13 +34,10 @@ exports.config = {
     sync: false,                                         // Synchronous to false
     coloredLogs: true,
     waitforTimeout: 10000,
-    reporters: ['dot', 'allure-addons'],
+    reporters: ['dot', 'allure'],
     reporterOptions: {
-        outputDir: 'outputDir',
-        'allure-addons': {
-            outputDir: './log/allure-results',
-            debug: true,
-            debugSeleniumCommand: true
+        allure: {
+            outputDir: './log/allure-results'
         }
     },
     framework: 'mocha',                                  // Run tests with framework mocha
@@ -48,12 +45,24 @@ exports.config = {
         ui: 'bdd',                                       // bdd: Behaviour drive development
         timeout: 99999999
     },
+    /**
+     * @desc specify test suites
+     */
+    suites: {
+        screenshot: [
+            './tests/form-test.js'
+        ],
+        homepage: [
+            './tests/title-test.js',
+            './tests/logo-test.js'
+        ]
+    },
 
     /**
      * @desc specify test files
      */
     specs: [
-        './tests/screenshot-test.js'                             // Run all files in map 'test' with ' -title-test.js' in name
+        './tests/screenshot-test.js'                      // Run all files in map 'test' with ' -title-test.js' in name
     ]
 
 };

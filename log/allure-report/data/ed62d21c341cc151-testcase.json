@@ -1,0 +1,46 @@
+{
+  "uid" : "ed62d21c341cc151",
+  "name" : "aria-label attribute should exist",
+  "title" : "aria-label attribute should exist",
+  "time" : {
+    "start" : 1481732334291,
+    "stop" : 1481732334292,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "aria-label attribute does not exist: expected null to exist",
+    "stackTrace" : "AssertionError: aria-label attribute does not exist: expected null to exist\n    at Object.should.exist (/Users/maarten/Documents/seleniumGridTest/node_modules/chai/lib/chai/interface/should.js:126:33)\n    at Context.<anonymous> (/Users/maarten/Documents/seleniumGridTest/tests/image-test.js:68:35)\n    at Context.executeAsync (/Users/maarten/Documents/seleniumGridTest/node_modules/wdio-sync/build/index.js:684:21)\n    at Context.<anonymous> (/Users/maarten/Documents/seleniumGridTest/node_modules/wdio-sync/build/index.js:858:35)\n    at callFnAsync (/Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runnable.js:349:8)\n    at Test.Runnable.run (/Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runnable.js:301:7)\n    at Runner.runTest (/Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runner.js:422:10)\n    at /Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runner.js:528:12\n    at next (/Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runner.js:342:14)\n    at /Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runner.js:352:7"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ae6d5c90b782ea4b",
+    "name" : "homepage card images",
+    "title" : "homepage card images"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "homepage card images"
+  }, {
+    "name" : "suite-title",
+    "value" : "homepage card images"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/image-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

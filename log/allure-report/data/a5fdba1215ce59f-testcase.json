@@ -1,0 +1,46 @@
+{
+  "uid" : "a5fdba1215ce59f",
+  "name" : "expect misMatchPercentage not to be above '0' ",
+  "title" : "expect misMatchPercentage not to be above '0' ",
+  "time" : {
+    "start" : 1481794067655,
+    "stop" : 1481794067660,
+    "duration" : 5
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "expected '0.09' to be at most 0",
+    "stackTrace" : "AssertionError: expected '0.09' to be at most 0\n    at Context.<anonymous> (/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js:61:67)\n    at Context.executeAsync (/Users/maarten/Documents/seleniumGridTest/node_modules/wdio-sync/build/index.js:684:21)\n    at Context.<anonymous> (/Users/maarten/Documents/seleniumGridTest/node_modules/wdio-sync/build/index.js:858:35)\n    at callFnAsync (/Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runnable.js:349:8)\n    at Test.Runnable.run (/Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runnable.js:301:7)\n    at Runner.runTest (/Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runner.js:422:10)\n    at /Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runner.js:528:12\n    at next (/Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runner.js:342:14)\n    at /Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runner.js:352:7\n    at next (/Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runner.js:284:14)\n    at Immediate.<anonymous> (/Users/maarten/Documents/seleniumGridTest/node_modules/mocha/lib/runner.js:320:5)\n    at runCallback (timers.js:574:20)\n    at tryOnImmediate (timers.js:554:5)\n    at processImmediate [as _immediateCallback] (timers.js:533:5)"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6ac3816a255ffd30",
+    "name" : "screenshot compare Compare baseline image to regression image:",
+    "title" : "screenshot compare Compare baseline image to regression image:"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "screenshot compare Compare baseline image to regression image:"
+  }, {
+    "name" : "suite-title",
+    "value" : "screenshot compare Compare baseline image to regression image:"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}
