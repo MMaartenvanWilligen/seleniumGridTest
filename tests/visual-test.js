@@ -21,8 +21,9 @@ describe('screenshot compare', function () {
         return homepage.goToPage();
     });
 
-    /*describe('Take screenshot', function () {
+    describe('Take screenshot', function () {
 
+        //baseline image
         it("should save a screenshot of the browser view as baseline image", function () {
             return browser.saveScreenshot(config.screenshots.baselineImages + browser.desiredCapabilities.browserName + "/" + 'browserView.png').then(function () {  //use default name defined in function
                 expect(config.screenshots.baselineImages + browser.desiredCapabilities.browserName + "/" + "browserView.png").to.be.a.path("");
@@ -30,22 +31,22 @@ describe('screenshot compare', function () {
             });
         });
 
-        it("should save a screenshot of the browser view as regression image", function () {
-            return browser.setValue("input[name='q']", "change screenshot").then(function () {
-                return browser.saveScreenshot(config.screenshots.regressionImages + browser.desiredCapabilities.browserName + "/" + 'browserViewRegression.png').then(function () {  //use default name defined in function
-                    expect(config.screenshots.regressionImages + browser.desiredCapabilities.browserName + "/" + "browserViewRegression.png").to.be.a.path("");
-                    //expect(config.screenshots.diffImages).to.not.be.a.path('path does not exist');
-                });
-            })
+        //change te browser view so that regression image is a bit different
+        it("should set value input search to 'change screenshot'", function () {
+            return browser.setValue("input[name='q']", "change screenshot");
         });
 
-    });*/
+        //regression image
+        it("should save a screenshot of the browser view as regression image", function () {
+            return browser.saveScreenshot(config.screenshots.regressionImages + browser.desiredCapabilities.browserName + "/" + 'browserViewRegression.png').then(function () {  //use default name defined in function
+                expect(config.screenshots.regressionImages + browser.desiredCapabilities.browserName + "/" + "browserViewRegression.png").to.be.a.path("");
+                //expect(config.screenshots.diffImages).to.not.be.a.path('path does not exist');
+            });
+        });
+
+    });
 
     describe('Compare baseline image to regression image:', function () {
-
-        before(function () {
-
-        });
 
         it("expect data of comparison not to be empty", function () {
             return visualRegression.CompareImages("browserView.png", "browserViewRegression.png").then(function (data) {
@@ -68,51 +69,27 @@ describe('screenshot compare', function () {
                 expect(config.screenshots.diffImages).to.be.a.path('path does not exist');
             });
         });
-        //
-        // it("attach", function () {
-        //     return browser.emit("screenshot", {title: "resemble",
-        //         file: '/home/maarten/Documents/seleniumGridTest/tests/screenshots/diff/chrome/diff.png',
-        //         type: "image/png",
-        //         remote: "remote"});
-        //
-        //     //return browser.emit('screenshot');
-        //
-        //     // return browser.emit('attach', {
-        //     //     title: "resemble",
-        //     //     file: "/home/maarten/Documents/seleniumGridTest/tests/screenshots/diff/chrome/diff.png",
-        //     //     type: "image/png"
-        //     // })
-        // });
 
-        it("log", function () {
-            // return browser.emit("log", {remote: "remote add image",
-            //     title: "resemble",
-            //     file: '/home/maarten/Documents/seleniumGridTest/tests/screenshots/diff/chrome/diff.png',
-            //     type: "image/png"
-            //     });
-
-            return browser.emit("log");
-
+        it("attach file remote to the allure reporter", function () {
             // return browser.emit("log", {
+            //     remote: "remote add image",
             //     title: "resemble",
             //     file: '/home/maarten/Documents/seleniumGridTest/tests/screenshots/diff/chrome/diff.png',
             //     type: "image/png"
             // });
         });
 
-        // browser.on('log', function (a, b) {
-        //     //var allure = _this.getAllure(log.cid);
-        //     //console.log("log" + log);
-        //     console.log("a visual" + a);
-        //     console.log("b visual" +" " + b.file);
-        // });
-
-        browser.on('runner:attach', function () {
-            console.log("runnerattach");
-        });
-
-        browser.on('attach', function () {
-            console.log("log");
+        //if a mocha test fails then add te diff image to the allure reporter
+        afterEach(function () {
+            if (this.currentTest.state == 'failed') {
+                console.log("state");
+                return browser.emit("log", {
+                    remote: "remote add image",
+                    title: "resemble",
+                    file: '/home/maarten/Documents/seleniumGridTest' + config.screenshots.diffImages + 'diff.png',
+                    type: "image/png"
+                });
+            }
         });
 
     });
