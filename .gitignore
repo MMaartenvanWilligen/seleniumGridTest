@@ -45,3 +45,7 @@ jspm_packages
 
 #json log
 log/json/
+
+#log
+log/allure-report
+log/allure-result
