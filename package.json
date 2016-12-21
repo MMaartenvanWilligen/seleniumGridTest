@@ -15,13 +15,12 @@
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "mocha-multi": "^0.7.2",
-    "wdio-allure-addons-reporter": "0.0.4",
     "wdio-json-reporter": "^0.1.0",
     "wdio-mocha-framework": "^0.3.5",
     "webdriverio": "^4.2.11"
   },
   "scripts": {
-    "clean": "rm -rf ./log/allure-results",
+    "clean": "rm -rf ./log/allure-results && rm -rf ./log/allure-report",
     "pretest": "npm run clean",
     "test": "./node_modules/.bin/wdio wdio.local.conf.js --suite screenshot",
     "report": "allure generate ./log/allure-results -o ./log/allure-report && allure report open -o ./log/allure-report"

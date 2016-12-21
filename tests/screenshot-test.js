@@ -16,13 +16,11 @@ var Allure = require(".././node_modules/allure-js-commons/index");
 
 var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
 var homepage;
-var allure;
 
 describe('make screenshot', function () {
 
     //hook run before tests
     before(function () {
-        allure = new Allure();
         homepage = new HomepageMindBlue();
         return homepage.goToPage();
     });
@@ -36,10 +34,6 @@ describe('make screenshot', function () {
                 return expect(res.value).to.have.deep.property("width", 1920);
             });
         });
-    });
-
-    it("should save a screenshot of the browser view", function () {
-        allure.setDescription()
     });
 
     it("should save a screenshot of the browser view", function () {

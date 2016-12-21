@@ -50,7 +50,7 @@ exports.config = {
      */
     suites: {
         screenshot: [
-            './tests/form-test.js'
+            './tests/visual-test.js'
         ],
         homepage: [
             './tests/title-test.js',

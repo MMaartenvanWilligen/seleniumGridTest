@@ -2,7 +2,7 @@
  * Created by maarten on 15-12-16.
  */
 
-assert = require('assert');
+var assert = require('assert');
 var config = require('../config');
 var chai = require('chai')
     , expect = chai.expect
@@ -10,28 +10,54 @@ var chai = require('chai')
 
 var ExperienceStory = require("./page-objects/ervaringsverhaal-nieuw");
 var experienceStory;
+var popup = true;
 
-describe("homepage", function () {
+describe("new experience story", function () {
 
-    describe("links", function () {
+    //hook run before tests
+    before(function () {
+        experienceStory = new ExperienceStory();
+        return experienceStory.goToPage();
+    });
 
-        //hook run before tests
-        before(function () {
-            experienceStory = new ExperienceStory();
-            return experienceStory.goToPage();
+    it("Title should be 'MINDblue'", function () {
+        return browser.getTitle().then(function (title) {
+            return assert(title === experienceStory.titleText);
         });
+    });
 
-        it("Title should be 'MINDblue'", function () {
-            return browser.getTitle().then(function (title) {
-                return assert(title === experienceStory.titleText);
-            });
+    it("should click on experience category selector 'klachten' ", function () {
+        return browser.click(experienceStory.formCategory).then(function () {
+            if (popup === true) {
+                console.log("if");
+                return browser.click(experienceStory.popupConfirmationButton).then(function () {
+                    popup = false;
+                    console.log("clicked");
+                    return browser.click(option["value=complaints"]);
+                   // return browser.saveScreenshot(config.screenshots.remainingImages + "form.png");
+                })
+            }
+            else {
+                return browser.click(experienceStory.formCategory > option["value=complaints"]).then(function () {
+                    console.log("clicked");
+                })
+            }
         });
-
-        // it("fill form", function () {
-        //
-        //
-        // });
-
     });
 
 });
+
+// // it("set value text area", function () {
+// //    return browser.setValue(experienceStory.textArea, "dit is de text area text".then(function () {
+// //         console.log("text area set");
+// //     }));
+// // });
+//
+// it("submit form", function () {
+//     return browser.submitForm(experienceStory.form);
+// });
+//
+// it("should save a screenshot of the form", function () {
+//     console.log("form screenshot");
+//     return browser.saveScreenshot(config.screenshots.remainingImages + "form.png");
+// });

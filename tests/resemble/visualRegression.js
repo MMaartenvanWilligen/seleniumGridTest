@@ -10,6 +10,7 @@ var resemble = require("node-resemble-js");
 var Promise = require("bluebird");
 var fs = require('fs');
 var config = require('./../../config');
+var Allurereporter =  ('wdio-allure-reporter');
 
 /**
  * @desc constructor
@@ -26,7 +27,6 @@ function VisualRegression() {
     });
 
     browserCapabilityName = browser.desiredCapabilities.browserName;
-
 }
 
 /**
@@ -56,7 +56,6 @@ VisualRegression.prototype.CompareImages = function (baselineImage, regressionIm
                 resolve(data);
             });
     });
-
 };
 
 /**
@@ -69,6 +68,7 @@ VisualRegression.prototype.CompareImages = function (baselineImage, regressionIm
  * */
 
 VisualRegression.prototype.makeDiffImage = function (DataOfComparison, diffImageOutputName) {
+
     diffImageOutputName = typeof diffImageOutputName !== 'undefined' ? diffImageOutputName : config.defaultNames.diffImage; //set param diffImageOutputName to default value when it is undefined
 
     return new Promise(function (resolve, reject) {
@@ -76,6 +76,7 @@ VisualRegression.prototype.makeDiffImage = function (DataOfComparison, diffImage
     }).then(function () {
         console.log("diff image made");
     });
+
 };
 
 module.exports = VisualRegression;

@@ -8,6 +8,7 @@ var VisualRegression = require("./resemble/visualRegression");
 var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
 var config = require('../config');
 
+
 describe('screenshot compare', function () {
 
     var resultComparison = {};
@@ -20,7 +21,7 @@ describe('screenshot compare', function () {
         return homepage.goToPage();
     });
 
-    describe('Take screenshot', function () {
+    /*describe('Take screenshot', function () {
 
         it("should save a screenshot of the browser view as baseline image", function () {
             return browser.saveScreenshot(config.screenshots.baselineImages + browser.desiredCapabilities.browserName + "/" + 'browserView.png').then(function () {  //use default name defined in function
@@ -38,18 +39,19 @@ describe('screenshot compare', function () {
             })
         });
 
-    });
+    });*/
 
     describe('Compare baseline image to regression image:', function () {
 
         before(function () {
-            return visualRegression.CompareImages("browserView.png", "browserViewRegression.png").then(function (data) {
-                resultComparison = data;
-            });
+
         });
 
         it("expect data of comparison not to be empty", function () {
-            return expect(resultComparison).not.to.be.empty;
+            return visualRegression.CompareImages("browserView.png", "browserViewRegression.png").then(function (data) {
+                resultComparison = data;
+                return data
+            });
         });
 
         it("expect screenshots to be same dimension ", function () {
@@ -62,18 +64,59 @@ describe('screenshot compare', function () {
 
         it("should make 'diff.png' in " + config.screenshots.diffImages, function () {
             return visualRegression.makeDiffImage(resultComparison).then(function () {
-
-                //use default name defined in function
-                expect(config.screenshots.diffImages + browser.desiredCapabilities.browserName + "/" + "diff.png").to.be.a.path("");
-                //expect(config.screenshots.diffImages).to.not.be.a.path('path does not exist');
+                //expect(cconfig.screenshots.diffImages + browser.desiredCapabilities.browserName + "/" + "diff.png").to.be.a.path("");
+                expect(config.screenshots.diffImages).to.be.a.path('path does not exist');
             });
+        });
+        //
+        // it("attach", function () {
+        //     return browser.emit("screenshot", {title: "resemble",
+        //         file: '/home/maarten/Documents/seleniumGridTest/tests/screenshots/diff/chrome/diff.png',
+        //         type: "image/png",
+        //         remote: "remote"});
+        //
+        //     //return browser.emit('screenshot');
+        //
+        //     // return browser.emit('attach', {
+        //     //     title: "resemble",
+        //     //     file: "/home/maarten/Documents/seleniumGridTest/tests/screenshots/diff/chrome/diff.png",
+        //     //     type: "image/png"
+        //     // })
+        // });
+
+        it("log", function () {
+            // return browser.emit("log", {remote: "remote add image",
+            //     title: "resemble",
+            //     file: '/home/maarten/Documents/seleniumGridTest/tests/screenshots/diff/chrome/diff.png',
+            //     type: "image/png"
+            //     });
+
+            return browser.emit("log");
+
+            // return browser.emit("log", {
+            //     title: "resemble",
+            //     file: '/home/maarten/Documents/seleniumGridTest/tests/screenshots/diff/chrome/diff.png',
+            //     type: "image/png"
+            // });
+        });
+
+        // browser.on('log', function (a, b) {
+        //     //var allure = _this.getAllure(log.cid);
+        //     //console.log("log" + log);
+        //     console.log("a visual" + a);
+        //     console.log("b visual" +" " + b.file);
+        // });
+
+        browser.on('runner:attach', function () {
+            console.log("runnerattach");
+        });
+
+        browser.on('attach', function () {
+            console.log("log");
         });
 
     });
 
 });
-
-
-
 
 

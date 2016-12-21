@@ -11,10 +11,16 @@ var Page = require("./page");
  * */
 
 function ExperienceStory() {
+
     Page.call(this, config.pages.ervaringDonatie);
     this.experienceUrl = config.pages.ervaringDonatie;
     this.form = "form[name='experience']";
     this.titleText = "Ervaringsverhaal doneren - MIND blue";
+    this.formCategory = "#experience_category";
+    this.formTextArea = "#cke_1_contents";
+    this.popupWarning = ".donate_experience_popup popup";
+    this.popupConfirmationButton = ".popup-confirm";
+
 }
 
 /**
