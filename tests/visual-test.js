@@ -1,3 +1,7 @@
+/**
+ * @desc required libaries
+ * */
+
 var chai = require('chai')
     , expect = chai.expect
     , should = chai.should();
@@ -9,6 +13,10 @@ var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
 var Promise = require("bluebird");
 var config = require('../config');
 
+/**
+* @desc visual regression
+* @info an Example test of how visual regression can be done. Making a before screenshot and an after screenshot. After that the api resemble compares the two images and gives the data back to this test.
+* */
 
 describe('screenshot compare', function () {
 
@@ -21,6 +29,11 @@ describe('screenshot compare', function () {
         visualRegression = new VisualRegression();
         return homepage.goToPage();
     });
+
+    /**
+     * @desc take screenshot before and after the browser view changed
+     * @info take a baseline/before screenshot. then set a value in the search input so that the broserview is changed. Take a regression/after screenshot
+     * */
 
     describe('Take screenshot', function () {
 
@@ -47,12 +60,16 @@ describe('screenshot compare', function () {
 
     });
 
+    /**
+     * @desc test data of the compared baseline and regression image.
+     * @info compare the images with the resemble api. the data given back by that api is tested here.
+     * */
+
     describe('Compare baseline image to regression image:', function () {
 
         it("expect data of comparison not to be empty", function () {
             return visualRegression.CompareImages("browserView.png", "browserViewRegression.png").then(function (data) {
                 resultComparison = data;
-                return data
             });
         });
 
@@ -64,25 +81,21 @@ describe('screenshot compare', function () {
             expect(resultComparison.misMatchPercentage).not.to.be.above(0);
         });
 
+        //make diff image and test if it is made
         it("should make 'diff.png' in " + config.screenshots.diffImages, function () {
             return visualRegression.makeDiffImage(resultComparison).then(function () {
-                //expect(cconfig.screenshots.diffImages + browser.desiredCapabilities.browserName + "/" + "diff.png").to.be.a.path("");
                 expect(config.screenshots.diffImages).to.be.a.path('path does not exist');
             });
         });
 
-        it("attach file remote to the allure reporter", function () {
-            // return browser.emit("log", {
-            //     remote: "remote add image",
-            //     title: "resemble",
-            //     file: '/home/maarten/Documents/seleniumGridTest/tests/screenshots/diff/chrome/diff.png',
-            //     type: "image/png"
-            // });
-        });
+        //hook after each test
+        /**
+         * @desc After each test check if test failed. When a test failed add the diff image to the reporter
+         * @info with the log event the reporter is triggered. By adding the needed data the reporter add the diff to the test.
+         * */
 
-        //if a mocha test fails then add te diff image to the allure reporter
         afterEach(function () {
-            if (this.currentTest.state == 'failed') {
+            if (this.currentTest.state == 'failed') { //if a mocha test fails then add te diff image to the allure reporter
                 return new Promise(function (resolve, reject) {
                     console.log("state");
                     resolve(browser.emit("log", {
