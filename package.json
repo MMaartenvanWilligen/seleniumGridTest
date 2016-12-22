@@ -17,18 +17,15 @@
     "mocha-multi": "^0.7.2",
     "wdio-json-reporter": "^0.1.0",
     "wdio-mocha-framework": "^0.3.5",
-    "webdriverio": "^4.2.11"
+    "webdriverio": "^4.2.11",
+    "allure-commandline": "^1.4.23",
+    "wdio-allure-reporter": "git+https://github.com/MMaartenvanWilligen/wdio-allure-reporter.git"
   },
   "scripts": {
     "clean": "rm -rf ./log/allure-results && rm -rf ./log/allure-report",
     "pretest": "npm run clean",
     "test": "./node_modules/.bin/wdio wdio.local.conf.js --suite screenshot",
     "report": "allure generate ./log/allure-results -o ./log/allure-report && allure report open -o ./log/allure-report"
-  },
-  "devDependencies": {
-    "allure-commandline": "^1.4.23",
-    "wdio-allure-reporter": "^0.1.2",
-    "webdriverio": "^4.2.11"
   },
   "capabilities": {
     "proxy": {
