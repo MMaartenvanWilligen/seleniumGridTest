@@ -6,6 +6,7 @@ var webdrivercss = require('webdrivercss');
 var resemble = require("node-resemble-js");
 var VisualRegression = require("./resemble/visualRegression");
 var HomepageMindBlue = require("./page-objects/homepage-mind-blue");
+var Promise = require("bluebird");
 var config = require('../config');
 
 
@@ -82,13 +83,16 @@ describe('screenshot compare', function () {
         //if a mocha test fails then add te diff image to the allure reporter
         afterEach(function () {
             if (this.currentTest.state == 'failed') {
-                console.log("state");
-                return browser.emit("log", {
-                    remote: "remote add image",
-                    title: "resemble",
-                    file: '/home/maarten/Documents/seleniumGridTest' + config.screenshots.diffImages + 'diff.png',
-                    type: "image/png"
-                });
+                return new Promise(function (resolve, reject) {
+                    console.log("state");
+                    resolve(browser.emit("log", {
+                            remote: "remote add image",
+                            title: "resemble",
+                            file: '/home/maarten/Documents/seleniumGridTest/tests/screenshots/diff/chrome/diff.png',
+                            type: "image/png"
+                        })
+                    )
+                })
             }
         });
 
