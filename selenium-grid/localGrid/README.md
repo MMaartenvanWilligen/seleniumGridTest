@@ -5,11 +5,10 @@
 - Java 8
 
 #### Fork and clone project
-Navigate to the Github repository: https://github.com/ConnectHolland/Front-End-Testing-Framework/selenium-grid/
 
-Click, at the top right corner of the page, on the fork button.
+Click, at the top right corner of the page, on the fork button. Fork the selenium-grid.
 
-Then make a local clone from the fork on your machine.
+Then clone the fork on your local machine
 
 ``` command
 $ git clone https://github.com/YOUR-USERNAME/Front-End-Testing-Framework/selenium-grid/
@@ -29,7 +28,7 @@ Download link: https://www.google.com/chrome/browser/desktop/index.html?platform
 #### Install browser drivers
 
 The project includes two installation files in the installDependencies directory: installGeckodriver.sh and installChromedriver.sh .
-These sh files download and move the drivers into the /usr/local/bin/ directory on your machine. They are compatible with the chrome browser 55.0.2883.75 and firefox 50.0
+These sh files download and move the drivers into the /usr/local/bin/ directory on your machine. These drivers are compatible with the chrome browser 55.0.2883.75 and firefox 50.0
 
 ``` command
 $ sudo sh localInstallation/localinstallGeckodriver.sh && sh localInstallation/installChromedriver.sh

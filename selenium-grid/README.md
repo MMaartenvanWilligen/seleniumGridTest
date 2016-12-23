@@ -1,7 +1,7 @@
 # Selenium grid
 
 ##Summary
-This directory shows how a selenium grid can be setup using virtual machines(for local setup without virtual machines go to /localGrid directory). Selenium-Grid allows you run your tests on different machines against different browsers in parallel.
+This directory is an example of how a selenium grid can be setup using virtual machines(for local setup without virtual machines go to /localGrid directory). Selenium-Grid allows you run your tests on different machines against different browsers in parallel.
 Therefore the selenium grid needs one hub and one ore more nodes. The hub distributes the tests to the node with the right platform browser combination. In this directory you can find the necesaary dependecies and start a basic selenium grid. 
 
 ## Installation instructions (on virtual machines)
@@ -31,9 +31,19 @@ Make a grid of virtual machines with for example virtualbox. Setup the virtual m
 - Browser: Edge 38.14393.0.0, Edge HTML 14.14393
 
 #### Central file share
-Make a central file share between the virtual machines. By cloning this repository in that central file share all virtual machines have access to the required files like the drivers. 
+Make a central file share for the virtual machines.
 
 [instructions howtogeek](http://www.howtogeek.com/187703/how-to-access-folders-on-your-host-machine-from-an-ubuntu-virtual-machine-in-virtualbox/)
+
+#### Fork and clone project
+
+Fork the selenium-grid on github.
+
+Then clone the fork in to the central directory shared by all virtual machines. When cloning the repository in the central file all virtual machines have access to the required files like the drivers. 
+
+``` command
+$ git clone https://github.com/YOUR-USERNAME/Front-End-Testing-Framework/selenium-grid/
+```
 
 #### start hub and nodes
 Start the hub and nodes by running the startHub and startNode sh files. Run startHub.sh on vm 1, starNodeUbuntuFirefox.sh on vm 2, 

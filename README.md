@@ -12,8 +12,7 @@ This is a front-end test suite for the mind-blue website. The purpose of this te
 
 ## Installation instructions (on virtual machine)
 
-#### Fork en clone project
-Navigate to the Github repository: https://github.com/ConnectHolland/Front-End-Testing-Framework
+#### Fork and clone project
 
 Click, at the top right corner of the page, on the fork button and follow the instructions.
 
