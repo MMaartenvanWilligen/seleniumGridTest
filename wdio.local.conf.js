@@ -49,12 +49,8 @@ exports.config = {
      * @desc specify test suites
      */
     suites: {
-        screenshot: [
-            './tests/visual-test.js'
-        ],
-        homepage: [
-            './tests/title-test.js',
-            './tests/logo-test.js'
+        all: [
+            './tests/*-test.js'
         ]
     },
 
@@ -62,7 +58,7 @@ exports.config = {
      * @desc specify test files
      */
     specs: [
-        './tests/screenshot-test.js'                      // Run all files in map 'test' with ' -title-test.js' in name
+        './tests/title-test.js'                      // Run all files in map 'test' with ' -title-test.js' in name
     ]
 
 };

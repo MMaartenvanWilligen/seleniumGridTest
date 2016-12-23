@@ -51,21 +51,6 @@ describe("search", function () {
         })
     });
 
-    /**
-     * safari doesn't support .keys https://github.com/webdriverio/webdriverio/issues/1344 so this test is disabled
-    * */
-
-    // it("expect to search on enter", function () {
-    //     return browser.setValue(homepage.searchInput, "test value")
-    //         .keys(["Enter"]).then(function () {
-    //
-    //             homepage.currentUrl().then(function (url) {
-    //                 console.log(url);
-    //                 return assert(url === "https://mindblue.nl/zoeken?q=", "url should start with 'https://mindblue.nl/zoeken?q=' = " + url);
-    //             })
-    //         });
-    // });
-
 });
 
 

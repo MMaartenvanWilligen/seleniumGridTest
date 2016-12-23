@@ -24,7 +24,7 @@
   "scripts": {
     "clean": "rm -rf ./log/allure-results && rm -rf ./log/allure-report",
     "pretest": "npm run clean",
-    "test": "./node_modules/.bin/wdio wdio.local.conf.js --suite screenshot",
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
     "report": "allure generate ./log/allure-results -o ./log/allure-report && allure report open -o ./log/allure-report"
   },
   "capabilities": {
