@@ -45,6 +45,13 @@ Change package.json > scripts > test to: "test": "./node_modules/.bin/wdio wdio.
 ``` command
 $ npm run test
 ```
+#### Test results
+
+Test results can be viewed in a lot of ways. Now you can view them with the allure-reporter. If you want to use another reporter change the wdio.conf file reporter options. 
+
+``` command
+$ npm run report
+```
 
 ## Project maintainer
 

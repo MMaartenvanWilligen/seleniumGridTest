@@ -29,10 +29,12 @@ exports.config = {
     marionette: true,                                    // Geckodriver is marionette driver
     sync: false,                                         // Synchronous to false
     coloredLogs: true,
+    reporters: ['dot', 'allure'],
     waitforTimeout: 10000,
-    reporters: ['dot, json'],
     reporterOptions: {
-        outputDir: './log/json/'
+        allure: {
+            outputDir: './log/allure-results'
+        }
     },
     framework: 'mocha',                                  // Run tests with framework mocha
     mochaOpts: {
