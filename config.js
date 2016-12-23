@@ -2,6 +2,11 @@
  * Created by maarten on 12-12-16.
  */
 
+/**
+ * @desc configuration
+ * @info config for screenshot paths, resemble settings, default image names aan page paths
+ */
+
 // in config.js
 var config = {
 

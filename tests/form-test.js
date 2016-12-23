@@ -2,6 +2,11 @@
  * Created by maarten on 15-12-16.
  */
 
+/**
+ * @global 'browser' is wdio global. The driver for browser automation
+ * @desc required libaries
+ * */
+
 var assert = require('assert');
 var config = require('../config');
 var chai = require('chai')
@@ -46,18 +51,3 @@ describe("new experience story", function () {
     });
 
 });
-
-// // it("set value text area", function () {
-// //    return browser.setValue(experienceStory.textArea, "dit is de text area text".then(function () {
-// //         console.log("text area set");
-// //     }));
-// // });
-//
-// it("submit form", function () {
-//     return browser.submitForm(experienceStory.form);
-// });
-//
-// it("should save a screenshot of the form", function () {
-//     console.log("form screenshot");
-//     return browser.saveScreenshot(config.screenshots.remainingImages + "form.png");
-// });

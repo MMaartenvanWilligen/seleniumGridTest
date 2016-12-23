@@ -3,6 +3,7 @@
  */
 
 /**
+ * @global 'browser' is wdio global. The driver for browser automation
  * @desc required libaries
  * */
 

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1482423532330" stop="1482423537062">
+	<name>screenshot compare Take screenshot</name>
+	<title>screenshot compare Take screenshot</title>
+	<test-cases>
+		<test-case start="1482423532330" stop="1482423533848" status="passed">
+			<name>should save a screenshot of the browser view as baseline image</name>
+			<title>should save a screenshot of the browser view as baseline image</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:5,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1482423532342" stop="1482423533798" status="passed">
+					<name>GET /wd/hub/session/5c3a9cde-ed00-4f98-b72b-d2b8ddb0d41d/screenshot</name>
+					<title>GET /wd/hub/session/5c3a9cde-ed00-4f98-b72b-d2b8ddb0d41d/screenshot</title>
+					<attachments>
+						<attachment title="Screenshot" source="3dfa4baf-523e-4278-a5c2-edf19b5b1f29-attachment.png" type="image/png" size="460874"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1482423533848" stop="1482423535390" status="passed">
+			<name>should set value input search to &apos;change screenshot&apos;</name>
+			<title>should set value input search to &apos;change screenshot&apos;</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:5,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1482423533848" stop="1482423534171" status="passed">
+					<name>POST /wd/hub/session/5c3a9cde-ed00-4f98-b72b-d2b8ddb0d41d/elements</name>
+					<title>POST /wd/hub/session/5c3a9cde-ed00-4f98-b72b-d2b8ddb0d41d/elements</title>
+					<attachments>
+						<attachment title="Request" source="20aa5670-8965-42d9-87c4-126a7fa5f84c-attachment.json" type="application/json" size="63"/>
+						<attachment title="Response" source="3ce9ec3f-ccb0-44f7-8b6b-278c77140dfe-attachment.json" type="application/json" size="246"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1482423534172" stop="1482423534417" status="passed">
+					<name>POST /wd/hub/session/5c3a9cde-ed00-4f98-b72b-d2b8ddb0d41d/element/0/clear</name>
+					<title>POST /wd/hub/session/5c3a9cde-ed00-4f98-b72b-d2b8ddb0d41d/element/0/clear</title>
+					<attachments>
+						<attachment title="Response" source="c39c43de-5dfc-4244-a074-c70853338137-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1482423534417" stop="1482423535389" status="passed">
+					<name>POST /wd/hub/session/5c3a9cde-ed00-4f98-b72b-d2b8ddb0d41d/element/0/value</name>
+					<title>POST /wd/hub/session/5c3a9cde-ed00-4f98-b72b-d2b8ddb0d41d/element/0/value</title>
+					<attachments>
+						<attachment title="Request" source="a6e55091-ea10-44bf-a1ac-3efb119fab5b-attachment.json" type="application/json" size="244"/>
+						<attachment title="Response" source="2c628a2b-962d-4d53-8ffe-f65fe71fb656-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1482423535390" stop="1482423537062" status="passed">
+			<name>should save a screenshot of the browser view as regression image</name>
+			<title>should save a screenshot of the browser view as regression image</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:5,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/maarten/Documents/seleniumGridTest/tests/visual-test.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1482423535391" stop="1482423537043" status="passed">
+					<name>GET /wd/hub/session/5c3a9cde-ed00-4f98-b72b-d2b8ddb0d41d/screenshot</name>
+					<title>GET /wd/hub/session/5c3a9cde-ed00-4f98-b72b-d2b8ddb0d41d/screenshot</title>
+					<attachments>
+						<attachment title="Screenshot" source="d3ec99b3-e37e-459a-9b7c-db3c0ed4f960-attachment.png" type="image/png" size="462155"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

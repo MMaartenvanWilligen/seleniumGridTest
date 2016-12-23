@@ -14,7 +14,7 @@ var Allurereporter =  ('wdio-allure-reporter');
 
 /**
  * @desc constructor
- * init resemble settings
+ * initialize the resemble api settings
  * */
 var browserCapabilityName;
 
@@ -31,7 +31,7 @@ function VisualRegression() {
 
 /**
  * @desc method
- * @info compare baseline image to regression image with the api Resemble
+ * @info compare baseline image to regression image with the api Resemble. get data like the mismatch percentage, dimension and a image which shows the differces between the images.
  * @param {string} baselineImage
  * @param {string} regressionImage
  * @returns promise
